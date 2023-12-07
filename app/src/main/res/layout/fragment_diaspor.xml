@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/light_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_white"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            style="@style/back_image_but"
+            />
+
+        <TextView
+            android:id="@+id/diaspoar_name"
+            style="@style/reg_text_40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/diaspoars"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="38dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:cardCornerRadius="360dp"
+                app:cardElevation="0dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/avatarIv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"/>
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/diaspoar_info_name"
+                style="@style/settings_text_17sp_semibold"
+                android:layout_marginStart="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/diaspoar_biography"
+            style="@style/settings_text_17sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:maxLines="3" />
+
+        <TextView
+            android:id="@+id/diaspoar_all_info"
+            style="@style/settings_text_17sp_semibold"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/show_all"
+            android:textColor="@color/dark_blue" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="16dp">
+
+            <TextView
+                android:id="@+id/diaspoar_phone_titel"
+                style="@style/location_lust_text_13sp"
+                android:text="@string/phone_diasp"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/diaspoar_phone_nmber"
+                style="@style/settings_text_17sp"
+                android:layout_below="@+id/diaspoar_phone_titel"
+                android:layout_marginStart="0dp"
+                android:paddingTop="10dp" />
+
+            <ImageView
+                android:id="@+id/call_diaspoar"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_phone" />
+        </RelativeLayout>
+
+        <FrameLayout
+            style="@style/line_frame"
+            android:layout_marginTop="12dp"
+            android:background="@color/line_gray" />
+
+        <TextView
+            android:id="@+id/social_diaspoars_titel"
+            style="@style/location_lust_text_13sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/social"
+            android:textColor="@color/gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp">
+
+            <ImageButton
+                android:id="@+id/diaspoar_instagram"
+                style="@style/diaspoar_social"
+                android:src="@drawable/ic_instagram"/>
+
+            <ImageButton
+                android:id="@+id/diaspoar_vk"
+                style="@style/diaspoar_social"
+                android:layout_marginHorizontal="16dp"
+                android:src="@drawable/ic_vk"/>
+
+            <ImageButton
+                android:id="@+id/diaspoar_telegram"
+                style="@style/diaspoar_social"
+                android:src="@drawable/ic_telegram_social"
+                android:visibility="gone"/>
+
+            <ImageButton
+                android:id="@+id/diaspoar_whats_app"
+                style="@style/diaspoar_social"
+                android:layout_marginHorizontal="16dp"
+                android:src="@drawable/ic_whats_app"
+                android:visibility="gone"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="16dp"
+            android:paddingBottom="16dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/diaspoar_send_message_button"
+                style="@style/mater_but_filled"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/lato_semibold"
+                android:text="@string/send_quastion"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>

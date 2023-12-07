@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+    <TextView
+        android:id="@+id/message_titel"
+        style="@style/settings_text_17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Диаспора"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/message_prev"
+        style="@style/settings_text_15sp"
+        android:layout_marginTop="2dp"
+        android:textColor="@color/gray"
+        app:layout_constraintStart_toStartOf="@+id/message_titel"
+        app:layout_constraintTop_toBottomOf="@+id/message_titel"
+        tools:text="Диаспора"
+        android:paddingEnd="50dp"
+        android:maxLines="4"
+        android:ellipsize="end"/>
+
+    <ImageView
+        android:id="@+id/message_indicator"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/lineral_bg"
+        android:backgroundTint="@color/yelow_message"/>
+
+    <FrameLayout
+        style="@style/line_frame"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/message_prev"
+        android:layout_marginTop="8dp"
+        android:background="@color/black_frame"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

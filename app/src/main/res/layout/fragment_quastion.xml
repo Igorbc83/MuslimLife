@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_white"
+    android:scrollbars="vertical">
+
+
+    <ImageButton
+        android:id="@+id/back_button"
+        style="@style/back_image_but"
+        />
+
+    <TextView
+        android:id="@+id/mam_quastion_titel"
+        style="@style/location_titel_text_34sp"
+        android:layout_below="@+id/back_button"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/quastion_imam" />
+
+    <ImageView
+        android:id="@+id/imam_quastion_message"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:padding="32dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_message"
+        app:tint="@color/dark_blue" />
+
+    <ImageView
+        android:id="@+id/imam_quastion_filter"
+        android:layout_width="52dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/mam_quastion_titel"
+        android:layout_alignParentEnd="true"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="10dp"
+        android:scaleType="center"
+        android:src="@drawable/ic_filter"
+        app:tint="@color/dark_blue" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/quastion_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imam_quastion_filter"/>
+
+</RelativeLayout>

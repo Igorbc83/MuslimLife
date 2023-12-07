@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout style="@style/handler_layout">
+
+            <ImageButton
+                android:id="@+id/back_button"
+                style="@style/back_image_but" />
+
+            <TextView
+                style="@style/location_titel_text_34sp"
+                android:layout_marginStart="16dp"
+                android:text="@string/location_titel" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/click_item_layout"
+            android:background="@drawable/lineral_bg_stroke"
+            android:backgroundTint="@null">
+
+            <RelativeLayout
+                android:id="@+id/country_layout"
+                style="@style/block_rel">
+
+                <LinearLayout style="@style/double_text">
+
+                    <TextView
+                        style="@style/location_lust_text_13sp"
+                        android:fontFamily="@font/montserrat_black"
+                        android:textColor="@color/gray"
+                        android:visibility="gone" />
+
+                    <TextView
+                        style="@style/location_country_text_17sp"
+                        android:text="@string/location_country" />
+                </LinearLayout>
+
+                <ImageView style="@style/go_image_view_location" />
+            </RelativeLayout>
+
+            <FrameLayout style="@style/line_frame" />
+
+            <RelativeLayout
+                android:id="@+id/city_layout"
+                style="@style/block_rel">
+
+                <LinearLayout style="@style/double_text">
+
+                    <TextView
+                        style="@style/location_lust_text_13sp"
+                        android:fontFamily="@font/montserrat_black"
+                        android:textColor="@color/gray"
+                        android:visibility="gone" />
+
+                    <TextView
+                        style="@style/location_country_text_17sp"
+                        android:text="@string/location_city" />
+                </LinearLayout>
+
+                <ImageView style="@style/go_image_view_location" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/current_location_button"
+            style="@style/mater_but_current_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:letterSpacing="-0.01"
+            android:text="@string/current_location" />
+
+        <TextView
+            style="@style/location_lust_text_13sp"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="29dp"
+            android:text="@string/location_lust_text"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/lust_location_text"
+            style="@style/location_city_text_17sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="..." />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/location_save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        style="@style/mater_but_filled"
+        android:text="@string/save"
+        />
+</RelativeLayout>

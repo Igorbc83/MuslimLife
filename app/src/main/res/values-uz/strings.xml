@@ -1,0 +1,274 @@
+<resources>
+    <string name="locus_rationale_title"/>
+    <string name="locus_rationale_message">Ilova ishlashni davom ettirish uchun sizning geolokatsiyangizga kirishi kerak</string>
+    <string name="locus_permission_blocked_title">Ilovaga geolokatsiya ruxsati kerak</string>
+    <string name="locus_permission_blocked_message">Ilova toʻgʻri va toʻgʻri ishlashi uchun geolokatsiya ruxsatingiz talab qilinadi.</string>
+    <string name="locus_location_resolution_title">Ilovaga geolokatsiya ruxsati kerak</string>
+    <string name="locus_location_resolution_message">Ilova toʻgʻri va toʻgʻri ishlashi uchun geolokatsiya ruxsati kerak.</string>
+    <string name="markerError">Markerlarni qabul qilib bo‘lmadi</string>
+    <string name="enable">Tasdiqlang</string>
+    <string name="loading">Yuklanmoqda…</string>
+    <string name="about">Qurilish versiyasi:</string>
+    <string name="licenseError">Foydalanuvchi shartnomasini o\'qing va imzolang</string>
+    <string name="section_under_development">Bo\'lim ishlab chiqilmoqda</string>
+    <string name="namaz_time_over">orqali:</string>
+    <string name="chooseOtherPhoto">Boshqa rasm tanlang!</string>
+    <string name="enterTextQuastion">Savol matnini to\'ldiring</string>
+    <string name="chooseCategory">Savol toifasini tanlang</string>
+    <string name="notSura">Bu sura hali mavjud emas!</string>
+    <string name="shareOne">Ulashish</string>
+    <string name="sharePhoto">Ushbu rasmni baham ko\'ring</string>
+    <string name="answerText">Javob matnini kiriting</string>
+    <string name="answerMaked">Savol muvaffaqiyatli qo\'yildi</string>
+    <string name="regPlease">Tizimga kiring yoki roʻyxatdan oʻting</string>
+    <string name="ayatEmpty">Bu oyat hali mavjud emas!</string>
+    <string name="today">Bugun</string>
+    <string name="exitOk">Chiqish bajarildi</string>
+    <string name="variant">Variant %d</string>
+    <string name="chooseOnePhoto">Kamida bitta rasmni tanlang.</string>
+    <string name="enterText">Matn maydonini to\'ldiring.</string>
+    <string name="answerOk">Siz muvaffaqiyatli javob berdingiz</string>
+    <string name="ayat">Ayyat</string>
+    <string name="russian">rus</string>
+    <string name="english">Ingliz</string>
+    <string name="uzbek">o\'zbek</string>
+    <string name="turk">turkcha</string>
+    <string name="tadzhik">tojik</string>
+    <string name="kirg">qirg\'iz</string>
+    <string name="franch">frantsuz</string>
+    <string name="infoBlock">Maʼlumot yoʻq</string>
+    <string name="yourZakyat">Sizning zakotingiz</string>
+    <string name="rubl">rubl</string>
+    <string name="payOk">Toʻlov yakunlandi</string>
+    <string name="chooseSumm">To\'lov miqdorini tanlang</string>
+    <string name="filtersError">Filtrlar roʻyxatini yuklashda xatolik yuz berdi</string>
+    <string name="messages">Xabarlar</string>
+    <string name="shareApp">Ushbu ilovani ulashing</string>
+    <string name="donat">Xayriya qiling</string>
+    <string name="appLanguage">Ilova tili</string>
+    <string name="servicesMenu">Xizmatlar</string>
+    <string name="texPod">Texnik yordam</string>
+    <string name="aboutApp">Ilova haqida</string>
+    <string name="taskOk">Xabar yuborildi!</string>
+    <string name="app_name">MuslimLife</string>
+    <string name="location_titel">Manzil</string>
+    <string name="location_country">Mamlakat</string>
+    <string name="location_city">Shahar</string>
+    <string name="current_location">Mening joylashuvim</string>
+    <string name="location_lust_text">OXIRGI:</string>
+    <string name="save">Saqlash</string>
+    <string name="redy">Bajarildi</string>
+    <string name="skip">Oʻtkazib yuborish</string>
+    <string name="reg_login">Ro\'yxatdan o\'ting yoki tizimga kiring</string>
+    <string name="reg_phone_text">Avtorizatsiya uchun telefon raqamingizni kiriting va SMS-dan kodni kiriting, bu kodni hech kimga aytmang.</string>
+    <string name="reg_accept">Men <font color="#59009F">shaxsiy ma\'lumotlarni qayta ishlash siyosatiga</font> roziman</string>
+    <string name="sign_in">tizimga kirish</string>
+    <string name="enter_sms">SMS-dan kodni kiriting</string>
+    <string name="sms_text">%s raqamiga SMS kod yuborildi. %s orqali qayta yuborish</string>
+    <string name="sms_text_without_timer">%s telefoniga kodli SMS yuborildi.</string>
+    <string name="profile_data">Profil haqida ma\'lumot</string>
+    <string name="name">Ism</string>
+    <string name="surname">Familiya</string>
+    <string name="email">Elektron pochta</string>
+    <string name="private_data">Shaxsiy ma\'lumotlar</string>
+    <string name="phone">Telefon</string>
+    <string name="exit">Chiqish</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="sub">Obuna boʻling</string>
+    <string name="notification">Bildirishnomalar</string>
+    <string name="location">Geolokatsiya</string>
+    <string name="message">Xabar</string>
+    <string name="share">Ushbu ilovani ulashing</string>
+    <string name="donation">Bizning rejalarimiz</string>
+    <string name="language">Ilova tili</string>
+    <string name="service">Xizmat</string>
+    <string name="support">Texnik yordam</string>
+    <string name="info">Ilova haqida</string>
+    <string name="other">Boshqa</string>
+    <string name="sermons">Dawah</string>
+    <string name="tv">TV kanallari</string>
+    <string name="radio">Radio</string>
+    <string name="faq"><br/><br/>Savol bering</string>
+    <string name="diaspoars">diasporalar</string>
+    <string name="wallpaper">Pochta kartalari</string>
+    <string name="worship">Ibodat qilish</string>
+    <string name="page">sahifa</string>
+
+    <string name="compass">Kompas</string>
+    <string name="namaz">Namoz</string>
+    <string name="zakyat">Zakyat</string>
+
+    <string name="off_service">Barcha xizmatlar o\'chirilgan</string>
+    <string name="add_in_settings">Sozlamalarda xizmatlarni ulang</string>
+    <string name="service_settings">Xizmatlarni sozlash</string>
+    <string name="sub_details">OBUNA BATAFSILLARI:</string>
+    <string name="point">•</string>
+    <string name="sub_prem_preaching">Dawahning kengaytirilgan versiyasi</string>
+    <string name="sub_prem_tv_radio">Telekanallar, radiolar (to\'liq versiya)</string>
+    <string name="sub_prem_koran">Qur\'onni qulay usulda o\'rganish</string>
+    <string name="month">Oylik</string>
+    <string name="rub_100">100 ₽</string>
+    <string name="sub_cancle">Obunani bekor qilish</string>
+    <string name="donation_summ">MUQIMDA HAYR BERING</string>
+    <string name="choose_sum">BIR MIQIMNI TANLASH:</string>
+    <string name="send">Yuborish</string>
+    <string name="settings_language">Til</string>
+    <string name="quastion_kind">Mavzu</string>
+    <string name="translate">Sinxronlash va tomonidan tuzatilgan</string>
+    <string name="suri">suralar</string>
+    <string name="original_name">Sarlavha asl nusxada</string>
+    <string name="error_number_phone_empty">Telefon raqamini kiriting</string>
+    <string name="resend_code">Kodni yuboring</string>
+    <string name="reader">O\'quvchi</string>
+    <string name="bookmark">Xatcho‘plar</string>
+    <string name="quastion_imam">Imomga savol</string>
+    <string name="thems">Mavzular</string>
+    <string name="imam_kind">SAVOLLAR bo\'yicha ekspert:</string>
+    <string name="biography">BIOGRAFIYA:</string>
+    <string name="show_all">To\'liq ko\'rsatish</string>
+    <string name="send_quastion">Savol bering</string>
+    <string name="imam_quastion">Imomga savol</string>
+    <string name="not_choosed">Tanlanmagan</string>
+    <string name="services">Xizmatlar</string>
+    <string name="visible">KO\'RILGAN:</string>
+    <string name="invisible">BOG\'LIQ:</string>
+    <string name="phone_diasp">TELEFON RAQAMI:</string>
+    <string name="social">IJTIMOIY OAV:</string>
+    <string name="quastion_diaspoar">Diasporaga savol</string>
+    <string name="tv_chanels">TV kanallari</string>
+    <string name="about_app">Ilova haqida</string>
+    <string name="input_type_name">Sizning ismingiz</string>
+    <string name="input_type_second_name">Sizning familiyangiz</string>
+    <string name="input_type_email">Sizning elektron manzilingiz</string>
+    <string name="input_type_phone">Sizning telefon raqamingiz</string>
+    <string name="imam_answer">Imom javobi</string>
+    <string name="zakyat_payment">Zakot hisobi</string>
+    <string name="cash">NAQD PUL</string>
+    <string name="monye_in_bank">BANKDA NAQD PUL</string>
+    <string name="goods">Tovarlar va daromadlar</string>
+    <string name="gold">OLTIN VA KUMUSH</string>
+    <string name="_0_025x">0,025x Zakot soliqqa tortiladigan summa</string>
+    <string name="send_money">Xayriya qiling</string>
+    <string name="answer">Javoblar</string>
+    <string name="qibla">Qibla</string>
+    <string name="arrow_point_out_top">O\'q yuqoriga qaragan bo\'lishi kerak</string>
+    <string name="message_diaspoar">Xabar</string>
+    <string name="tasbih">Tasbih</string>
+    <string name="tasbih_fragment_round">Doira</string>
+    <string name="main_favorite_title">Ko\'pincha ishlatiladi:</string>
+    <string name="koran">Qur\'on</string>
+
+    <string name="Fajr">Bomdod</string>
+
+    <string name="Shuruk">Shuruk</string>
+    <string name="Zuhr">Zuhr</string>
+    <string name="Asr">Asr</string>
+    <string name="Magrib">Shom</string>
+    <string name="Isha">Isha</string>
+    <string name="ready">Bajarildi</string>
+    <string name="musulmanLife">Musulmon hayoti.</string>
+    <string name="all">Hammasi</string>
+    <string name="needReg">Sozlamalar bilan ishlash uchun siz tizimga kirishingiz kerak!</string>
+    <string name="Auth">Ruxsat berish</string>
+    <string name="test_zakyat">“Zakyat” xayriya fondi</string>
+    <string name="eatPoint">Qayerda ovqatlanish kerak</string>
+
+    <string name="pointChurch">Masjidlar</string>
+    <string name="pointCafe">Kafe</string>
+    <string name="pointRestaurants">Restoranlar</string>
+    <string name="pointHalal">Halol mahsulotlar</string>
+    <string name="halalProduct">Halol do\'koni</string>
+
+
+    <string name="pointPrayerRoom">Namoz xonasi</string>
+    <string name="description">TA’RIFI:</string>
+    <string name="address">MANZIL:</string>
+    <string name="workTime">JADVAL:</string>
+    <string name="getDirections">Yoʻnalishlarni oling</string>
+
+    <string name="search">Qidirmoq</string>
+
+    <string name="cancel">Bekor qilish</string>
+
+    <string name="call">Qo\'ng\'iroq qiling</string>
+
+    <string name="places">Joylar</string>
+
+    <string name="halalShort">Halol</string>
+    <string name="translate_emil">Elmir Quliev</string>
+    <string name="subText1">• Davatning kengaytirilgan versiyasi</string>
+
+    <string name="subText2">• Telekanallar, radiolar (to\'liq versiya)</string>
+
+    <string name="subText3">• Qur\'onni qulay usulda o\'rganish</string>
+
+    <string name="subPrice">Obuna boʻling</string>
+
+    <string name="quastions">Savollar</string>
+    <string name="fonds">asoslar</string>
+    <string name="currency">Valyuta</string>
+    <string name="of_on_push">Push-bildirishnoma</string>
+    <string name="notification_sounds">bildirishnoma tovushlari:</string>
+    <string-array name="tasbih_round">
+        <item>Subhan Alloh.</item>
+        <item>Al-Hamduh li Llah</item>
+        <item>Allohu Akbar</item>
+    </string-array>
+
+    <string name="question_subject">Savolning mavzusi</string>
+    <string name="notifications">Bildirishnoma</string>
+    <string name="others">Boshqa</string>
+    <string name="video">video</string>
+    <string name="qubla_subtext_2">Kompasni kalibrlash uchun smartfoningizni gorizontal va tez ushlab turing, lekin quyidagi rasmda ko\'rsatilgan harakatni silliq takrorlang.</string>
+    <string name="qubla_subtext1">Smartfoningizni\ntarmoqqa ulangan qurilmalardan uzoqroq tuting -\nelektromagnit nurlanish kompasga ta\'sir qiladi\n</string>
+    <string name="namaz_time">%1$s ortiq:</string>
+    <string name="pn">Du</string>
+    <string name="vt">Se</string>
+    <string name="sr">Ch</string>
+    <string name="cht">Pa</string>
+    <string name="pt">Ju</string>
+    <string name="sb">Sh</string>
+    <string name="vs">Ya</string>
+    <string name="emptyQuastion">Hozircha hech qanday savol yo\'q.</string>
+    <string name="hour">soat</string>
+    <string name="hour1">soat</string>
+    <string name="hour2">soat</string>
+    <string name="mints">namozdan bir necha daqiqa oldin</string>
+    <string name="auth_create_or_enter_account">Yaxshiroq foydalanuvchi tajribasi uchun hisob yarating yoki tizimga kiring</string>
+    <string name="authorization">Ruxsat</string>
+    <string name="enter_google_account">Google hisobi bilan kiring</string>
+    <string name="enter_apple_id">Apple ID bilan tizimga kiring</string>
+    <string name="download_started">Yuklab olish boshlandi</string>
+    <string name="phone_enter">Telefon raqamini kiriting</string>
+    <string-array name="months">
+        <item>Yanvar</item>
+        <item>fevral</item>
+        <item>mart</item>
+        <item>aprel</item>
+        <item>may</item>
+        <item>iyun</item>
+        <item>iyul</item>
+        <item>avgust</item>
+        <item>sentyabr</item>
+        <item>oktyabr</item>
+        <item>noyabr</item>
+        <item>dekabr</item>
+    </string-array>
+
+    <string name="alert_sub_desc">Ushbu funksiyaga kirish uchun obuna bo\'ling</string>
+    <string name="barakat">Barakat</string>
+    <string name="barakat_desc">Loyihani ishlab chiqishda shaxsiy ishtirok eting!</string>
+    <string name="search_area">hududda qidirish</string>
+
+    <string name="buy_image">MLCoin uchun sotib oling</string>
+    <string name="buy">Sotib olish</string>
+    <string name="buy_desc">3 MLCoin uchun otkritka sotib olasizmi?</string>
+    <string name="buy_error">Sizda yetarlicha MLCoin yo‘q, sotib olib, balansingizni to‘ldirmoqchimisiz?</string>
+    <string name="balance">Balans</string>
+
+    <string name="azkar_title">Azkar</string>
+    <string name="azkar_morning">Tong</string>
+    <string name="azkar_evening">Kechqurun</string>
+    <string name="azkar_important">Muhim</string>
+    <string name="azkar_after_namaz">Namozdan keyin</string>
+</resources>

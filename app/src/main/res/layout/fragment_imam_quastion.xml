@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_white">
+
+
+    <ImageButton
+        android:id="@+id/back_button"
+        style="@style/back_image_but"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/reg_text_40sp"
+        android:textSize="34sp"
+        android:text="@string/imam_quastion"
+        android:layout_marginStart="16dp"
+        />
+
+    <TextView
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/gray"
+        style="@style/location_lust_text_13sp"
+        android:text="@string/question_subject"
+        />
+
+    <RelativeLayout
+        android:id="@+id/imam_quastion_kind_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/quastion_kind_bg"
+        android:layout_marginHorizontal="16dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="8dp"
+        android:padding="11dp">
+
+        <TextView
+            android:id="@+id/imam_quastion_kind"
+            style="@style/settings_text_17sp"
+            android:text="@string/not_choosed"
+            android:textColor="@color/gray" />
+        <ImageView
+            style="@style/go_image_view_location"
+            android:rotation="270"
+            />
+    </RelativeLayout>
+
+    <FrameLayout
+        style="@style/sub_line_frame"
+        android:layout_marginTop="12dp"
+        android:layout_height="0.5dp"/>
+
+    <EditText
+        android:id="@+id/imam_quastion_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColorHint="@color/gray"
+        android:hint="@string/message"
+        android:background="@color/white"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/sf_pro_display_regular"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        >
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/imam_quastion_send_button"
+            style="@style/mater_but_filled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/lato_semibold"
+            android:text="@string/send"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+</LinearLayout>

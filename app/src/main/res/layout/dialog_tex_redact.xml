@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dialog_bg"
+    android:layout_gravity="bottom">
+
+    <FrameLayout
+        style="@style/dialog_frame"
+        />
+
+    <TextView
+        android:id="@+id/dialog_profile_change"
+        style="@style/dialog_titel_text_22sp"
+        android:text="@string/input_type_name"/>
+
+    <ImageButton
+        android:id="@+id/dialog_close"
+        style="@style/dialog_x_button"
+        android:background="@android:color/transparent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_below="@+id/dialog_profile_change"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/dialog_enter_text"
+            style="@style/dialog_edit_text"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dialog_save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/mater_but_filled"
+            android:layout_marginTop="16dp"
+            android:text="@string/save"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

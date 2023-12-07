@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Transition
+        app:constraintSetStart="@id/end"
+        app:constraintSetEnd="@id/endBottom"
+        app:duration="1000">
+        <OnSwipe
+            app:touchAnchorId="@+id/main_view"
+            app:touchAnchorSide="top"
+            app:dragDirection="dragUp" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+
+        <Constraint android:id="@+id/prayer_text"
+            android:layout_width="75dp"
+            android:layout_height="22dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:autoSizeTextType="uniform"
+            android:layout_marginTop="68dp">
+        </Constraint>
+
+        <Constraint android:id="@id/time_text"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:autoSizeTextType="uniform"
+            app:layout_constraintTop_toBottomOf="@id/prayer_text"
+            android:layout_marginBottom="4dp">
+        </Constraint>
+
+        <Constraint android:id="@+id/time_to_pray"
+            android:layout_width="66dp"
+            android:layout_height="22dp"
+            android:autoSizeTextType="uniform"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/time_text"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint android:id="@+id/prayer_text"
+            android:layout_width="61dp"
+            android:layout_height="18dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:autoSizeTextType="uniform"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp">
+        </Constraint>
+
+        <Constraint android:id="@id/time_text"
+            android:layout_width="60dp"
+            android:layout_height="28dp"
+            android:autoSizeTextType="uniform"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/prayer_text"
+            android:layout_marginStart="16dp">
+        </Constraint>
+
+        <Constraint android:id="@+id/time_to_pray"
+            android:layout_width="66dp"
+            android:layout_height="22dp"
+            android:autoSizeTextType="uniform"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/time_text"
+            android:visibility="gone"/>
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/endBottom">
+        <Constraint android:id="@+id/prayer_text"
+            android:layout_width="75dp"
+            android:layout_height="22dp"
+            android:autoSizeTextType="uniform"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="68dp">
+        </Constraint>
+
+        <Constraint android:id="@id/time_text"
+            android:layout_width="108dp"
+            android:layout_height="48dp"
+            android:autoSizeTextType="uniform"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/prayer_text"
+            android:layout_marginBottom="4dp">
+        </Constraint>
+
+        <Constraint android:id="@+id/time_to_pray"
+            android:layout_width="250dp"
+            android:layout_height="22dp"
+            android:autoSizeTextType="uniform"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/time_text"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <Constraint android:id="@+id/main_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:background="@drawable/dialog_bg"
+            android:layout_marginTop="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/favorites_view"/>
+    </ConstraintSet>
+</MotionScene>

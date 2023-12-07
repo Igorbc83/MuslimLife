@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locus_rationale_title"/>
+    <string name="locus_rationale_message">Барои идомаи кор ба барнома дастрасӣ ба ҷуғрофии шумо лозим аст</string>
+    <string name="locus_permission_blocked_title">Ба барнома иҷозати ҷойгиршавии ҷуғрофӣ лозим аст</string>
+    <string name="locus_permission_blocked_message">Барои дуруст ва дуруст кор кардани барнома иҷозати ҷойгиршавии ҷуғрофии шумо лозим аст.</string>
+    <string name="locus_location_resolution_title">Ба барнома иҷозати ҷойгиршавии ҷуғрофӣ лозим аст</string>
+    <string name="locus_location_resolution_message">Барои дуруст ва дуруст кор кардан ба барнома иҷозати ҷуғрофӣ лозим аст.</string>
+    <string name="markerError">Муваффақияти қабули аломатҳо</string>
+    <string name="enable">Тасдиқ кунед</string>
+    <string name="loading">Loading...</string>
+    <string name="about">Версияи сохтмон:</string>
+    <string name="licenseError">Шартномаи корбарро хонед ва имзо кунед</string>
+    <string name="section_under_development">Бахш дар ҳоли таҳия аст</string>
+    <string name="namaz_time_over">тавассути:</string>
+    <string name="chooseOtherPhoto">Сурати дигарро интихоб кунед!</string>
+    <string name="enterTextQuastion">Матни саволро пур кунед</string>
+    <string name="chooseCategory">Категорияи саволро интихоб кунед</string>
+    <string name="notSura">Ин сура ҳанӯз вуҷуд надорад!</string>
+    <string name="shareOne">Мубодила</string>
+    <string name="sharePhoto">Ин тасвирро мубодила кунед</string>
+    <string name="answerText">Матни ҷавобро ворид кунед</string>
+    <string name="answerMaked">Савол бомуваффакият гузошта шуд</string>
+    <string name="regPlease">Ворид шавед ё ворид шавед</string>
+    <string name="ayatEmpty">Ин оят ҳанӯз вуҷуд надорад!</string>
+    <string name="today">Имруз</string>
+    <string name="exitOk">Хуруҷ анҷом ёфт</string>
+    <string name="variant">Варианти %d</string>
+    <string name="chooseOnePhoto">Ақаллан як тасвир интихоб кунед.</string>
+    <string name="enterText">Майдони матнро пур кунед.</string>
+    <string name="answerOk">Шумо бомуваффақият ҷавоб додед</string>
+    <string name="ayat">Айят</string>
+    <string name="russian">русӣ</string>
+    <string name="english">англисӣ</string>
+    <string name="uzbek">узбек</string>
+    <string name="turk">туркӣ</string>
+    <string name="tadzhik">тоҷикӣ</string>
+    <string name="kirg">киргиз</string>
+    <string name="franch">фаронсавӣ</string>
+    <string name="infoBlock">Маълумот дастрас нест</string>
+    <string name="yourZakyat">Закоти ту</string>
+    <string name="rubl">рубл</string>
+    <string name="payOk">Пардохт анҷом ёфт</string>
+    <string name="chooseSumm">Маблағи пардохтро интихоб кунед</string>
+    <string name="filtersError">Хатогӣ ҳангоми боркунии рӯйхати филтрҳо</string>
+    <string name="messages">Паёмҳо</string>
+    <string name="shareApp">Ин барномаро мубодила кунед</string>
+    <string name="donat">Хайрия</string>
+    <string name="appLanguage">Забони барнома</string>
+    <string name="servicesMenu">Хизматҳо</string>
+    <string name="texPod">Дастгирии техникӣ</string>
+    <string name="aboutApp">Дар бораи барнома</string>
+    <string name="taskOk">Паём фиристода шуд!</string>
+    <string name="app_name">Ҳаёти мусулмонӣ</string>
+    <string name="location_titel">Ҷойгиршавӣ</string>
+    <string name="location_country">кишвар</string>
+    <string name="location_city">Шаҳр</string>
+    <string name="current_location">Ҷойгоҳи ман</string>
+    <string name="location_lust_text">ОХИР:</string>
+    <string name="save">Захира кунед</string>
+    <string name="redy">Иҷро шуд</string>
+    <string name="skip">Гузаштан</string>
+    <string name="reg_login">Ба қайд гиред ё ворид шавед</string>
+    <string name="reg_phone_text">Рақами телефони худро барои авторизатсия ворид кунед ва кодро аз SMS ворид кунед, ин кодро ба касе нагӯед.</string>
+    <string name="reg_accept">Ман бо <font color="#59009F">сиёсати коркарди маълумоти шахсӣ</font> розӣ ҳастам</string>
+    <string name="sign_in">даромад</string>
+    <string name="enter_sms">Рамзи SMS-ро ворид кунед</string>
+    <string name="sms_text">Рамзи SMS ба %s фиристода шуд. Тавассути %s дубора ирсол кунед</string>
+    <string name="sms_text_without_timer">Ба телефони %s SMS бо код фиристода шуд.</string>
+    <string name="profile_data">Маълумот дар бораи профил</string>
+    <string name="name">Ном</string>
+    <string name="surname">Фамилия</string>
+    <string name="email">Почтаи электронӣ</string>
+    <string name="private_data">Маълумоти шахсӣ</string>
+    <string name="phone">Телефон</string>
+    <string name="exit">Баромадан</string>
+    <string name="settings">Танзимотҳо</string>
+    <string name="sub">Обуна шавед</string>
+    <string name="notification">Огоҳиномаҳо</string>
+    <string name="location">Ҷойгиршавӣ</string>
+    <string name="message">Паём</string>
+    <string name="share">Ин барномаро мубодила кунед</string>
+    <string name="donation">Планхои мо</string>
+    <string name="language">Забони барнома</string>
+    <string name="service">Хизмат</string>
+    <string name="support">Дастгирии техникӣ</string>
+    <string name="info">Дар бораи барнома</string>
+    <string name="other">Дигар</string>
+    <string name="sermons">Dawah</string>
+    <string name="tv">каналхои телевизионй</string>
+    <string name="radio">Радио</string>
+    <string name="faq"><br/><br/>Савол диҳед</string>
+    <string name="diaspoars">Диаспораҳо</string>
+    <string name="wallpaper">Почтаи электронӣ</string>
+    <string name="worship">Ибодат кардан</string>
+    <string name="page">саҳифа</string>
+
+    <string name="compass">Компас</string>
+    <string name="namaz">Намоз</string>
+    <string name="zakyat">Закият</string>
+
+    <string name="off_service">Ҳама хидматҳо хомӯш карда шудаанд</string>
+    <string name="add_in_settings">Хидматҳоро дар танзимот пайваст кунед</string>
+    <string name="service_settings">Танзими хидматҳо</string>
+    <string name="sub_details">ТАФСИС ДАР БОРАИ ОБУНА:</string>
+    <string name="point">•</string>
+    <string name="sub_prem_preaching">Варианти васеъшудаи Даъват</string>
+    <string name="sub_prem_tv_radio">Телевизион, радио (версияи пурра)</string>
+    <string name="sub_prem_koran">Омӯзиши Қуръон бо роҳи қулай</string>
+    <string name="month">Ҳармоҳа</string>
+    <string name="rub_100">100 ₽</string>
+    <string name="sub_cancle">Қатъ кардани обуна</string>
+    <string name="donation_summ">МАБЛАГ ХАЙР КУНЕД</string>
+    <string name="choose_sum">МАБЛАГРО ИНТИХОБ КУНЕД:</string>
+    <string name="send">Фиристодан</string>
+    <string name="settings_language">Забон</string>
+    <string name="quastion_kind">Мавзӯъ</string>
+    <string name="translate">Синхронизатсия ва ислоҳ аз ҷониби</string>
+    <string name="suri">Сураҳо</string>
+    <string name="original_name">Сарлавҳа дар асл</string>
+    <string name="error_number_phone_empty">Рақами телефонро ворид кунед</string>
+    <string name="resend_code">Рамз фиристед</string>
+    <string name="reader">Хонанда</string>
+    <string name="bookmark">Хатчӯбҳо</string>
+    <string name="quastion_imam">Савол ба имом</string>
+    <string name="thems">Мавзӯъҳо</string>
+    <string name="imam_kind">Мутахассис оид ба саволҳо:</string>
+    <string name="biography">БИОГРАФИЯ:</string>
+    <string name="show_all">Ба таври пурра нишон диҳед</string>
+    <string name="send_quastion">Савол диҳед</string>
+    <string name="imam_quastion">Савол ба имом</string>
+    <string name="not_choosed">Интихоб нашудааст</string>
+    <string name="services">Хизматҳо</string>
+    <string name="visible">ДИДАНД:</string>
+    <string name="invisible">МАВЛУД:</string>
+    <string name="phone_diasp">РАҚАМИ МОБИЛӢ:</string>
+    <string name="social">ВАО-и иҷтимоӣ:</string>
+    <string name="quastion_diaspoar">Савол ба диаспора</string>
+    <string name="tv_chanels">каналхои телевизионй</string>
+    <string name="about_app">Дар бораи барнома</string>
+    <string name="input_type_name">Номи аввалини шумо</string>
+    <string name="input_type_second_name">фамилия шумо</string>
+    <string name="input_type_email">почтаи электронии шумо</string>
+    <string name="input_type_phone">Рақами телефони шумо</string>
+    <string name="imam_answer">Чавоби Имом</string>
+    <string name="zakyat_payment">Ҳисоби закот</string>
+    <string name="cash">НАҚД</string>
+    <string name="monye_in_bank">ПУЛ ДАР БОНК</string>
+    <string name="goods">МОЛ ВА ДАРОМАД</string>
+    <string name="gold">ТИЛЛОУ НУКРА</string>
+    <string name="_0_025x">0,025x маблағи андозбандишавандаи закот</string>
+    <string name="send_money">Хайрия</string>
+    <string name="answer">Ҷавобҳо</string>
+    <string name="qibla">Қибла</string>
+    <string name="arrow_point_out_top">Тир бояд ба боло нигаронида шавад</string>
+    <string name="message_diaspoar">Паём</string>
+    <string name="tasbih">Тасбих</string>
+    <string name="tasbih_fragment_round">Доира</string>
+    <string name="main_favorite_title">Аксар вақт истифода мешаванд:</string>
+    <string name="koran">Қуръон</string>
+
+    <string name="Fajr">Бомдод</string>
+
+    <string name="Shuruk">Шурук</string>
+    <string name="Zuhr">Зухр</string>
+    <string name="Asr">Аср</string>
+    <string name="Magrib">Мағриб</string>
+    <string name="Isha">Иша</string>
+    <string name="ready">Иҷро шуд</string>
+    <string name="musulmanLife">Ҳаёти мусулмонӣ.</string>
+    <string name="all">Ҳама</string>
+    <string name="needReg">Барои кор бо танзимот, шумо бояд ворид шавед!</string>
+    <string name="Auth">Иҷозат диҳед</string>
+    <string name="test_zakyat">Фонди хайрияи «Закият</string>
+    <string name="eatPoint">Дар куҷо хӯрдан</string>
+
+    <string name="pointChurch">Масҷидҳо</string>
+    <string name="pointCafe">Кафе</string>
+    <string name="pointRestaurants">Тарабхонаҳо</string>
+    <string name="pointHalal">Маҳсулоти ҳалол</string>
+    <string name="halalProduct">Дӯкони ҳалол</string>
+
+
+    <string name="pointPrayerRoom">Хонаи намоз</string>
+    <string name="description">ТАВСИФ:</string>
+    <string name="address">АДРЕСИ:</string>
+    <string name="workTime">Ҷадвали:</string>
+    <string name="getDirections">Дастурҳо гиред</string>
+
+    <string name="search">Ҷустуҷӯ</string>
+
+    <string name="cancel">Бекор кардан</string>
+
+    <string name="call">Занг занед</string>
+
+    <string name="places">Ҷойҳо</string>
+
+    <string name="halalShort">Ҳалол</string>
+    <string name="translate_emil">Элмир Кулиев</string>
+    <string name="subText1">• Варианти васеъи Даъват</string>
+
+    <string name="subText2">• Шабакаҳои телевизионӣ, радио (версияи пурра)</string>
+
+    <string name="subText3">• Омӯзиши Қуръон бо роҳи муносиб</string>
+
+    <string name="subPrice">Обуна шавед</string>
+
+    <string name="quastions">Саволҳо</string>
+    <string name="fonds">асосхо</string>
+    <string name="currency">Асъор</string>
+    <string name="of_on_push">Огоҳиномаро пахш кунед</string>
+    <string name="notification_sounds">садои огоҳӣ:</string>
+    <string-array name="tasbih_round">
+        <item>Субхон Аллох.</item>
+        <item>Алхамдух ли ллох</item>
+        <item>Аллоху Акбар</item>
+    </string-array>
+
+    <string name="question_subject">Мавзӯи савол</string>
+    <string name="notifications">Огоҳинома</string>
+    <string name="others">Дигар</string>
+    <string name="video">видео</string>
+    <string name="qubla_subtext_2">Барои калибр кардани қутбнамо, смартфони худро ба таври уфуқӣ ва зуд нигоҳ доред, аммо ҳаракати дар тасвири зер нишон додашударо ба таври осон такрор кунед.</string>
+    <string name="qubla_subtext1">Smartfoningizni\ntarmoqqa ulangandan uzoqroq tuting -\nelektromagnit nurlanish kompasga ta\'sir мекунад\n</string>
+    <string name="namaz_time">%1$s зиёда:</string>
+    <string name="pn">Ду</string>
+    <string name="vt">Се</string>
+    <string name="sr">Чо</string>
+    <string name="cht">Па</string>
+    <string name="pt">Ҷу</string>
+    <string name="sb">Ша</string>
+    <string name="vs">Як</string>
+    <string name="emptyQuastion">Хозирча хеч чи савол йук.</string>
+    <string name="hour">соат</string>
+    <string name="hour1">соат</string>
+    <string name="hour2">соат</string>
+    <string name="mints">Намоздан як чанд дақиқа пеш</string>
+    <string name="auth_create_or_enter_account">Yaxshiroq истифода барои ҳисоб yarating ё системага kiring</string>
+    <string name="authorization">Рухсат</string>
+    <string name="enter_google_account">Google ҳисобӣ бо киринг</string>
+    <string name="enter_apple_id">Apple ID бо системаҳо ворид карда мешавад</string>
+    <string name="download_started">Юклаб гирифта шуд</string>
+    <string name="phone_enter">телефони телефони ворид кардан</string>
+    <string-array name="months">
+        <item>Январ</item>
+        <item>феврал</item>
+        <item>март</item>
+        <item>апрел</item>
+        <item>май</item>
+        <item>июн</item>
+        <item>июл</item>
+        <item>август</item>
+        <item>сентябр</item>
+        <item>октябр</item>
+        <item>ноябр</item>
+        <item>декабр</item>
+    </string-array>
+
+    <string name="alert_sub_desc">Ушбу функцияга кириш учун обуна бўлинг</string>
+    <string name="barakat">Баракат</string>
+    <string name="barakat_desc">Лоиҳаи истеҳсолот дар хусуси иштирок!</string>
+    <string name="search_area">ҳудудида</string>
+
+    <string name="buy_image">MLCoin барои харид кунед</string>
+    <string name="buy">Сотиб олиш</string>
+    <string name="buy_desc">3 MLCoin барои харид кардан мумкин аст?</string>
+    <string name="buy_error">Сизда имкониятча MLCoin yo‘q, сотиб олиб, балансингизни то‘лдирмокмисиз?</string>
+    <string name="balance">Баланс</string>
+
+    <string name="azkar_title">Азкар</string>
+    <string name="azkar_morning">Субҳ</string>
+    <string name="azkar_evening">Шом</string>
+    <string name="azkar_important">Муҳим</string>
+    <string name="azkar_after_namaz">Баъд аз намоз</string>
+</resources>

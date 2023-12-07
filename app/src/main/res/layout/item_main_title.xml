@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/view">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/prayer_titel_text_22sp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/worship"
+        android:fontFamily="@font/lato_black"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="16dp" />
+
+    <LinearLayout
+        android:id="@+id/open_all"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="24dp">
+
+        <TextView
+            style="@style/sub_title"
+            android:textSize="17sp"
+            android:textColor="@color/dark_blue"
+            android:fontFamily="@font/lato_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="9dp"
+            android:text="@string/all" />
+
+        <ImageView
+            android:layout_width="7dp"
+            android:layout_height="10dp"
+            android:rotation="180"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_arrow"/>
+    </LinearLayout>
+
+</LinearLayout>

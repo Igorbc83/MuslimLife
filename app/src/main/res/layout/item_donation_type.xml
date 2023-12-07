@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="54dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/donation_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/donation_item">
+
+    <TextView
+        android:id="@+id/donation_item_text"
+        style="@style/settings_text_17sp_semibold"
+        tools:text="100"
+        />
+
+
+</LinearLayout>

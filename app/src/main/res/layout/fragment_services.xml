@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray_block">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_white">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            style="@style/back_image_but" />
+        <TextView
+            style="@style/location_city_text_17sp"
+            android:fontFamily="@font/lato_semibold"
+            android:text="@string/services"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/gray"
+                style="@style/location_lust_text_13sp"
+                android:text="@string/visible"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/services_visible_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/lineral_bg"
+                android:backgroundTint="@color/light_white"/>
+
+            <TextView
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/gray"
+                style="@style/location_lust_text_13sp"
+                android:text="@string/invisible"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/services_invisible_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/lineral_bg"
+                android:backgroundTint="@color/light_white">
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>

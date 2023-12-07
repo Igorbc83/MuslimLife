@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/settings_layout"
+    android:id="@+id/sub_layout">
+
+        <ImageView
+            android:id="@+id/settings_block_icon"
+            style="@style/settings_icon"
+            android:src="@drawable/ic_sub"/>
+        <RelativeLayout
+            style="@style/block_rel_settings"
+            >
+            <TextView
+                android:id="@+id/settings_block_text"
+                style="@style/settings_text_17sp"
+                android:text="@string/sub"/>
+            <ImageView
+                style="@style/go_image_view_location"
+                />
+        </RelativeLayout>
+
+</LinearLayout>

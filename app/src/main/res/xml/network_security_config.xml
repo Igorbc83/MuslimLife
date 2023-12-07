@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">45.90.34.191</domain>
+        <domain includeSubdomains="true">listen.radioislam.co.za</domain>
+        <domain includeSubdomains="true">169.62.188.182</domain>
+        <domain includeSubdomains="true">voiceofislam.appsunder.com</domain>
+        <domain includeSubdomains="true">37.140.241.233</domain>
+        <domain includeSubdomains="true">rusneuro.com</domain>
+        <domain includeSubdomains="true">mlbackend.ru</domain>
+    </domain-config>
+</network-security-config>

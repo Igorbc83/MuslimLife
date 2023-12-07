@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dialog_bg"
+    android:layout_gravity="bottom">
+
+    <FrameLayout
+        style="@style/dialog_frame"
+        />
+
+    <TextView
+        android:id="@+id/dialog_themse_titel"
+        style="@style/dialog_titel_text_22sp"
+        android:text="@string/thems"/>
+
+    <ImageButton
+        android:id="@+id/dialog_close"
+        style="@style/dialog_x_button"
+        android:background="@android:color/transparent"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dialog_themse_titel"/>
+
+
+</RelativeLayout>

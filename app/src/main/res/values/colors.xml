@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="light_green">#72A49D</color>
+    <color name="dark_blue">#198496</color>
+    <color name="colorGreenOpacity40">#9972A49D</color>
+    <color name="light_gray">#E5E5E5</color>
+    <color name="light_white">#FFFDEB</color>
+    <color name="black">#161616</color>
+    <color name="gray">#C4C4C4</color>
+    <color name="black_text_color">#161616</color>
+    <color name="very_light_gray">#EEEEEE</color>
+    <color name="line_gray">#D1D1D1</color>
+    <color name="gray_block">#F1F1F1</color>
+    <color name="yelow_message">#FFB600</color>
+    <color name="black_frame">#CACACA</color>
+    <color name="divider">#59009F</color>
+    <color name="purple_text">#59009F</color>
+    <color name="gradStart">#2AB1DE</color>
+    <color name="gradEnd">#114471</color>
+    <color name="light_blue">#66B7C9</color>
+
+
+    <color name="icon_namaz">#76B5A9</color>
+    <color name="icon_koran">#B2A272</color>
+    <color name="icon_kompas">#829471</color>
+    <color name="icon_tasbih">#C7898E</color>
+    <color name="icon_world">#685774</color>
+    <color name="icon_imam_quastion">#3D669F</color>
+    <color name="icon_book">#EA837C</color>
+    <color name="icon_image">#5B9694</color>
+    <color name="icon_zakyat">#4196E6</color>
+    <color name="icon_tv">#F3A865</color>
+    <color name="icon_radio">#8B657E</color>
+
+    <color name="colorBlack8a">#8A000000</color>
+    <color name="colorFrenchGray">#C7C7CC</color>
+    <color name="colorGrayLight">#E5E5EA</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorWhiteb3">#B3ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="koranTextBg">#BDD1CE</color>
+
+    <color name="default_color">#3F51B5</color>
+    <color name="gray_bold">#DCDCDC</color>
+
+    <color name="koranScreenBg">#F6F6F6</color>
+
+    <color name="eatPointColor">#5FA892</color>
+    <color name="churchPointColor">#7F7A9D</color>
+    <color name="halalPointColor">#588B6A</color>
+    <color name="passColor">#D1E1DF</color>
+    <color name="bnmBg">#FFFFFFEB</color>
+
+    <color name="koranPageBg">#F6F6EB</color>
+
+    <color name="azkarGradientStart">#ED9410</color>
+    <color name="azkarGradientEnd">#FF1E61</color>
+</resources>

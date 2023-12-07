@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_thumb_size">20dp</dimen>
+    <dimen name="main_quran_icon_size">60dp</dimen>
+    <dimen name="default_main_icon_size">48dp</dimen>
+    <dimen name="border_migrant">3dp</dimen>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/koranPageBg">
+
+    <ImageView
+        android:id="@+id/page_border"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_margin="4dp"
+        android:background="@drawable/koran_page_stroke"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="8dp"
+        android:paddingVertical="5dp"
+        android:fontFamily="@font/hafs_01"
+        android:textColor="@color/black"
+        android:autoSizeTextType="uniform"
+        android:minLines="15"
+        android:maxLines="15"
+        android:lines="15"
+        android:lineSpacingExtra="-5dp"
+        android:justificationMode="inter_word"
+        android:textAlignment="center"
+        android:id="@+id/koran_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingVertical="5dp"
+        android:layout_marginHorizontal="8dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_1"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_2"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_3"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_4"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_5"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_6"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_7"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_8"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_9"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_10"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_11"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_12"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_13"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_14"/>
+        <include layout="@layout/item_surah" android:id="@+id/surah_line_15"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lines_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+</FrameLayout>

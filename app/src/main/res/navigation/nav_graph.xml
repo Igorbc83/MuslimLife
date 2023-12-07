@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.muslimlife.app.view.SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/splash_to_auth"
+            app:destination="@id/newAuthFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/splash_to_main"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+
+        <action
+            android:id="@+id/splash_to_lang"
+            app:destination="@id/languageStartFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_newAuthFragment"
+            app:destination="@id/newAuthFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.muslimlife.app.view.auth.AuthFragment"
+        tools:layout="@layout/fragment_auth">
+
+        <action
+            android:id="@+id/auth_to_confirm_code"
+            app:destination="@id/confirmCodeFragment" />
+
+        <action
+            android:id="@+id/auth_to_main"
+            app:destination="@id/mainFragment"/>
+        <action
+            android:id="@+id/action_authFragment_to_regProfileFragment"
+            app:destination="@id/regProfileFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/confirmCodeFragment"
+        android:name="com.muslimlife.app.view.auth.ConfirmCodeFragment"
+        tools:layout="@layout/fragment_confirm_code">
+
+        <argument
+            android:name="verificationId"
+            app:argType="string" />
+
+        <argument
+            android:name="phoneNumber"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/confirm_to_main"
+            app:destination="@id/mainFragment" />
+
+        <action
+            android:id="@+id/confirm_to_profile"
+            app:destination="@id/regProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/regProfileFragment"
+        android:name="com.muslimlife.app.view.auth.RegProfileFragment"
+        tools:layout="@layout/fragment_reg_profile">
+
+        <action
+            android:id="@+id/reg_to_main"
+            app:destination="@id/mainFragment"
+            app:popUpTo="@id/nav_graph" />
+
+        <action
+            android:id="@+id/reg_to_dialog_choose_country"
+            app:destination="@id/bottomSheetChooseCountry" />
+
+        <action
+            android:id="@+id/reg_profile_to_dialog_input"
+            app:destination="@id/bottomSheetInput" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.muslimlife.app.view.main.MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/mainFragment_to_settingsFragment"
+            app:destination="@id/SettingsFragment" />
+
+        <action
+            android:id="@+id/mainFragment_to_qible_fragment"
+            app:destination="@id/QibleFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_tasbihFragment"
+            app:destination="@id/tasbihFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_KoranFragment"
+            app:destination="@id/KoranFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_bottomWorshipDialog"
+            app:destination="@id/bottomWorshipDialog" />
+        <action
+            android:id="@+id/action_mainFragment_to_QuastionFragment"
+            app:destination="@id/QuastionFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_RadioFragment"
+            app:destination="@id/RadioFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_TvFragment"
+            app:destination="@id/TvFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_DiasporFragment"
+            app:destination="@id/DiasporFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_diaspoars"
+            app:destination="@id/DiaspoarsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_WallpaperFragment"
+            app:destination="@id/WallpaperFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_SermonsFragment"
+            app:destination="@id/SermonsFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_MapFragment"
+            app:destination="@id/MapFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.muslimlife.app.view.settings.SettingsFragment"
+        tools:layout="@layout/fragment_settings">
+        <action
+            android:id="@+id/settingsFragment_to_ProfileFragment"
+            app:destination="@id/ProfileFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_SubFragment"
+            app:destination="@id/SubFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_DonationFragment"
+            app:destination="@id/DonationFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_SupportFragment"
+            app:destination="@id/SupportFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_ServicesFragment"
+            app:destination="@id/ServicesFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_LanguageFragment"
+            app:destination="@id/LanguageFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_AboutFragment"
+            app:destination="@id/AboutFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_AuthFragment"
+            app:destination="@id/authFragment"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/settingsFragment_to_MessageFragment"
+            app:destination="@id/MessageFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_ZakyatFragment"
+            app:destination="@id/ZakyatFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_QuastionFragment"
+            app:destination="@id/QuastionFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_PrayerFragment"
+            app:destination="@id/PrayerFragment" />
+        <action
+            android:id="@+id/settingsFragment_to_DiasporFragment"
+            app:destination="@id/DiasporFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.muslimlife.app.view.profile.ProfileFragment"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/profile_to_dialog_choose_country"
+            app:destination="@id/bottomSheetChooseCountry" />
+
+        <action
+            android:id="@+id/profile_to_dialog_input"
+            app:destination="@id/bottomSheetInput" />
+
+        <action
+            android:id="@+id/profileFragment_to_AuthFragment"
+            app:destination="@id/authFragment"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_ProfileFragment_to_newAuthFragment"
+            app:destination="@id/newAuthFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SubFragment"
+        android:name="com.muslimlife.app.view.sub.SubFragment"
+        tools:layout="@layout/fragment_sub_type">
+    </fragment>
+
+    <fragment
+        android:id="@+id/DonationFragment"
+        android:name="com.muslimlife.app.view.donation.DonationFragment"
+        tools:layout="@layout/fragment_donation">
+    </fragment>
+
+    <fragment
+        android:id="@+id/SupportFragment"
+        android:name="com.muslimlife.app.view.support.SupportFragment"
+        tools:layout="@layout/fragment_support">
+    </fragment>
+
+    <fragment
+        android:id="@+id/AnswersFragment"
+        android:name="com.muslimlife.app.view.quastions.QuastionsFragment">
+     </fragment>
+
+    <fragment
+        android:id="@+id/ServicesFragment"
+        android:name="com.muslimlife.app.view.services.ServicesFragment"
+        tools:layout="@layout/fragment_services">
+    </fragment>
+
+    <fragment
+        android:id="@+id/LanguageFragment"
+        android:name="com.muslimlife.app.view.language.LanguageFragment"
+        tools:layout="@layout/fragment_language">
+    </fragment>
+
+    <fragment
+        android:id="@+id/QuastionAnswer"
+        android:name="com.muslimlife.app.view.quastionAnswer.QuastionsAnswerFragment">
+    </fragment>
+
+    <fragment
+        android:id="@+id/AboutFragment"
+        android:name="com.muslimlife.app.view.about.AboutFragment"
+        tools:layout="@layout/fragment_about">
+    </fragment>
+
+    <fragment
+        android:id="@+id/MessageFragment"
+        android:name="com.muslimlife.app.view.message.MessageFragment"
+        tools:layout="@layout/fragment_message">
+        <action
+            android:id="@+id/messageFragment_to_ImamAnswerFragment"
+            app:destination="@id/ImamAnswerFragment" />
+        <action
+            android:id="@+id/messageFragment_to_NotificationFragment"
+            app:destination="@id/NotificationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ImamAnswerFragment"
+        android:name="com.muslimlife.app.view.answer.ImamAnswerFragment"
+        tools:layout="@layout/fragment_imam_answer"/>
+
+    <fragment
+        android:id="@+id/NotificationFragment"
+        android:name="com.muslimlife.app.view.notification.NotificationFragment"
+        tools:layout="@layout/fragment_notification"/>
+
+
+    <fragment
+        android:id="@+id/ZakyatFragment"
+        android:name="com.muslimlife.app.view.zakyat.ZakyatFragment"
+        tools:layout="@layout/fragment_zakyat"/>
+
+    <fragment
+        android:id="@+id/ImageFragment"
+        android:name="com.muslimlife.app.view.wallpaper.ImageFragment" />
+
+    <fragment
+        android:id="@+id/QuastionFragment"
+        android:name="com.muslimlife.app.view.quastion.QuastionFragment"
+        tools:layout="@layout/fragment_quastion">
+        <action
+            android:id="@+id/quastionFragment_to_MessageFragment"
+            app:destination="@id/MessageFragment" />
+        <action
+            android:id="@+id/quastionFragment_to_ImamFragment"
+            app:destination="@id/ImamFragment" />
+        <action
+            android:id="@+id/quastionFragment_to_ChooseKindDialog"
+            app:destination="@id/ChooseKindDialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ImamFragment"
+        android:name="com.muslimlife.app.view.imam.ImamFragment"
+        tools:layout="@layout/fragment_imam">
+        <action
+            android:id="@+id/imamFragment_to_ImamQuastionFragment"
+            app:destination="@id/ImamQuastionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/QibleFragment"
+        android:name="com.muslimlife.app.view.compass.CompassFragment"
+        tools:layout="@layout/fragment_qibla">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ImamQuastionFragment"
+        android:name="com.muslimlife.app.view.imamQuastion.ImamQuastionFragment"
+        tools:layout="@layout/fragment_imam_quastion">
+        <action
+            android:id="@+id/imamQuastionFragment_to_ChooseKindDialog"
+            app:destination="@id/ChooseKindDialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/PrayerFragment"
+        android:name="com.muslimlife.app.view.prayer.PrayerFragment"
+        tools:layout="@layout/fragment_prayer">
+    </fragment>
+
+    <fragment
+        android:id="@+id/DiasporFragment"
+        android:name="com.muslimlife.app.view.diaspor.DiasporFragment"
+        tools:layout="@layout/fragment_diaspor">
+        <action
+            android:id="@+id/diasporFragment_to_DiaspoarQuastionFragment"
+            app:destination="@id/DiaspoarQuastionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/DiaspoarQuastionFragment"
+        android:name="com.muslimlife.app.view.diaspoarQuastion.DiaspoarQuastionFragment"
+        tools:layout="@layout/fragment_diaspoar_quastion">
+    </fragment>
+
+    <fragment
+        android:id="@+id/KoranFragment"
+        android:name="com.muslimlife.app.view.koran.KoranFragment"
+        tools:layout="@layout/fragment_koran">
+        <action
+            android:id="@+id/action_KoranFragment_to_KoranSettingsFragment"
+            app:destination="@id/KoranSettingsFragment" />
+        <action
+            android:id="@+id/action_KoranFragment_to_BookmarkFragment"
+            app:destination="@id/BookmarkFragment" />
+        <action
+            android:id="@+id/action_KoranFragment_to_koranLineMenuFragment"
+            app:destination="@id/koranLineMenuFragment" />
+        <action
+            android:id="@+id/action_KoranFragment_to_translateLineDialog"
+            app:destination="@id/translateLineDialog" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/KoranSettingsFragment"
+        android:name="com.muslimlife.app.view.koranSettings.KoranSettingsFragment"
+        tools:layout="@layout/fragment_koran_settings">
+        <action
+            android:id="@+id/action_KoranSettingsFragment_to_SuriFragment"
+            app:destination="@id/SuriFragment" />
+        <action
+            android:id="@+id/action_KoranSettingsFragment_to_TranslateFragment"
+            app:destination="@id/TranslateFragment" />
+        <action
+            android:id="@+id/action_KoranSettingsFragment_to_ReaderFragment"
+            app:destination="@id/ReaderFragment" />
+        <action
+            android:id="@+id/action_KoranSettingsFragment_to_BookmarkFragment"
+            app:destination="@id/BookmarkFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SuriFragment"
+        android:name="com.muslimlife.app.view.suri.SuriFragment"
+        tools:layout="@layout/fragment_suri">
+    </fragment>
+
+    <fragment
+        android:id="@+id/TranslateFragment"
+        android:name="com.muslimlife.app.view.translate.TranslateFragment"
+        tools:layout="@layout/fragment_translate">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ReaderFragment"
+        android:name="com.muslimlife.app.view.reader.ReaderFragment"
+        tools:layout="@layout/fragment_reader">
+    </fragment>
+
+    <fragment
+        android:id="@+id/BookmarkFragment"
+        android:name="com.muslimlife.app.view.bookmark.BookmarkFragment"
+        tools:layout="@layout/fragment_bookmark">
+    </fragment>
+
+    <fragment
+        android:id="@+id/RadioFragment"
+        android:name="com.muslimlife.app.view.radio.RadioFragment"
+        tools:layout="@layout/fragment_radio">
+    </fragment>
+
+    <fragment
+        android:id="@+id/TvFragment"
+        android:name="com.muslimlife.app.view.tv.TvFragment"
+        tools:layout="@layout/fragment_tv">
+    </fragment>
+
+    <fragment
+        android:id="@+id/DiaspoarsFragment"
+        android:name="com.muslimlife.app.view.diaspoars.DiaspoarsFragment"
+        tools:layout="@layout/fragment_diasporas">
+        <action
+            android:id="@+id/action_diaspoars_to_DiasporFragment"
+            app:destination="@id/DiasporFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/WallpaperFragment"
+        android:name="com.muslimlife.app.view.wallpaper.WallpaperFragment"
+        tools:layout="@layout/fragment_wallpaper">
+        <action
+            android:id="@+id/action_WallpaperFragment_to_ChoosedWallpaperFragment"
+            app:destination="@id/ChoosedWallpaperFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/ChoosedWallpaperFragment"
+        android:name="com.muslimlife.app.view.choosedWallpaper.ChoosedWallpaperFragment"
+        tools:layout="@layout/fragment_choosed_wallpaper">
+    </fragment>
+
+    <fragment
+        android:id="@+id/SermonsFragment"
+        android:name="com.muslimlife.app.view.sermons.SermonsFragment"
+        tools:layout="@layout/fragment_sermons">
+    </fragment>
+
+    <fragment
+        android:id="@+id/MapFragment"
+        android:name="com.muslimlife.app.view.map.MapFragment"
+        tools:layout="@layout/fragment_map">
+    </fragment>
+
+    <!--Dialogs-->
+    <dialog
+        android:id="@+id/bottomSheetInput"
+        android:name="com.muslimlife.app.view.dialogs.BottomSheetInputData"
+        tools:layout="@layout/bottom_sheet_input">
+
+        <argument
+            android:name="type"
+            app:argType="com.muslimlife.app.data.model.DialogInputType" />
+
+        <argument
+            android:name="currentText"
+            app:argType="string"
+            app:nullable="true" />
+    </dialog>
+
+    <dialog
+        android:id="@+id/bottomSheetChooseCountry"
+        android:name="com.muslimlife.app.view.dialogs.ChooseLocationDialogFragment"
+        tools:layout="@layout/dialog_choose_location">
+
+        <argument
+            android:name="currentId"
+            app:argType="string"
+            app:nullable="true" />
+
+        <argument
+            android:name="list"
+            app:argType="com.muslimlife.app.data.model.UserLocation[]" />
+
+        <argument
+            android:name="type"
+            app:argType="string"
+            app:nullable="true"/>
+    </dialog>
+
+    <dialog
+        android:id="@+id/ChooseKindDialog"
+        android:name="com.muslimlife.app.view.dialogs.ChooseKindDialog"
+        tools:layout="@layout/dialog_choose_kind">
+
+
+        <action
+            android:id="@+id/chooseKindDialog_to_ImamQuastionFragment"
+            app:destination="@id/ImamQuastionFragment" />
+        <action
+            android:id="@+id/action_ChooseKindDialog_to_QuastionFragment"
+            app:destination="@id/QuastionFragment" />
+    </dialog>
+
+    <fragment
+        android:id="@+id/tasbihFragment"
+        android:name="com.muslimlife.app.view.tasbih.TasbihFragment"
+        android:label="TasbihFragment" />
+    <fragment
+        android:id="@+id/zakyatSettings"
+        android:name="com.muslimlife.app.view.zakyatSettings.ZakyatSettingsFragment"
+        android:label="ZakyatSettingsFragment" />
+    <fragment
+        android:id="@+id/zakyatSettingsCurrency"
+        android:name="com.muslimlife.app.view.zakyatSettings.ZakyatSettingsCurrencyFragment"
+        android:label="zakyatSettingsCurrencyFragment" />
+    <fragment
+        android:id="@+id/zakyatSettingsFonds"
+        android:name="com.muslimlife.app.view.zakyatSettings.ZakyatSettingsFondsFragment"
+        android:label="zakyatSettingsFondsFragment" />
+    <fragment
+        android:id="@+id/pushtSettings"
+        android:name="com.muslimlife.app.view.pushSettings.PushSettingsFragment"
+        android:label="pushSettingsFragment" />
+    <dialog
+        android:id="@+id/koranLineMenuFragment"
+        android:name="com.muslimlife.app.view.koran.KoranLineMenuDialog"
+        android:label="KoranLineMenuFragment" />
+    <dialog
+        android:id="@+id/translateLineDialog"
+        android:name="com.muslimlife.app.view.koran.TranslateLineDialog"
+        android:label="TranslateLineDialog" />
+    <dialog
+        android:id="@+id/bottomWorshipDialog"
+        android:name="com.muslimlife.app.view.dialogs.BottomWorshipDialog"
+        android:label="BottomWorshipDialog" />
+
+    <dialog
+        android:id="@+id/textDialog"
+        android:name="com.muslimlife.app.view.dialogs.TextDialog"
+        android:label="TextDialog" />
+    <fragment
+        android:id="@+id/newAuthFragment"
+        android:name="com.muslimlife.app.view.auth.NewAuthFragment"
+        android:label="fragment_new_auth"
+        tools:layout="@layout/fragment_new_auth">
+        <action
+            android:id="@+id/action_newAuthFragment_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/mainFragment"
+            />
+        <action
+            android:id="@+id/action_newAuthFragment_to_regProfileFragment"
+            app:destination="@id/regProfileFragment"
+            app:popUpToInclusive="true"
+            app:popUpTo="@id/regProfileFragment"
+            />
+        <action
+            android:id="@+id/action_newAuthFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/zakyatInfoFragment"
+        android:name="com.muslimlife.app.view.zakyat.ZakyatInfoFragment"
+        android:label="ZakyatInfoFragment" />
+
+    <fragment
+        android:id="@+id/subRuStoreFragment"
+        android:name="com.muslimlife.app.view.sub_ru_store.SubRuStoreFragment"
+        android:label="SubRuStoreFragment" />
+    <fragment
+        android:id="@+id/azkarFragment"
+        android:name="com.muslimlife.app.view.azkar.AzkarFragment"
+        android:label="AzkarFragment" />
+    <fragment
+        android:id="@+id/azkarListFragment"
+        android:name="com.muslimlife.app.view.azkar.AzkarListFragment"
+        android:label="AzkarListFragment" />
+    <fragment
+        android:id="@+id/languageStartFragment"
+        android:name="com.muslimlife.app.view.language.LanguageStartFragment"
+        android:label="LanguageStartFragment" />
+    <fragment
+        android:id="@+id/MLCoinBillingNewFragment"
+        android:name="com.muslimlife.app.view.mlcoin.MLCoinBillingNewFragment"
+        android:label="MLCoinBillingNewFragment" />
+    <fragment
+        android:id="@+id/migrantListFragment"
+        android:name="all.muslimlife.view.migrants.MigrantListFragment"
+        android:label="MigrantListFragment" />
+    <fragment
+        android:id="@+id/qrCodeFragment"
+        android:name="all.muslimlife.view.qrcode.QrCodeFragment"
+        android:label="QrCodeFragment" />
+    <fragment
+        android:id="@+id/mapGPlacesFragment"
+        android:name="all.muslimlife.view.map.MapAllFragment"
+        android:label="MapAllFragment" />
+    <dialog
+        android:id="@+id/halalInfoDialog"
+        android:name="all.muslimlife.view.map.HalalInfoDialog"
+        android:label="HalalInfoDialog" />
+    <fragment
+        android:id="@+id/chatAIFragment"
+        android:name="all.muslimlife.view.chat.ChatAIFragment"
+        android:label="ChatAIFragment" />
+</navigation>

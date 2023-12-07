@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_gray"
+
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout style="@style/handler_layout">
+
+
+            <TextView
+                style="@style/reg_text_40sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="@string/profile_data"
+                android:textSize="34sp"
+                android:layout_marginStart="16dp"/>
+        </RelativeLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"
+            >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:innerRadius="0dp"
+                android:shape="ring"
+                app:cardCornerRadius="75dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+                <ImageView
+                    android:id="@+id/empty_image"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_empty_photo_reg" />
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/makePhoto"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_make_photo"
+                android:elevation="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout style="@style/click_item_layout">
+
+            <RelativeLayout
+                android:id="@+id/name"
+                style="@style/block_rel">
+
+                <LinearLayout style="@style/double_text">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/location_country_text_17sp"
+                        android:hint="@string/name"
+                        app:hintTextColor="@color/black"
+                        android:background="@null"
+                        app:counterTextColor="@color/black"
+                        android:layout_marginEnd="25dp"
+                        android:gravity="center"
+                        app:counterOverflowTextColor="@null"
+                        app:boxBackgroundColor="@android:color/transparent"
+                        app:helperTextTextColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:boxStrokeColor="@android:color/transparent"
+                        app:boxStrokeWidth="0dp"
+                        app:boxStrokeWidthFocused="0dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/textName"
+                            style="@style/location_country_text_17sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <FrameLayout style="@style/line_frame" />
+
+            <RelativeLayout
+                android:id="@+id/surname"
+                style="@style/block_rel">
+
+                <LinearLayout style="@style/double_text">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/location_country_text_17sp"
+                        android:hint="@string/surname"
+                        app:hintTextColor="@color/black"
+                        android:background="@null"
+                        app:counterTextColor="@color/black"
+                        android:layout_marginEnd="25dp"
+                        android:gravity="center"
+                        app:counterOverflowTextColor="@null"
+                        app:boxBackgroundColor="@android:color/transparent"
+                        app:helperTextTextColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:boxStrokeColor="@android:color/transparent"
+                        app:boxStrokeWidth="0dp"
+                        app:boxStrokeWidthFocused="0dp">
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/textSecondName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            style="@style/location_country_text_17sp"
+                            />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <FrameLayout style="@style/line_frame" />
+
+            <RelativeLayout
+                android:id="@+id/email"
+                style="@style/block_rel">
+
+                <LinearLayout style="@style/double_text">
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        style="@style/location_country_text_17sp"
+                        android:hint="@string/email"
+                        app:hintTextColor="@color/black"
+                        android:background="@null"
+                        app:counterTextColor="@color/black"
+                        android:layout_marginEnd="25dp"
+                        android:gravity="center"
+                        app:counterOverflowTextColor="@null"
+                        app:boxBackgroundColor="@android:color/transparent"
+                        app:helperTextTextColor="@color/black"
+                        android:textColorHint="@color/black"
+                        app:boxStrokeColor="@android:color/transparent"
+                        app:boxStrokeWidth="0dp"
+                        android:enabled="false"
+                        app:boxStrokeWidthFocused="0dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/textEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            style="@style/location_country_text_17sp" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <FrameLayout style="@style/line_frame" />
+
+            <RelativeLayout
+                android:id="@+id/phone"
+                style="@style/block_rel">
+
+                <LinearLayout style="@style/double_text">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        style="@style/location_country_text_17sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="25dp"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:hint="@string/phone"
+                        android:textColorHint="@color/black"
+                        app:boxBackgroundColor="@android:color/transparent"
+                        app:boxStrokeColor="@android:color/transparent"
+                        app:boxStrokeWidth="0dp"
+                        app:boxStrokeWidthFocused="0dp"
+                        app:counterOverflowTextColor="@null"
+                        app:counterTextColor="@color/black"
+                        app:helperTextTextColor="@color/black"
+                        app:hintTextColor="@color/black">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/etPhone"
+                            style="@style/location_country_text_17sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/transparent"
+                            android:inputType="phone" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/click_item_layout">
+
+            <RelativeLayout
+                android:id="@+id/country"
+                style="@style/block_rel">
+
+                <LinearLayout style="@style/double_text">
+
+                    <TextView
+                        android:id="@+id/textCountryTitle"
+                        style="@style/helper_text_13sp"
+                        android:paddingStart="14dp"
+                        android:text="@string/location_country"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/textCountry"
+                        style="@style/location_country_text_17sp"
+                        android:paddingStart="14dp"
+                        android:text="@string/location_country" />
+                </LinearLayout>
+
+                <ImageView style="@style/go_image_view_location" />
+            </RelativeLayout>
+
+            <FrameLayout style="@style/line_frame" />
+
+            <RelativeLayout
+                android:id="@+id/city"
+                style="@style/block_rel">
+
+                <LinearLayout style="@style/double_text">
+
+                    <TextView
+                        android:id="@+id/textCity"
+                        style="@style/location_country_text_17sp"
+                        android:paddingStart="14dp"
+                        android:text="@string/location_city" />
+                </LinearLayout>
+
+                <ImageView style="@style/go_image_view_location" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonSave"
+            style="@style/mater_but_filled"
+            android:fontFamily="@font/montserrat_semibold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/save" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            style="@style/back_image_but"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/layoutSkip"
+            style="@style/reg_text_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="16dp"
+            android:layout_centerVertical="true"
+            android:text="@string/skip" />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/reg_text_40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginHorizontal="16dp"
+        android:text="@string/enter_sms" />
+
+    <TextView
+        android:id="@+id/textTimer"
+        style="@style/reg_text_18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/sms_text" />
+
+    <TextView
+        android:id="@+id/textSendNewCode"
+        style="@style/reg_text_18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:padding="12dp"
+        android:text="@string/resend_code"
+        android:visibility="gone" />
+
+    <com.muslimlife.app.view.custom.CodeEntryEditText
+        android:id="@+id/edit_code"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:cursorVisible="false"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center_vertical"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textColor="@color/black_text_color"
+        android:textSize="20sp"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+</LinearLayout>

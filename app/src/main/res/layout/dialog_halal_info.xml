@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_map_item"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/dialog_close"
+        style="@style/dialog_x_button"
+        android:background="@android:color/transparent"
+        android:layout_gravity="end"/>
+    
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/halal_approve"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/dialogTitle"
+        style="@style/dialog_title_text_18sp"
+        android:text="Заведения с таким знаком строго следуют принципам халяль и имеют соответствующую сертификацию."/>
+</LinearLayout>

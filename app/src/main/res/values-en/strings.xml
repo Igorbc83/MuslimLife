@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="locus_rationale_title" />
+    <string name="locus_rationale_message"> The app needs access to your geolocation to continue working</string>
+    <string name="locus_permission_blocked_title">The app needs geolocation permission</string>
+    <string name="locus_permission_blocked_message">Your geolocation permission is required for the app to work accurately and correctly.</string>
+    <string name="locus_location_resolution_title">The app needs geolocation permission</string>
+    <string name="locus_location_resolution_message">The app needs geolocation permission to work accurately and correctly.</string>
+    <string name="markerError">Failed to receive markers</string>
+    <string name="enable">Confirm</string>
+    <string name="loading">Loading...</string>
+    <string name="about">Build version: </string>
+    <string name="licenseError">Read and sign the user agreement</string>
+    <string name="section_under_development">Section is under development</string>
+    <string name="namaz_time_over"> through:</string>
+    <string name="chooseOtherPhoto">Choose another picture!</string>
+    <string name="enterTextQuastion">Fill in the question text</string>
+    <string name="chooseCategory">Choose a question category</string>
+    <string name="notSura">This surah does not exist yet!</string>
+    <string name="shareOne">Share</string>
+    <string name="sharePhoto">Share this image</string>
+    <string name="answerText">Enter text of response</string>
+    <string name="answerMaked">Question has been successfully posed</string>
+    <string name="regPlease">Log in or Sign up</string>
+    <string name="ayatEmpty">This ayyat does not exist yet!</string>
+    <string name="today">Today</string>
+    <string name="exitOk">Exit accomplished</string>
+    <string name="variant">Option %d</string>
+    <string name="chooseOnePhoto">Choose at least one image.</string>
+    <string name="enterText">Fill in the text field.</string>
+    <string name="answerOk">You have successfully responded</string>
+    <string name="ayat">Ayyat</string>
+    <string name="russian">Russian</string>
+    <string name="english">English</string>
+    <string name="uzbek">Uzbek</string>
+    <string name="turk">Turkish</string>
+    <string name="tadzhik">Tadjik</string>
+    <string name="kirg">Kyrgyz</string>
+    <string name="franch">French</string>
+    <string name="infoBlock">No information available</string>
+    <string name="yourZakyat">Your Zakat</string>
+    <string name="rubl">rubles</string>
+    <string name="payOk">Payment completed</string>
+    <string name="chooseSumm">Choose amount of payment</string>
+    <string name="filtersError">Error loading filters list</string>
+    <string name="messages">Messages</string>
+    <string name="shareApp">Share this app</string>
+    <string name="donat">Donate</string>
+    <string name="appLanguage">App language</string>
+    <string name="servicesMenu">Services</string>
+    <string name="texPod">Tech support</string>
+    <string name="aboutApp">About the app</string>
+    <string name="taskOk">Message sent!</string>
+    <string name="app_name">MuslimLife</string>
+    <string name="location_titel">Location</string>
+    <string name="location_country">Country</string>
+    <string name="location_city">City</string>
+    <string name="current_location">My location</string>
+    <string name="location_lust_text">LAST:</string>
+    <string name="save">Save</string>
+    <string name="redy">Done</string>
+    <string name="skip">Skip</string>
+    <string name="reg_login">Sign Up or Sign In</string>
+    <string name="reg_phone_text">Enter your phone number for authorization and enter the code from the SMS, do not tell this code to anyone.</string>
+    <string name="reg_accept">I agree with  <font color='#59009F'>policy of personal data processing</font></string>
+    <string name="sign_in">Sign in</string>
+    <string name="enter_sms">Enter the code from the SMS</string>
+    <string name="sms_text">A code SMS was sent to %s. Resend via %s</string>
+    <string name="sms_text_without_timer">A SMS with a code was sent to %s phone.</string>
+    <string name="profile_data">Profile Info</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="email">Email</string>
+    <string name="private_data">Personal Info</string>
+    <string name="phone">Phone</string>
+    <string name="exit">Log out</string>
+    <string name="settings">Settings</string>
+    <string name="sub">Subscribe</string>
+    <string name="notification">Notifications</string>
+    <string name="location">Geolocation</string>
+    <string name="message">Message</string>
+    <string name="share">Share this app</string>
+    <string name="donation">Our plans</string>
+    <string name="language">App Language</string>
+    <string name="service">Service</string>
+    <string name="support">Tech support</string>
+    <string name="info">About the app</string>
+    <string name="other">Other</string>
+    <string name="sermons">Dawah</string>
+    <string name="tv">TV channels</string>
+    <string name="radio">Radio</string>
+    <string name="faq">Ask<br /><br />Question</string>
+    <string name="diaspoars">Diasporas</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="worship">Worship</string>
+    <string name="page">page</string>
+
+    <string name="compass">Compass</string>
+    <string name="namaz">Namaz</string>
+    <string name="zakyat">Zakyat</string>
+
+    <string name="off_service">All services disabled</string>
+    <string name="add_in_settings">Connect services in settings</string>
+    <string name="service_settings">Setting up services</string>
+    <string name="sub_details">SUBSCRIPTION DETAILS:</string>
+    <string name="point">•</string>
+    <string name="sub_prem_preaching">Extended version of the Dawah</string>
+    <string name="sub_prem_tv_radio">TV channels, radio (full version)</string>
+    <string name="sub_prem_koran">Studying the Quran in a convenient way</string>
+    <string name="month">Monthly</string>
+    <string name="rub_100">100 ₽</string>
+    <string name="sub_cancle">Unsubscribe</string>
+    <string name="donation_summ">DONATE AMOUNT</string>
+    <string name="choose_sum">SELECT AN AMOUNT:</string>
+    <string name="send">Send</string>
+    <string name="settings_language">Language</string>
+    <string name="quastion_kind">Subject</string>
+    <string name="translate">Sync and corrected by</string>
+    <string name="suri">Suras</string>
+    <string name="original_name">Title in the original</string>
+    <string name="error_number_phone_empty">Enter phone number</string>
+    <string name="resend_code">Send code</string>
+    <string name="reader">Reader</string>
+    <string name="bookmark">Bookmarks</string>
+    <string name="quastion_imam">Question to the Imam</string>
+    <string name="thems">Topics</string>
+    <string name="imam_kind">EXPERT IN QUESTIONS:</string>
+    <string name="biography">BIOGRAPHY:</string>
+    <string name="show_all">Show in full</string>
+    <string name="send_quastion">Ask a question</string>
+    <string name="imam_quastion">Question to the Imam</string>
+    <string name="not_choosed">Not selected</string>
+    <string name="services">Services</string>
+    <string name="visible">SEEN:</string>
+    <string name="invisible">RELATED:</string>
+    <string name="phone_diasp">PHONE NUMBER:</string>
+    <string name="social">SOCIAL MEDIA:</string>
+    <string name="quastion_diaspoar">Question Diaspora</string>
+    <string name="tv_chanels">TV channels</string>
+    <string name="about_app">About the app</string>
+    <string name="input_type_name">Your first name</string>
+    <string name="input_type_second_name">Your surname</string>
+    <string name="input_type_email">Your email</string>
+    <string name="input_type_phone">Your phone number</string>
+    <string name="imam_answer">Imam\'s Answer</string>
+    <string name="zakyat_payment">Zakat calculation</string>
+    <string name="cash">CASH</string>
+    <string name="monye_in_bank">CASH IN THE BANK</string>
+    <string name="goods">GOODS AND INCOME</string>
+    <string name="gold">GOLD AND SILVER</string>
+    <string name="_0_025x">0.025x Zakat taxable amount</string>
+    <string name="send_money">Donate</string>
+    <string name="answer">Answers</string>
+    <string name="qibla">Qibla</string>
+    <string name="arrow_point_out_top">The arrow should be pointing up</string>
+    <string name="message_diaspoar">Message</string>
+    <string name="tasbih">Tasbih</string>
+    <string name="tasbih_fragment_round">Circle</string>
+    <string name="main_favorite_title">Often used:</string>
+    <string name="koran">Quran</string>
+
+    <string name="Fajr">Fajr</string>
+
+    <string name="Shuruk">Shuruk</string>
+    <string name="Zuhr">Zuhr</string>
+    <string name="Asr">Asr</string>
+    <string name="Magrib">Maghrib</string>
+    <string name="Isha">Isha</string>
+    <string name="ready">Done</string>
+    <string name="musulmanLife">Muslim Life.</string>
+    <string name="all">All</string>
+    <string name="needReg">To work with the settings, you must be logged in!</string>
+    <string name="Auth">Authorize</string>
+    <string name="test_zakyat">Charitable Foundation "Zakyat"</string>
+    <string name="eatPoint">Where to eat</string>
+
+    <string name="pointChurch">Mosques</string>
+    <string name="pointCafe">Cafe</string>
+    <string name="pointRestaurants">Restaurants</string>
+    <string name="pointHalal">Halal Products</string>
+    <string name="halalProduct">Halal Shop</string>
+
+
+    <string name="pointPrayerRoom">Prayer Room</string>
+    <string name="description">DESCRIPTION:</string>
+    <string name="address">ADDRESS:</string>
+    <string name="workTime">SCHEDULE:</string>
+    <string name="getDirections">Get directions</string>
+
+    <string name="search">Search</string>
+
+    <string name="cancel">Cancel</string>
+
+    <string name="call">Call</string>
+
+    <string name="places">Places</string>
+
+    <string name="halalShort">Halal</string>
+    <string name="translate_emil">Elmir Kuliev</string>
+    <string name="subText1">
+&#8226; Extended version of the Dawah</string>
+
+    <string name="subText2">
+&#8226; TV channels, radio (full version)</string>
+
+    <string name="subText3">
+&#8226; Studying the Quran in a convenient way</string>
+
+    <string name="subPrice">Subscribe</string>
+
+    <string name="quastions">Questions</string>
+    <string name="fonds">Foundations</string>
+    <string name="currency">Currency</string>
+    <string name="of_on_push">Push notification</string>
+    <string name="notification_sounds">notification sounds:</string>
+    <string-array name="tasbih_round">
+        <item> Subhan Allah. </item>
+        <item> Al-Hamduh li Llah </item>
+        <item> Allahu Akbar </item>
+    </string-array>
+
+    <string name="question_subject">Subject of the question</string>
+    <string name="notifications">Notification</string>
+    <string name="others">Other</string>
+    <string name="video">video</string>
+    <string name="qubla_subtext_2">To calibrate the compass, hold your smartphone horizontally and quickly but smoothly repeat the movement shown in the image below</string>
+    <string name="qubla_subtext1">Keep your smartphone\n away from devices connected to the network -\n electromagnetic radiation affects the compass\n</string>
+    <string name="namaz_time">%1$s over:</string>
+    <string name="pn">Mo</string>
+    <string name="vt">Tu</string>
+    <string name="sr">We</string>
+    <string name="cht">Th</string>
+    <string name="pt">Fr</string>
+    <string name="sb">Sa</string>
+    <string name="vs">Su</string>
+    <string name="emptyQuastion">There are no questions yet.</string>
+    <string name="hour"> hour</string>
+    <string name="hour1"> hour</string>
+    <string name="hour2"> hour</string>
+    <string name="mints"> minutes before prayer</string>
+    <string name="auth_create_or_enter_account">For a better user experience, create an account or sign in</string>
+    <string name="authorization">Authorization</string>
+    <string name="enter_google_account">Login with Google Account</string>
+    <string name="enter_apple_id">Sign in with Apple ID</string>
+    <string name="download_started">Download started</string>
+    <string name="phone_enter">Enter phone number</string>
+    <string-array name="months">
+        <item> January</item>
+        <item> February</item>
+        <item> March</item>
+        <item> April</item>
+        <item> May</item>
+        <item> June</item>
+        <item> July</item>
+        <item> August</item>
+        <item> September</item>
+        <item> October</item>
+        <item> November</item>
+        <item> December</item>
+    </string-array>
+
+    <string name="alert_sub_desc">Subscribe to get access to this functionality</string>
+    <string name="barakat">Barakat</string>
+    <string name="barakat_desc">Take a personal part in the development of the project!</string>
+    <string name="search_area">search in the area</string>
+
+    <string name="buy_image">Buy for MLCoin</string>
+    <string name="buy">Buy</string>
+    <string name="buy_desc">Buy a postcard for 3 MLCoin?</string>
+    <string name="buy_error">You don\'t have enough MLCoins, want to buy and replenish your balance?</string>
+    <string name="balance">Balance</string>
+
+    <string name="azkar_title">Azkar</string>
+    <string name="azkar_morning">Morning</string>
+    <string name="azkar_evening">Evening</string>
+    <string name="azkar_important">Important</string>
+    <string name="azkar_after_namaz">After the prayer</string>
+</resources>

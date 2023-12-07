@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:layout_width="match_parent"
+        app:layoutDescription="@xml/motion_layout_main"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/gradientBg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/main_view"
+            android:layout_marginBottom="-40dp"
+            android:background="@drawable/gradient_main_bg"/>
+
+        <TextView
+            android:id="@+id/prayer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="68dp" />
+
+        <TextView
+            android:id="@+id/time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/lato_black"
+            android:gravity="center"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="30dp" />
+
+        <TextView
+            android:id="@+id/time_to_pray"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoSizeTextType="uniform"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="173dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <TextView
+            android:id="@+id/favorite_title"
+            style="@style/main_lust_text_13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/main_favorite_title"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_regular"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/time_to_pray" />
+
+        <LinearLayout
+            android:id="@+id/favorites_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/favorite_title">
+
+            <include
+                android:id="@+id/test_favorite_1"
+                layout="@layout/item_main_most"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <include
+                android:id="@+id/test_favorite_2"
+                layout="@layout/item_main_most"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+
+            <include
+                android:id="@+id/test_favorite_3"
+                layout="@layout/item_main_most"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/dialog_bg"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/time_to_pray">
+
+            <FrameLayout
+                style="@style/dialog_frame"
+                android:layout_gravity="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="6dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/main_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/off_internet_view"
+                layout="@layout/view_internet_off"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                android:id="@+id/off_service_view"
+                layout="@layout/dialog_off_service"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+
+    <ImageButton
+        android:id="@+id/main_settings_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_prof_data"
+        app:tint="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/main_tv_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_tv"
+        app:layout_constraintEnd_toStartOf="@+id/main_settings_button"
+        app:layout_constraintTop_toTopOf="parent"
+        android:visibility="gone"
+        app:tint="@color/light_green" />
+
+    <ImageButton
+        android:id="@+id/main_radio"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_radio"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/main_settings_button"
+        app:tint="@color/light_green" />
+
+    <TextView
+        android:id="@+id/city_name"
+        android:fontFamily="@font/lato_black"
+        style="@style/reg_text_18sp"
+        android:textSize="13sp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:background="@drawable/quastion_kind_bg"
+        android:backgroundTint="@color/dark_blue"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="3dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="22dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

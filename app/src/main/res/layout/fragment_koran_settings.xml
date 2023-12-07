@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/light_white"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/back_button"
+        style="@style/back_image_but"/>
+
+    <TextView
+        style="@style/location_titel_text_34sp"
+        android:layout_marginStart="16dp"
+        android:text="@string/settings"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/koran_settings_suri"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="27dp">
+
+        <ImageView
+            android:id="@+id/imageView_suri"
+            android:layout_width="20dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_suri"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            style="@style/settings_text_17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suri"
+            android:layout_marginStart="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView_suri"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="6.2dp"
+            android:layout_height="10.4dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/ic_arrow"
+            android:rotation="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/gray" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        style="@style/line_frame"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/koran_settings_bookmark"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <ImageView
+            android:id="@+id/imageView_bookmark"
+            android:layout_width="14dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_bookmark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/black" />
+
+        <TextView
+            style="@style/settings_text_17sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bookmark"
+            android:layout_marginStart="21dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView_bookmark"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="6.2dp"
+            android:layout_height="10.4dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/ic_arrow"
+            android:rotation="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/gray" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        style="@style/line_frame"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/koran_settings_reader"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        tools:visibility="visible"
+        android:visibility="gone">
+
+        <com.muslimlife.app.utils.RoundImageView
+            android:id="@+id/imageView_reader"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="16dp"
+            app:rect_radius="1000dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView_reader"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/settings_koran_text_17sp"
+                android:text="@string/reader"/>
+
+            <TextView
+                android:id="@+id/reader_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/settings_koran_text_13sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6.2dp"
+            android:layout_height="10.4dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/ic_arrow"
+            android:rotation="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/gray" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        style="@style/line_frame"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/koran_settings_translate"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <ImageView
+            android:id="@+id/imageView_tanslate"
+            android:layout_width="24dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="16dp"
+            android:src="@drawable/ic_translate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView_tanslate"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/settings_koran_text_17sp"
+                android:text="@string/translate"/>
+
+            <TextView
+                android:id="@+id/translate_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/settings_koran_text_13sp"
+                tools:text="Аль-мунтахаб"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="6.2dp"
+            android:layout_height="10.4dp"
+            android:layout_marginEnd="25dp"
+            android:src="@drawable/ic_arrow"
+            android:rotation="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/gray" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <FrameLayout
+        style="@style/line_frame"/>
+
+</LinearLayout>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Permisions texts-->
+    <string name="locus_rationale_title" />
+    <string name="locus_rationale_message">Колдонмону улантуу үчүн бизге геолокацияңызды колдонуу мүмкүнчүлүгү керек.</string>
+    <string name="locus_permission_blocked_title">Колдонмого жайгашкан жер уруксаты керек</string>
+    <string name="locus_permission_blocked_message">Колдонмонун так жана туура иштеши үчүн сизге геолокацияга уруксат керек.</string>
+    <string name="locus_location_resolution_title">Колдонмого жайгашкан жер уруксаты керек</string>
+    <string name="locus_location_resolution_message">Колдонмону улантуу үчүн бизге геолокацияңызды колдонуу мүмкүнчүлүгү керек.</string>
+    <string name="markerError">Токендерди алуу катасы</string>
+    <string name="enable">ырастоо</string>
+    <string name="loading">Жүктөлүп жатат...</string>
+    <string name="about">Build version: </string>
+    <string name="licenseError">Колдонуучу келишимин окуп, кол коюңуз</string>
+    <string name="chooseOtherPhoto">Башка сүрөт тандаңыз!</string>
+    <string name="enterTextQuastion">Суроонун текстин толтуруңуз</string>
+    <string name="chooseCategory">Суроо категориясын тандаңыз</string>
+    <string name="notSura">Азырынча андай сүрө жок!</string>
+    <string name="shareOne">Бөлүшүү</string>
+    <string name="sharePhoto">Сүрөт менен бөлүшүү</string>
+    <string name="answerText">Жообуңуздун текстин киргизиңиз</string>
+    <string name="answerMaked">Суроо ийгиликтүү берилди</string>
+    <string name="section_under_development">бөлүм иштелип чыгууда</string>
+    <string name="namaz_time_over"> аркылуу:</string>
+    <string name="regPlease">Кирүү же Катталуу</string>
+    <string name="ayatEmpty">Андай аят жок!</string>
+    <string name="today">Бүгүн </string>
+    <string name="exitOk">Чыгуу иши аткарылды</string>
+    <string name="variant">Вариант %d</string>
+    <string name="chooseOnePhoto">Сураныч, жок дегенде бир сүрөт тандаңыз</string>
+    <string name="enterText">Текст талаасын толтуруңуз</string>
+    <string name="answerOk">Сиз ийгиликтүү жооп бердиңиз</string>
+    <string name="ayat">Аят</string>
+    <string name="russian">Русский</string>
+    <string name="english">Английский</string>
+    <string name="uzbek">Узбекский</string>
+    <string name="turk">Турецкий</string>
+    <string name="tadzhik">Таджикский</string>
+    <string name="kirg">Киргизский</string>
+    <string name="franch">Французский</string>
+    <string name="infoBlock">Маалымат жеткиликтүү эмес</string>
+    <string name="yourZakyat">Сиздин зекет </string>
+    <string name="rubl"> рубль</string>
+    <string name="payOk">Төлөм аткарылды</string>
+    <string name="chooseSumm">Төлөм суммасын тандаңыз</string>
+    <string name="filtersError">Чыпка тизмесин жүктөө катасы</string>
+    <string name="messages">Каттар</string>
+    <string name="shareApp">Тиркеме менен бөлүшүү</string>
+    <string name="donat">Кайрымдуулук</string>
+    <string name="appLanguage">Тиркеменин тили</string>
+    <string name="servicesMenu">Кызматтар</string>
+    <string name="texPod">Колдом кызматы</string>
+    <string name="aboutApp">Тиркеме боюнча маалымат</string>
+    <string name="taskOk">Сурам жөнөтүлдү!</string>
+    <string name="app_name">MuslimLife</string>
+    <string name="location_titel">Жайгашкан жер</string>
+    <string name="location_country">Өлкө-Мамлекет</string>
+    <string name="location_city">Шаар</string>
+    <string name="current_location">Менин жайгашкан жерим</string>
+    <string name="location_lust_text">Акыркы:</string>
+    <string name="question_subject">Суроонун темасы</string>
+    <string name="save">Сактоо</string>
+    <string name="redy">Даяр</string>
+    <string name="skip">Өткөрүп жибер</string>
+    <string name="reg_login">Каттоо же Кирүү</string>
+    <string name="reg_phone_text">Авторизация үчүн телефонду көрсөтүңүз жана SMSтен кодду киргизиңиз. Бул кодду эч ким менен бөлүшпөңүз.</string>
+    <string name="reg_accept">Макулмун  <font color='#59009F'>жеке маалыматтарды иштетүү саясаты менен</font></string>
+    <string name="sign_in">Кирүү</string>
+    <string name="enter_sms">SMSтен кодду киргизиңиз</string>
+    <string name="sms_text">Телефонго<font color='#161616'> %s </font>коду бар SMS билдирүү жөнөтүлдү. Жаңыдан кайра жөнөтүү%s</string>
+    <string name="sms_text_without_timer">%s телефонуна код менен SMS жөнөтүлдү.</string>
+    <string name="profile_data">Профилдин маалыматы</string>
+    <string name="name">Аты-жөнү</string>
+    <string name="surname">Фамилия</string>
+    <string name="email">Email</string>
+    <string name="private_data">Жеке маалыматтар</string>
+    <string name="phone">Телефон</string>
+    <string name="exit">Чыгуу</string>
+    <string name="settings">Орнотуулар</string>
+    <string name="sub">Каталуу</string>
+    <string name="notification">Билдирүү</string>
+    <string name="notifications">Билдирүү</string>
+    <string name="location">Жайгашкан жер</string>
+    <string name="message">Кат</string>
+    <string name="share">Тиркеме менен бөлүшүү</string>
+    <string name="donation">Биздин пландар</string>
+    <string name="language">Тиркеменин тили</string>
+    <string name="service">Кызмат</string>
+    <string name="support">Колдом кызматы</string>
+    <string name="info">Тиркеме боюнча маалымат</string>
+    <string name="other">Башкалар</string>
+    <string name="others">Башкалар</string>
+    <string name="sermons">Dawah</string>
+    <string name="tv">ТВ каналдар</string>
+    <string name="video">ТВ каналдар</string>
+    <string name="radio">Радио</string>
+    <string name="faq">Суроо<br /><br />берүү</string>
+    <string name="diaspoars">Диаспоралар</string>
+    <string name="wallpaper">Өң-тус обойлор</string>
+    <string name="worship">Ибадат</string>
+    <string name="page"> Бет</string>
+
+    <string name="compass">Компас</string>
+    <string name="namaz">Намаз</string>
+    <string name="zakyat">Зекет</string>
+
+    <string name="off_service">Бардык кызматтар өчүрүлгөн</string>
+    <string name="add_in_settings">Жөндөөлөрдөгү кызматтарды туташтырыңыз</string>
+    <string name="service_settings">Кызматтарды орнотуу</string>
+    <string name="sub_details">ЖАЗЫЛУУ ТУРАЛЫ:</string>
+    <string name="point">•</string>
+    <string name="sub_prem_preaching">Насыйкаттын кеңейтилген версиясы</string>
+    <string name="sub_prem_tv_radio">ТВ каналдар, радио (полная версия)</string>
+    <string name="sub_prem_koran">Ыңгайлуу жол менен Куранды үйрөнүү</string>
+    <string name="month">Ай</string>
+    <string name="rub_100">100 ₽</string>
+    <string name="sub_cancle">Катталуудан баш тартуу</string>
+    <string name="donation_summ">Кайрымдуулуктун суммасы</string>
+    <string name="choose_sum">Сумманы тандаңыз:</string>
+    <string name="send">Жөнөтүү</string>
+    <string name="settings_language">Тил</string>
+    <string name="quastion_kind">Суроонун темасы</string>
+    <string name="translate">Котормосу</string>
+    <string name="suri">Сүрөөнүн</string>
+    <string name="original_name">Оригиналдагы аталыш</string>
+    <string name="error_number_phone_empty">Телефон номерин киргизиңиз</string>
+    <string name="resend_code">Кодду жөнөтүү</string>
+    <string name="reader">Окурман</string>
+    <string name="bookmark">Кыстармалар</string>
+    <string name="quastion_imam">Имамга суроо</string>
+    <string name="thems">Темалар</string>
+    <string name="imam_kind">Суроолор боюнча адис:</string>
+    <string name="biography">Биография:</string>
+    <string name="show_all">Баарын көрсөтүү</string>
+    <string name="send_quastion">Суроо берүү</string>
+    <string name="imam_quastion">Имамга суроо</string>
+    <string name="not_choosed">Тандалган жок</string>
+    <string name="services">Кызматтар</string>
+    <string name="visible">Көрүүнүдө:</string>
+    <string name="invisible">Жашыруунда:</string>
+    <string name="phone_diasp">Телефон:</string>
+    <string name="social">Социалдык тармак:</string>
+    <string name="quastion_diaspoar">Диаспораларга суроо</string>
+    <string name="tv_chanels">ТВ каналдар</string>
+    <string name="about_app">Тиркеме боюнча маалымат</string>
+    <string name="input_type_name">Сиздин Аты-жөнүз</string>
+    <string name="input_type_second_name">Сиздин фамилияңыз</string>
+    <string name="input_type_email">Сиздин почтаныз</string>
+    <string name="input_type_phone">Сиздин номериңиз</string>
+    <string name="imam_answer">Имамдын жообу</string>
+    <string name="zakyat_payment">Зекеттин эсеби</string>
+    <string name="cash">Накталай акча</string>
+    <string name="monye_in_bank">Банктагы акча</string>
+    <string name="goods">Товар жана киреше</string>
+    <string name="gold">Алтын жана күмүш</string>
+    <string name="_0_025x">0.025x Зекет берилүүчү сумма</string>
+    <string name="send_money">Кайрымдуулук кылуу</string>
+    <string name="answer">Жооптор</string>
+    <string name="qibla">Кыбла</string>
+    <string name="arrow_point_out_top">Жебе өйдө көрсөтүшү керек</string>
+    <string name="message_diaspoar">Кат</string>
+    <string name="tasbih">Тасбих</string>
+    <string name="tasbih_fragment_round">Айлана</string>
+    <string name="main_favorite_title">Тез колдонууда:</string>
+    <string name="koran">Куран</string>
+
+    <string name="Fajr">Фаджр - Багымдат</string>
+
+    <string name="Shuruk">Шурук</string>
+    <string name="Zuhr">Зухр - Пешим</string>
+    <string name="Asr">Аср - Дигер</string>
+    <string name="Magrib">Магриб - Шам</string>
+    <string name="Isha">Иша - Куптан</string>
+    <string name="ready">Даяр</string>
+    <string name="musulmanLife">Мусульман Лайф Мусулмандын жашоосу</string>
+    <string name="all">Все</string>
+    <string name="needReg">Орнотуулар менен иштөө үчүн кирүү керек!</string>
+    <string name="Auth">Кириңиз</string>
+    <string name="test_zakyat">Кайрымдуулук Фонду «Закят»</string>
+    <string name="eatPoint">Кайсыл жерде тамактануу</string>
+
+    <string name="pointChurch">Мечиттер</string>
+    <string name="pointCafe">Кафе</string>
+    <string name="pointRestaurants">Ресторандар</string>
+    <string name="pointHalal">Адал буюмдар </string>
+    <string name="halalProduct">Адал дүкөндөр</string>
+
+
+    <string name="pointPrayerRoom">Намазканалар</string>
+    <string name="description">Сүрөттөмө:</string>
+    <string name="address">Адрес:</string>
+    <string name="workTime">Иш сааттары:</string>
+    <string name="getDirections">Багыт алуу</string>
+
+    <string name="search">Издөө</string>
+
+    <string name="cancel">Жокко чыгаруу</string>
+
+    <string name="call">Чалуу</string>
+
+    <string name="places">Жерлер</string>
+
+    <string name="halalShort">Адал</string>
+    <string name="translate_emil">Эльмир Кулиев</string>
+    <string name="subText1">
+&#8226; Насыйкаттын кеңейтилген версиясы</string>
+
+    <string name="subText2">
+&#8226; ТВ каналдар радио (толук версиясы)</string>
+
+    <string name="subText3">
+&#8226; Ыңгайлуу жол менен Куранды үйрөнүү</string>
+
+    <string name="subPrice">жазылыңыз</string>
+
+    <string name="quastions">Суроолор</string>
+    <string name="fonds">Фонддор</string>
+    <string name="currency">Валюта</string>
+    <string name="of_on_push">Push-Билдирүү</string>
+    <string name="notification_sounds">Билдирүүнүн үнү:</string>
+    <string name="qubla_subtext_2">Компасты калибрлөө үчүн смартфонуңузду горизонталдуу жана тез кармаңыз, бирок төмөндөгү сүрөттө көрсөтүлгөн кыймылды акырындык менен аткарыңыз</string>
+    <string name="qubla_subtext1">Смартфонуңузду\n тармакка туташкан түзмөктөрдөн алыс кармаңыз -\n электромагниттик нурлануу компаска таасирин тийгизет\n</string>
+    <string name="namaz_time">%1$s кийин:</string>
+    <string name="pn">Дүйшөмбү</string>
+    <string name="vt">Шейшемби</string>
+    <string name="sr">Шаршемби</string>
+    <string name="cht">Бейшенби</string>
+    <string name="pt">Жума</string>
+    <string name="sb">Ишемби</string>
+    <string name="vs">Жекшемби</string>
+    <string-array name="tasbih_round">
+        <item>\"Субха́н-Алла́х\"</item>
+        <item>\"Аль-Ха́мду ли-Лля́х\"</item>
+        <item>\"Аллаху Акбар\"</item>
+    </string-array>
+    <string-array name="currency">
+        <item>Рубль</item>
+        <item>Доллар</item>
+        <item>Евро</item>
+    </string-array>
+    <string name="emptyQuastion">Азырынча суроолор жок.</string>
+    <string name="hour"> саат</string>
+    <string name="hour1"> саат</string>
+    <string name="hour2"> саат</string>
+    <string name="mints"> намазга чейин мүнөт</string>
+    <string name="auth_create_or_enter_account">Жакшыраак колдонуучу тажрыйбасы үчүн, аккаунт түзүңүз же кириңиз</string>
+    <string name="authorization">Авторизация</string>
+    <string name="enter_google_account">Google аккаунту менен кириңиз</string>
+    <string name="enter_apple_id">Apple ID менен кириңиз</string>
+    <string name="download_started">Жүктөп алуу башталды</string>
+    <string name="phone_enter">Телефон номерин киргизиңиз</string>
+    <string-array name="months">
+        <item> Үчтүн Айы</item>
+        <item> Бирдин Айы</item>
+        <item> Жалган Куран</item>
+        <item> Чын Куран</item>
+        <item> Бугу</item>
+        <item> Кулжа</item>
+        <item> Теке</item>
+        <item> Баш Оона</item>
+        <item> Аяк Оона</item>
+        <item> Тогуздун айы</item>
+        <item> Жетинин Айы</item>
+        <item> Бештин Айы</item>
+    </string-array>
+    <string name="barakat">Barakat</string>
+    <string name="barakat_desc">Жеке катышыңыз\nдолбоорун иштеп чыгууда!\nJazāk Allāhu Khayran!</string>
+    <string name="search_area">аймакта издөө</string>
+
+    <string name="buy_image">Үчүн сатып алуу MLCoin</string>
+    <string name="buy">Сатып алуу</string>
+    <string name="buy_desc">3 MLCoin үчүн открытка сатып аласызбы?</string>
+    <string name="buy_error">Сизде MLCoins жетишсиз, сатып алып, балансыңызды толтургуңуз келеби?</string>
+    <string name="balance">Баланс</string>
+
+    <string name="azkar_title">Азкар</string>
+    <string name="azkar_morning">Таң</string>
+    <string name="azkar_evening">Кечки</string>
+    <string name="azkar_important">Маанилүү</string>
+    <string name="azkar_after_namaz">Намаздан кийин</string>
+</resources>

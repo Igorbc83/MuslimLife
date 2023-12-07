@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/view"
+    android:visibility="gone">
+
+    <TextView
+        style="@style/dialog_text_20sp"
+        android:text="@string/off_service"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        style="@style/dialog_sevice_17sp"
+        android:text="@string/add_in_settings"/>
+
+    <TextView
+        android:id="@+id/dialog_service_setting"
+        style="@style/dialog_service_settings"
+        android:text="@string/service_settings"
+        android:layout_marginBottom="100dp"/>
+</LinearLayout>

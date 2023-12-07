@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="back_image_but">
+        <item name="android:layout_width">212dp</item>
+        <item name="android:layout_height">43.5dp</item>
+        <item name="android:src">@drawable/ic_arrow_back</item>
+        <item name="android:paddingRight">184dp</item>
+        <item name="android:paddingBottom">13dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="location_titel_text_34sp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">41dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:autoSizeTextType">uniform</item>
+        <item name="autoSizeMinTextSize">12sp</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="location_country_text_17sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="hintStyle" parent="TextAppearance.Design.Hint">
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="location_city_text_17sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="go_image_view_location">
+        <item name="android:layout_width">6.2dp</item>
+        <item name="android:layout_height">10.4dp</item>
+        <item name="android:background">@drawable/ic_arrow</item>
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:rotation">180</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="current_location_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="location_lust_text_13sp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/purple_text</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="main_lust_text_13sp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="zakayat_text_13sp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/light_blue</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="helper_text_13sp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="suri_text_13sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="settings_koran_text_13sp">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="mater_but_current_loc" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name= "android:textColor">@color/light_green</item>
+        <item name= "android:textAllCaps">false</item>
+        <item name= "android:textSize">17sp</item>
+        <item name= "android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name= "cornerRadius">15dp</item>
+        <item name= "strokeColor">@color/light_green</item>
+        <item name= "strokeWidth">2dp</item>
+        <item name= "icon">@drawable/location_ic</item>
+        <item name= "iconTint">@color/light_green</item>
+        <item name= "iconGravity">textStart</item>
+        <item name= "iconPadding">20dp</item>
+        <item name="android:paddingVertical">13dp</item>
+    </style>
+
+    <style name="mater_but_filled" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name= "android:textColor">@color/light_white</item>
+        <item name= "android:textAllCaps">false</item>
+        <item name= "android:textSize">18sp</item>
+        <item name= "android:fontFamily">@font/montserrat_black</item>
+        <item name= "cornerRadius">14dp</item>
+        <item name= "backgroundTint">@color/dark_blue</item>
+        <item name="android:paddingVertical">14dp</item>
+    </style>
+
+    <style name="reg_text_skip">
+        <item name="android:textColor">@color/light_white</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">@drawable/skip_bg</item>
+        <item name="android:paddingVertical">5dp</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="current_city">
+        <item name="android:textColor">@color/light_white</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">@drawable/skip_bg</item>
+        <item name="android:paddingVertical">5dp</item>
+        <item name="android:paddingHorizontal">12dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="reg_text_40sp">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="reg_text_18sp">
+        <item name="android:textColor">@color/black_text_color</item>
+        <item name="android:fontFamily">@font/lato_light</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="redy_text_17sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">22dp</item>
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="settings_text_17sp_semibold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/lato_semibold</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="settings_text_17sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginLeft">18sp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="settings_koran_text_17sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="settings_text_15sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="settings_text_gray_15sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="settings_icon">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginVertical">14dp</item>
+        <item name="android:layout_marginStart">18dp</item>
+        <item name="android:src">@drawable/ic_prof_data</item>
+    </style>
+
+    <style name="switcher_icon">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_marginVertical">10dp</item>
+        <item name="android:layout_marginStart">18dp</item>
+        <item name="android:src">@drawable/ic_prof_data</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:background">@drawable/lineral_bg</item>
+    </style>
+
+    <style name="settings_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/lineral_bg</item>
+        <item name="android:backgroundTint">@color/light_white</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="handler_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/light_white</item>
+    </style>
+
+    <style name="handler_layout_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/light_white</item>
+    </style>
+
+    <style name="click_item_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/lineral_bg</item>
+        <item name="android:backgroundTint">@color/light_white</item>
+    </style>
+
+    <style name="line_frame">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:background">@color/divider</item>
+    </style>
+
+    <style name="double_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="block_rel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">68dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+    <style name="block_rel_settings">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <style name="block_rel_payer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="settings_item_block">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="settings_item_block_2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+    <style name="switch_theme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorAccent">@color/light_white</item>
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/dark_blue</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/light_white</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">#42221f1f
+        </item>
+    </style>
+
+    <style name="switch_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:checked">true</item>
+        <item name="android:theme">@style/switch_theme</item>
+
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="dialog_frame">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">6dp</item>
+        <item name="android:background">@drawable/bg_dialog_frame</item>
+    </style>
+
+    <style name="dialog_titel_text_22sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="dialog_title_text_18sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="dialog_icon">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="dialog_text_15sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="dialog_text_15sp_semibold">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="prayer_titel_text_22sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+
+    <style name="dialog_x_button">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:src">@drawable/ic_x</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="dialog_x_button_grey">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:src">@drawable/ic_x_gray</item>
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+
+    <style name="dialog_text_20sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="dialog_sevice_17sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="dialog_service_settings">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/light_white</item>
+        <item name="android:background">@drawable/skip_bg</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:paddingVertical">8dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+    </style>
+
+    <style name="sub_point">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/sf_pro_display_bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="sub_title">
+        <item name="android:textColor">@color/dark_blue</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="sub_line_frame">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="sub_duraction">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/sub_of_bg</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingVertical">3dp</item>
+        <item name="android:paddingHorizontal">8dp</item>
+    </style>
+
+    <style name="mater_but_cancle_sub" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name= "android:textColor">@color/black</item>
+        <item name= "android:textAllCaps">false</item>
+        <item name= "android:textSize">17sp</item>
+        <item name= "android:fontFamily">@font/sf_pro_display_semibold</item>
+        <item name= "cornerRadius">15dp</item>
+        <item name= "backgroundTint">@color/light_gray</item>
+        <item name= "android:paddingVertical">11dp</item>
+    </style>
+
+    <style name="dialog_edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name= "android:textColor">@color/black</item>
+        <item name= "android:textSize">17sp</item>
+        <item name= "android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name= "android:paddingVertical">14dp</item>
+        <item name= "android:paddingHorizontal">12dp</item>
+        <item name="android:background">@drawable/sub_of_bg</item>
+    </style>
+
+    <style name="reader_icon">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginStart">13dp</item>
+        <item name="android:src">@drawable/ic_prof_data</item>
+    </style>
+
+    <style name="koran_settings_icon">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:src">@drawable/ic_prof_data</item>
+    </style>
+
+    <style name="imam_kind_14sp">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@drawable/sub_of_bg_gray</item>
+    </style>
+
+
+    <style name="diaspoar_social">
+        <item name="android:layout_width">37dp</item>
+        <item name="android:layout_height">37dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:src">@drawable/ic_tg</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateVisible</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/dialog_bg</item>
+    </style>
+
+    <style name="dialog_full_screen" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+        <item name="windowFixedHeightMajor">100%</item>
+        <item name="windowFixedHeightMinor">100%</item>
+    </style>
+
+    <!-- SA suggestion dialog theme. -->
+    <style name="FullscreenDialogTheme" parent="Base.Theme.AppCompat.DialogWhenLarge">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:buttonTint">@color/dark_blue</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="clusterRender">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/sf_pro_display_regular</item>
+    </style>
+
+    <style name="FullScreenDialog" >
+        <item name="android:windowBackground">@color/light_white</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="title_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/montserrat_black</item>
+        <item name="android:autoSizeTextType">uniform</item>
+    </style>
+</resources>

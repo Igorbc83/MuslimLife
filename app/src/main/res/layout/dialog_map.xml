@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dialog_bg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            style="@style/dialog_frame"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            style="@style/dialog_title_text_18sp"
+            tools:text="@string/pointPrayerRoom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toStartOf="@+id/dialog_close"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+        <ImageButton
+            android:id="@+id/dialog_close"
+            style="@style/dialog_x_button"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/carousel_container"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            app:cardCornerRadius="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/dialogTitle">
+
+            <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+                android:id="@+id/carousel"
+                app:showNavigationButtons="false"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <me.relex.circleindicator.CircleIndicator2
+            android:id="@+id/custom_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            app:ci_drawable="@drawable/dot"
+            app:ci_drawable_unselected="@drawable/dot"
+            app:layout_constraintTop_toBottomOf="@+id/carousel_container" />
+
+        <TextView
+            android:id="@+id/descriptionTitle"
+            style="@style/location_lust_text_13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/custom_indicator" />
+
+        <TextView
+            android:id="@+id/descriptionText"
+            style="@style/settings_text_17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Помещение для совершения богослужения, домашняя церковь."
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionTitle" />
+
+        <FrameLayout
+            android:id="@+id/descriptionLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginTop="12dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionText"/>
+
+        <TextView
+            android:id="@+id/addressTitle"
+            style="@style/location_lust_text_13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/descriptionLine" />
+
+        <TextView
+            android:id="@+id/addressText"
+            style="@style/settings_text_17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="г.Москва ул. Коломинская дом №34"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addressTitle" />
+
+        <FrameLayout
+            android:id="@+id/addressLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginTop="12dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/addressText"/>
+
+        <TextView
+            android:id="@+id/workTimeTitle"
+            style="@style/location_lust_text_13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/workTime"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addressLine" />
+
+        <TextView
+            android:id="@+id/workTimesText"
+            style="@style/settings_text_17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Пн-Пт: 6:00 - 21:00, Сб-Вс: 10:00 - 20:00"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/workTimeTitle" />
+
+        <FrameLayout
+            android:id="@+id/workTimeLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginTop="12dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/workTimesText"/>
+
+
+        <TextView
+            android:id="@+id/phoneTitle"
+            style="@style/location_lust_text_13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_diasp"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/workTimeLine" />
+
+        <TextView
+            android:id="@+id/phoneText"
+            style="@style/settings_text_17sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="+7 (900) 000-00-00"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phoneTitle" />
+
+        <ImageButton
+            android:id="@+id/phoneButton"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:src="@drawable/ic_phone"
+            android:background="@android:color/transparent"
+            android:scaleType="center"
+            android:paddingRight="18dp"
+            android:paddingLeft="21dp"
+            android:paddingVertical="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/phoneLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/workTimeLine" />
+
+        <FrameLayout
+            android:id="@+id/phoneLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginTop="12dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/phoneText"/>
+
+        <TextView
+            android:id="@+id/socialTitle"
+            style="@style/location_lust_text_13sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/social"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phoneLine" />
+
+        <LinearLayout
+            android:id="@+id/socialLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/socialTitle" >
+
+            <ImageButton
+                android:id="@+id/instagramButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="10dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/ic_instagram_map_new"
+                android:scaleType="center"
+                android:background="@color/transparent"/>
+            <ImageButton
+                android:id="@+id/vkButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="10dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/ic_vk_map_new"
+                android:scaleType="center"
+                android:background="@color/transparent"/>
+            <ImageButton
+                android:id="@+id/telegramButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="10dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/ic_telegram_map_new"
+                android:scaleType="center"
+                android:background="@color/transparent"/>
+            <ImageButton
+                android:id="@+id/whatsAppButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="10dp"
+                android:layout_marginStart="12dp"
+                android:src="@drawable/ic_whats_app_map_new"
+                android:scaleType="center"
+                android:background="@color/transparent"/>
+
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/socialLine"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginTop="4dp"
+            android:layout_marginHorizontal="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/socialLayout"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/getDirectionsButton"
+            style="@style/mater_but_filled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/getDirections"
+            android:fontFamily="@font/lato_semibold"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/socialLine"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

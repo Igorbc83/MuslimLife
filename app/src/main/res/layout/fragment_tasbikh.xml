@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_white"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_white"
+        android:paddingEnd="0dp">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            style="@style/back_image_but"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/tasbih_title"
+            style="@style/location_titel_text_34sp"
+            android:text="@string/tasbih"
+            android:layout_width="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="13dp"
+            android:layout_marginStart="16dp"/>
+
+        <ImageView
+            android:id="@+id/tasbih_reload"
+            android:layout_height="60dp"
+            android:layout_width="60dp"
+            android:padding="20dp"
+            android:src="@drawable/ic_reload"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:tint="@color/dark_blue" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        style="@style/click_item_layout">
+
+        <TextView
+            android:id="@+id/tasbihRound"
+            style="@style/settings_text_17sp_semibold"
+            android:layout_margin="16dp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tasbihCount"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_black"
+                android:textColor="@color/black"
+                android:textAlignment="textEnd"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="22sp"
+                android:text="/33"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tasbihText"
+        style="@style/dialog_titel_text_22sp"
+        android:fontFamily="@font/lato_bold"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+    <com.muslimlife.app.view.tasbih.TasbihView
+        android:id="@+id/tasbihView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

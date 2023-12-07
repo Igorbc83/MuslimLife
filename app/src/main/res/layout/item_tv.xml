@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_white"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/dialog_icon_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:cardCornerRadius="360dp"
+        android:layout_marginStart="16dp"
+        app:strokeColor="@color/dark_blue"
+        app:strokeWidth="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/dialog_icon"
+            style="@style/koran_settings_icon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@+id/dialog_icon_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintStart_toEndOf="@+id/dialog_icon_parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/dialog_titel"
+            style="@style/settings_text_17sp"
+            android:layout_marginStart="0dp"
+            tools:text="Радиостанция" />
+
+        <TextView
+            android:id="@+id/dialog_bottom_text"
+            style="@style/location_lust_text_13sp"
+            android:textColor="@color/gray"
+            android:fontFamily="@font/sf_pro_display_regular"
+            tools:text="Русскиий, Arabic" />
+
+        <TextView
+            android:id="@+id/time_text"
+            style="@style/location_lust_text_13sp"
+            android:textColor="@color/gray"
+            android:fontFamily="@font/sf_pro_display_regular"
+            tools:text="9:30-11:30" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/go_image_view_location"
+        android:layout_centerVertical="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        style="@style/line_frame"
+        android:layout_marginTop="16dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

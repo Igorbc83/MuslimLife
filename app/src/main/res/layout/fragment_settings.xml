@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_block"
+    android:orientation="vertical"
+    android:id="@+id/main_layout">
+
+
+    <LinearLayout
+        style="@style/handler_layout"
+        >
+        <ImageButton
+            android:id="@+id/back_button_settings"
+            style="@style/back_image_but"/>
+        <TextView
+            style="@style/location_titel_text_34sp"
+            android:layout_marginStart="16dp"
+            android:text="@string/settings"/>
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="33dp">
+            <LinearLayout
+                android:id="@+id/settings_profile_data"
+                style="@style/settings_layout">
+                <ImageView
+                    style="@style/settings_icon"/>
+                <RelativeLayout
+                    style="@style/block_rel_settings">
+
+                    <LinearLayout
+                        style="@style/double_text"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp">
+
+                        <TextView
+                            style="@style/settings_text_17sp_semibold"
+                            android:text="@string/profile_data" />
+
+                        <TextView
+                            android:id="@+id/email"
+                            style="@style/settings_text_15sp" />
+                    </LinearLayout>
+                    <ImageView
+                        style="@style/go_image_view_location"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            style="@style/settings_layout"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/settings_sub"
+                style="@style/settings_item_block_2"
+                layout="@layout/item_settings_block"/>
+
+            <FrameLayout
+                style="@style/line_frame"/>
+
+            <include
+                android:id="@+id/settings_qr_code"
+                style="@style/settings_item_block_2"
+                layout="@layout/item_settings_block"/>
+
+            <FrameLayout
+                style="@style/line_frame"/>
+
+            <include
+                android:id="@+id/settings_mlcoin"
+                style="@style/settings_item_block_2"
+                layout="@layout/item_settings_block"/>
+        </LinearLayout>
+
+            <include
+                android:id="@+id/switch_block"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                style="@style/settings_item_block"
+                layout="@layout/item_settings_of_on"
+                android:layout_marginTop="16dp"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/settings_block_rv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="16dp"
+                android:background="@drawable/lineral_bg"
+                android:backgroundTint="@color/light_white"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/auth_block"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        >
+        <TextView
+            style="@style/settings_text_17sp_semibold"
+            android:text="@string/needReg"
+            android:gravity="center"
+            android:layout_marginHorizontal="16dp"/>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/reg_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/mater_but_filled"
+            android:text="@string/reg_login"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="16dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

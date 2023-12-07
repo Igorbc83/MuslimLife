@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_white"
+    android:scrollbars="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_white"
+            android:scrollbars="vertical"
+            android:clipToPadding="false"
+            android:paddingBottom="200dp">
+
+            <LinearLayout
+                android:id="@+id/imam_date_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:innerRadius="0dp"
+                    android:shape="ring"
+                    app:cardCornerRadius="75dp"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <ImageView
+                        android:id="@+id/imam_icon"
+                        android:layout_width="124dp"
+                        android:layout_height="124dp"
+                        android:scaleType="centerCrop"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/imam_name"
+                    style="@style/settings_text_17sp_semibold"
+                    android:layout_marginTop="3dp" />
+
+                <TextView
+                    android:id="@+id/imam_language"
+                    style="@style/settings_text_15sp"
+                    android:layout_marginTop="6dp"
+                    android:visibility="gone"
+                    android:textColor="@color/gray" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/imam_line"
+                android:layout_below="@+id/imam_date_layout"
+                android:layout_marginTop="17dp"
+                style="@style/sub_line_frame"
+                android:background="@color/light_gray"/>
+
+            <TextView
+                android:id="@+id/imam_kind_titel"
+                style="@style/location_lust_text_13sp"
+                android:layout_below="@+id/imam_line"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:textColor="@color/gray"
+                android:visibility="gone"
+                android:text="@string/imam_kind" />
+
+            <TextView
+                android:id="@+id/imam_kind"
+                style="@style/imam_kind_14sp"
+                android:layout_below="@+id/imam_kind_titel"
+                android:visibility="gone"
+                android:layout_marginHorizontal="16dp" />
+
+            <TextView
+                android:id="@+id/imam_biography_titel"
+                style="@style/location_lust_text_13sp"
+                android:layout_below="@+id/imam_kind"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/biography"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/imam_biography"
+                android:layout_below="@id/imam_biography_titel"
+                android:layout_marginTop="8dp"
+                android:ellipsize="end"
+                style="@style/settings_text_17sp"
+                android:maxLines="3"
+                />
+
+            <TextView
+                android:id="@+id/imam_all_info"
+                style="@style/settings_text_17sp_semibold"
+                android:layout_below="@id/imam_biography"
+                android:layout_marginStart="16dp"
+                android:paddingVertical="8dp"
+                android:text="@string/show_all"
+                android:visibility="gone"
+                android:textColor="@color/dark_blue" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imam_all_info">
+
+                <VideoView android:id="@+id/player_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="270dp"
+                    android:layout_marginTop="8dp" />
+
+                <ImageView
+                    android:id="@+id/play"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/ic_play_white"
+                    android:layout_gravity="center"/>
+            </FrameLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/back_button"
+        style="@style/back_image_but"
+        android:elevation="1dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/imam_quastion_send_button"
+        style="@style/mater_but_filled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="37dp"
+        android:fontFamily="@font/lato_semibold"
+        android:letterSpacing="0.03"
+        android:text="@string/send_quastion"
+        android:elevation="1dp"
+        android:visibility="gone"
+        android:textSize="17sp" />
+
+</RelativeLayout>

@@ -1,0 +1,343 @@
+<resources>
+
+    <!--    Permisions texts-->
+    <string name="locus_rationale_title" />
+    <string name="locus_rationale_message">Для продолжения работы приложению необходим доступ к вашей геолокации</string>
+    <string name="locus_permission_blocked_title">Приложению необходимо разрешение на геолокацию</string>
+    <string name="locus_permission_blocked_message">Для точной и правильной работы приложения необходимо разрешение на геолокацию.</string>
+    <string name="locus_location_resolution_title">Приложению необходимо разрешение на геолокацию</string>
+    <string name="locus_location_resolution_message">Для точной и правильной работы приложения необходимо разрешение на геолокацию.</string>
+    <string name="markerError">Ошибка в получении маркеров</string>
+    <string name="enable">Подтвердить</string>
+    <string name="loading">Загрузка...</string>
+    <string name="about">Версия приложения: </string>
+    <string name="licenseError">Ознакомьтесь и подпишите пользовательское соглашение</string>
+    <string name="chooseOtherPhoto">Выберите другую картинку!</string>
+    <string name="enterTextQuastion">Заполните текст вопроса</string>
+    <string name="chooseCategory">Выберите категорию вопроса</string>
+    <string name="notSura">Такой суры еще нет!</string>
+    <string name="shareOne">Поделиться</string>
+    <string name="sharePhoto">Поделиться изображением</string>
+    <string name="answerText">Введите текст ответа</string>
+    <string name="answerMaked">Вопрос успешно задан</string>
+    <string name="regPlease">Авторизуйтесь или зарегистрируйтесь</string>
+    <string name="ayatEmpty">Такого аята еще нет!</string>
+    <string name="today">Сегодня </string>
+    <string name="exitOk">Выход выполнен</string>
+    <string name="variant">Вариант %d</string>
+    <string name="chooseOnePhoto">Выберите хотя бы одно изображение</string>
+    <string name="enterText">Заполните текстовое поле</string>
+    <string name="answerOk">Вы успешно ответили</string>
+    <string name="ayat">Аят</string>
+    <string name="russian">Русский</string>
+    <string name="english">Английский</string>
+    <string name="uzbek">Узбекский</string>
+    <string name="turk">Турецкий</string>
+    <string name="tadzhik">Таджикский</string>
+    <string name="kirg">Киргизский</string>
+    <string name="franch">Французский</string>
+    <string name="infoBlock">Информация недоступна</string>
+    <string name="yourZakyat">Ваш закят </string>
+    <string name="rubl"> рублей</string>
+    <string name="payOk">Оплата совершена</string>
+    <string name="chooseSumm">Выберите сумму оплаты</string>
+    <string name="filtersError">Ошибка загрузки списка фильтров</string>
+    <string name="messages">Сообщения</string>
+    <string name="shareApp">Поделиться приложением</string>
+    <string name="donat">Донат</string>
+    <string name="appLanguage">Язык приложения</string>
+    <string name="servicesMenu">Сервисы</string>
+    <string name="texPod">Техподдеркжа</string>
+    <string name="aboutApp">О приложении</string>
+    <string name="taskOk">Обращение отправленно!</string>
+    <string name="app_name">MuslimLife</string>
+    <string name="location_titel">Местоположение</string>
+    <string name="location_country">Страна</string>
+    <string name="location_city">Город</string>
+    <string name="current_location">Мое местоположение</string>
+    <string name="location_lust_text">Последнее:</string>
+    <string name="question_subject">Тема вопроса</string>
+    <string name="save">Сохранить</string>
+    <string name="redy">Готово</string>
+    <string name="skip">Пропустить</string>
+    <string name="reg_login">Регистрация или Вход</string>
+    <string name="phone_enter">Введите номер телефона</string>
+    <string name="reg_phone_text">Укажите телефон для авторизации и введите код из SMS. Никому не сообщайте данный код.</string>
+    <string name="reg_accept">Согласен  <font color='#59009F'>с политикой обработки персональных данных</font></string>
+    <string name="sign_in">Вход</string>
+    <string name="enter_sms">Введите код из SMS</string>
+    <string name="sms_text">На телефон<font color='#161616'> %s </font>отправлено SMS сообщение с кодом. Повторная отправка через %s</string>
+    <string name="sms_text_without_timer">На телефон %s отправлено SMS сообщение с кодом.</string>
+    <string name="profile_data">Данные профиля</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="email">Email</string>
+    <string name="section_under_development">Раздел находится в разработке</string>
+    <string name="private_data">Личные данные</string>
+    <string name="phone">Телефон</string>
+    <string name="exit">Выйти</string>
+    <string name="settings">Персонализация</string>
+    <string name="sub">Подписка</string>
+    <string name="notification">Уведомления</string>
+    <string name="notifications">Уведомление</string>
+    <string name="location">Геопозиция</string>
+    <string name="message">Сообщение</string>
+    <string name="share">Поделиться приложением</string>
+    <string name="donation">Наши планы</string>
+    <string name="language">Язык приложения</string>
+    <string name="service">Сервис</string>
+    <string name="support">Техподдержка</string>
+    <string name="info">О приложении</string>
+    <string name="other">Прочее</string>
+    <string name="others">Другое</string>
+    <string name="sermons">Dawah</string>
+    <string name="tv">ТВ каналы</string>
+    <string name="video">ТВ каналы</string>
+    <string name="radio">Радио</string>
+    <string name="faq">Задать<br /><br />вопрос</string>
+    <string name="diaspoars">Диаспоры</string>
+    <string name="wallpaper">Обои</string>
+    <string name="worship">Поклонение</string>
+    <string name="page"> страница</string>
+    <string name="barakat">Баракат</string>
+    <string name="barakat_desc">Прими личное участие\nв развитии проекта!\nJazāk Allāhu Khayran!</string>
+
+    <string name="compass">Компас</string>
+    <string name="namaz">Намаз</string>
+    <string name="zakyat">Закят</string>
+
+    <string name="off_service">Все сервисы отключены</string>
+    <string name="add_in_settings">Подключите сервисы в настройках</string>
+    <string name="service_settings">Настройка сервисов</string>
+    <string name="sub_details">ДЕТАЛИ ПОДПИСКИ:</string>
+    <string name="point">•</string>
+    <string name="sub_prem_preaching">Расширенная версия Dawah</string>
+    <string name="sub_prem_tv_radio">ТВ каналы, радио (полная версия)</string>
+    <string name="sub_prem_koran">Изучение корана в удобном виде</string>
+    <string name="month">Месяц</string>
+    <string name="rub_100">100 ₽</string>
+    <string name="sub_cancle">Отменить подписку</string>
+    <string name="donation_summ">Сумма доната</string>
+    <string name="choose_sum">Выберите сумму:</string>
+    <string name="send">Отправить</string>
+    <string name="settings_language">Язык</string>
+    <string name="quastion_kind">Тема вопроса</string>
+    <string name="translate">Перевод</string>
+    <string name="suri">Суры</string>
+    <string name="original_name">Название на оригинале</string>
+    <string name="error_number_phone_empty">Введите номер телефона</string>
+    <string name="resend_code">Отправить код</string>
+    <string name="reader">Чтец</string>
+    <string name="bookmark">Закладки</string>
+    <string name="quastion_imam">Вопрос имаму</string>
+    <string name="thems">Темы</string>
+    <string name="imam_kind">Эксперт в вопросах:</string>
+    <string name="biography">Биография:</string>
+    <string name="show_all">Показать полностью</string>
+    <string name="send_quastion">Задать вопрос</string>
+    <string name="imam_quastion">Вопрос имаму</string>
+    <string name="not_choosed">Не выбрана</string>
+    <string name="services">Сервисы</string>
+    <string name="visible">Видны:</string>
+    <string name="invisible">Скрыты:</string>
+    <string name="phone_diasp">Телефон:</string>
+    <string name="social">Социальные сети:</string>
+    <string name="quastion_diaspoar">Вопрос диаспоре</string>
+    <string name="tv_chanels">ТВ каналы</string>
+    <string name="about_app">О приложении</string>
+    <string name="input_type_name">Ваше имя</string>
+    <string name="input_type_second_name">Ваша фамилия</string>
+    <string name="input_type_email">Ваша почта</string>
+    <string name="input_type_phone">Ваш номер телефона</string>
+    <string name="imam_answer">Ответ иммама</string>
+    <string name="zakyat_payment">Расчёт закята</string>
+    <string name="cash">Наличные</string>
+    <string name="monye_in_bank">Деньги в банке</string>
+    <string name="goods">Товары и доходы</string>
+    <string name="gold">Золото и серебро</string>
+    <string name="_0_025x">0.025x Облагаемую закятом сумму</string>
+    <string name="send_money">Пожертвовать</string>
+    <string name="answer">Ответы</string>
+    <string name="qibla">Кибла</string>
+    <string name="arrow_point_out_top">Стрелка должна указывать наверх</string>
+    <string name="message_diaspoar">Сообщение</string>
+    <string name="tasbih">Тасбих</string>
+    <string name="tasbih_fragment_round">Круг</string>
+    <string name="main_favorite_title">Часто используете:</string>
+    <string name="koran">Коран</string>
+
+    <string name="Fajr">Фаджр</string>
+
+    <string name="Shuruk">Шурук</string>
+    <string name="Zuhr">Зухр</string>
+    <string name="Asr">Аср</string>
+    <string name="Magrib">Магриб</string>
+    <string name="Isha">Иша</string>
+    <string name="ready">Готово</string>
+    <string name="musulmanLife">Мусульман Лайф</string>
+    <string name="all">Все</string>
+    <string name="needReg">Для работы с настройками, необходимо авторизоваться!</string>
+    <string name="Auth">Авторизоваться</string>
+    <string name="test_zakyat">Благотворительный Фонд «Закят»</string>
+    <string name="eatPoint">Где поесть</string>
+
+    <string name="pointChurch">Мечети</string>
+    <string name="pointCafe">Кафе</string>
+    <string name="pointRestaurants">Рестораны</string>
+    <string name="pointHalal">Халяльная продукция</string>
+    <string name="halalProduct">Халяль магазин</string>
+
+
+    <string name="pointPrayerRoom">Молельная комната</string>
+    <string name="description">Описание:</string>
+    <string name="address">Адрес:</string>
+    <string name="workTime">График работы:</string>
+    <string name="getDirections">Проложить маршрут</string>
+
+    <string name="search">Поиск</string>
+
+    <string name="cancel">Отмена</string>
+
+    <string name="call"><u>Позвонить</u></string>
+
+    <string name="places">Места</string>
+
+    <string name="halalShort">Халяль</string>
+    <string name="translate_emil">Эльмир Кулиев</string>
+    <string name="subText1">
+&#8226; Расширенная версия Dawah</string>
+
+    <string name="subText2">
+&#8226; ТВ каналы, радио (полная версия)</string>
+
+    <string name="subText3">
+&#8226; Изучение корана в удобном виде</string>
+
+    <string name="subPrice">Оформить подписку</string>
+
+    <string name="quastions">Вопросы</string>
+    <string name="fonds">Фонды</string>
+    <string name="currency">Валюта</string>
+    <string name="of_on_push">Push-уведомление</string>
+    <string name="notification_sounds">Звуки уведомлений:</string>
+    <string name="qubla_subtext_2">Чтобы откалибровать компас, держите смартфон горизонтально и быстро, но плавно повторите движение, указанное на изображении ниже</string>
+    <string name="qubla_subtext1">Держите смартфон вдали\n от подключенных к сети приборов —\n электромагнитное излучение влияет\n на работу компаса</string>
+    <string name="namaz_time">%1$s через:</string>
+    <string name="namaz_time_over"> через:</string>
+    <string name="pn">Пн</string>
+    <string name="vt">Вт</string>
+    <string name="sr">Ср</string>
+    <string name="cht">Чт</string>
+    <string name="pt">Пт</string>
+    <string name="sb">Сб</string>
+    <string name="vs">Вс</string>
+    <string-array name="tasbih_round">
+        <item>\"Субха́н-Алла́х\"</item>
+        <item>\"Аль-Ха́мду ли-Лля́х\"</item>
+        <item>\"Аллаху Акбар\"</item>
+    </string-array>
+    <string-array name="months">
+        <item> января</item>
+        <item> февраля</item>
+        <item> марта</item>
+        <item> апреля</item>
+        <item> мая</item>
+        <item> июня</item>
+        <item> июля</item>
+        <item> августа</item>
+        <item> сентября</item>
+        <item> октября</item>
+        <item> ноября</item>
+        <item> декабря</item>
+    </string-array>
+
+    <string-array name="currency">
+        <item>Рубли</item>
+        <item>Доллары</item>
+        <item>Евро</item>
+    </string-array>
+    <string name="emptyQuastion">Вопросов пока нет.</string>
+    <string name="hour"> час</string>
+    <string name="hour1"> часа</string>
+    <string name="hour2"> часов</string>
+    <string name="mints"> минут до молитвы</string>
+    <string name="authorization">Авторизация</string>
+    <string name="auth_create_or_enter_account">Для повышения комфорта пользовательского взаимодействия, создайте аккаунт или выполните вход</string>
+    <string name="enter_apple_id">Войти с Apple ID</string>
+    <string name="enter_google_account">Войти с Google Account</string>
+    <string name="download_started">Загрузка запущена</string>
+    <string name="thx">Спасибо за вашу поддержку!</string>
+    <string name="alert_sub_desc">Оформите подписку для получения доступа к этому функционалу</string>
+
+    <string name="zakyat_info">
+
+<b>1. К оплате в приложении принимаются банковские карты Visa и Master Card, карта «Мир».</b>
+        \n
+<b>2. Оплата банковской картой\n</b>
+Для этого после ввода данных нажмите кнопку <b>«Пожертвовать»</b>
+После оплаты обязательно дождитесь ответа, чтобы убедиться, что она прошла успешно. Если произошла ошибка, вы можете выбрать другой способ оплаты.\n
+<b>3. Порядок проведения оплаты картой в приложении</b>\n
+Проведение операций оплаты банковскими картами осуществляется с применением 3DSecure технологий защиты. \n
+<b>Порядок проведения оплаты следующий:</b>\n
+<b>3.1</b> Пользователь переходит в раздел «Закят» и нажимает на «Пожертвовать»;\n
+<b>3.2</b> Приложение обрабатывает пожертвование и передаёт банку информацию о нём;\n
+<b>3.3</b> Приложение перенаправляет пользователя на платёжную страницу, на которой находится форма для указания реквизитов карты. Пользователь вводит следующую информацию:\n
+- Тип карты;\n
+- Номер карты;\n
+- Дата окончания срока действия карты;\n
+- Имя и фамилия, как указано на карте;\n
+- Значения CVC2 или CVV2;\n
+- Специальный пароль для подтверждения оплаты.\n
+После этого информация об операции передаётся в банк.\n
+<b>3.4</b> Если оплата одобрена банком, приложение и пользователь получают подтверждение. Если банк отклонил операцию по оплате, эта информация также будет передана пользователю и приложению. Обработка одобренной банком операции по оплате осуществляется автоматически не позднее следующего рабочего дня после дня совершения операции. При возникновении проблем с оплатой на странице банка, Вы можете связаться с ПАО «СБЕРБАНК РОССИИ» по телефону: 8 (800) 555-55-50.\n
+<b>Безопасность платежей</b>\n
+Настоящий сайт поддерживает 256-битное шифрование.Введенная информация не будет предоставлена третьим лицам за исключением случаев, предусмотренных законодательством РФ. Проведение платежей по банковским картам осуществляется в строгом соответствии с требованиями платежных систем Visa Int. и MasterCard Europe Sprl. В случае возникновения вопросов по поводу данной конфиденциальности предоставляемой Вами информации, Вы можете связаться с ПАО «СБЕРБАНК РОССИИ» по телефону: 8 (800) 555-55-50.\n
+<b>4 Для отмены, пожалуйста, обратитесь в службу клиентской поддержки.</b>
+    </string>
+
+    <string name="pay_card"><u>ОПЛАТА БАНКОВСКОЙ КАРТОЙ</u></string>
+
+    <string name="search_area">искать в этом районе</string>
+    <string name="sub_cancle_rustore">Перейти в RuStore</string>
+
+    <string name="buy_image">Купить за MLCoin</string>
+    <string name="buy">Купить</string>
+    <string name="buy_desc">Купить открытку за 3 MLCoin?</string>
+    <string name="buy_error">У вас не хватает монет MLCoin, хотите купить и пополнить баланс?</string>
+    <string name="balance">Баланс</string>
+
+    <string name="test" translatable="false">test</string>
+    <string name="test2" translatable="false">test2</string>
+
+    <string name="azkar_title">Азкары</string>
+    <string name="azkar_morning">Утренние</string>
+    <string name="azkar_evening">Вечерние</string>
+    <string name="azkar_important">Важное</string>
+    <string name="azkar_after_namaz">После молитвы</string>
+
+    <string name="off_internet_title">Нет подключения к интернету</string>
+    <string name="off_internet_desc">Пожалуйста, проверьте ваше интернет-соединение и попробуйте снова</string>
+    <string name="off_internet_btn">Повторить подключение</string>
+    <string name="migrants_desc"><![CDATA[Список организаций и контакты, полезные переезжающим и приезжим]]></string>
+    <string name="migrants_title">Помощь мигрантам</string>
+    <string name="migrants_list_title">Мигрантам</string>
+    <string name="write"><u>Написать</u></string>
+    <string name="email_temp"><u>%1$s</u></string>
+    <string name="in_map"><u>Показать на карте</u></string>
+    <string name="qr_code">QR-код</string>
+    <string name="qr_code_desc"><![CDATA[Ваш личный QR-код на скидку до 6% в магазинах халяльной продукции, ресторанах, кафе и иных заведениях, успешно прошедших верификацию в приложении Muslim Life]]></string>
+    <string name="qr_code_desc_2"><![CDATA[Для получения скидки по счёту просто покажите код сотруднику заведения]]></string>
+    <string name="qr_code_count">Общая сумма ваших заказов: %1$s ₽</string>
+    <string name="qr_code_discount">Текущая скидка — %1$s</string>
+    <string name="qr_code_settings">Ваш QR-код</string>
+    <string name="chat_ai_main_desc"><![CDATA[На вопросы отвечает искусственный интеллект Muslim Life]]></string>
+
+    <string name="chat_ai_mlcoin_title">Цена одного сообщения 1 MlCoin</string>
+    <string name="chat_ai_btn">Больше не напоминать</string>
+    <string name="muftiy_desc">Обращение главного муфтия Москвы</string>
+    <string name="namaz_desc"><b>Внимание!</b>
+Расписание времени намаза в приложении Muslim Life – расчетное. Это означает, что для Вашего текущего местоположения оно определено с помощью вычислений. Но приложение не может видеть зарю и солнце! Поэтому истинное время намаза может отличаться от расчетного.
+Помните, что шариат <u><b>обязал</b></u> опираться на зрительную фиксацию в определении времён пятикратных молитв!
+Подробнее:</string>
+    <string name="namaz_link"><u>https://drive.google.com/file/d/1OSycoBD_IYdZziiXcN6vSJjSp2xomw6O/view?usp=sharing</u></string>
+</resources>

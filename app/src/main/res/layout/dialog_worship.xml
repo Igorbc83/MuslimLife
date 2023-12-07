@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="310dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/dialog_bg"
+    android:layout_gravity="bottom">
+
+    <FrameLayout
+        style="@style/dialog_frame"/>
+
+    <TextView
+        android:id="@+id/worship_titel_text"
+        style="@style/dialog_titel_text_22sp"
+        android:text="@string/worship" />
+
+    <ImageButton
+        android:id="@+id/dialog_close"
+        style="@style/dialog_x_button_grey"
+        android:background="@android:color/transparent" />
+
+    <GridView
+        android:id="@+id/worship_gv"
+        android:layout_below="@+id/worship_titel_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:padding="16dp"
+        tools:listitem="@layout/item_other"
+        android:gravity="bottom"/>
+
+</RelativeLayout>

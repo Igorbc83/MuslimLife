@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/item_main_title"/>
+
+    <LinearLayout
+        android:id="@+id/barakatView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="96dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ic_barakat"
+            android:layout_marginStart="16dp"
+            android:padding="11dp"
+            android:background="@drawable/shadow_12128"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/dialog_text_15sp"
+            android:layout_height="match_parent"
+            android:textAlignment="textStart"
+            android:layout_marginStart="11dp"
+            android:text="@string/barakat_desc"
+            android:fontFamily="@font/lato_regular" />
+    </LinearLayout>
+</LinearLayout>

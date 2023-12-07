@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title=""/>
+    <item
+        android:id="@+id/map"
+        android:enabled="true"
+        android:icon="@drawable/ic_map_bnm"
+        android:title=""/>
+    <item
+        android:id="@+id/worship"
+        android:enabled="true"
+        android:icon="@drawable/ic_worship_bnm"
+        android:title=""/>
+    <item
+        android:id="@+id/other"
+        android:enabled="true"
+        android:icon="@drawable/ic_other_bnm"
+        android:title=""/>
+    <item
+        android:id="@+id/answer"
+        android:enabled="true"
+        android:icon="@drawable/ic_answer_bnm"
+        android:title=""/>
+</menu>

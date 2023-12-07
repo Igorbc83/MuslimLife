@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/light_white">
+
+
+    <ImageButton
+        android:id="@+id/back_button"
+        style="@style/back_image_but"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/reg_text_40sp"
+        android:textSize="34sp"
+        android:text="@string/donation"
+        android:paddingStart="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_text_15sp"
+        android:layout_gravity="center_horizontal"
+        android:text="Ассаламу Алейкум Ва Рахматуллахи Ва Барякятух!
+В настоящее время мы разрабатываем много полезных и востребованных сервисов, таких как : halalbooking, halalfood, halalmarket и т.д.
+Вы можете поддержать наш проект, и вместе мы сделаем его уникальным.
+С уважением и благодарностью,
+Команда MuslimLife"
+        android:fontFamily="@font/lato_regular"
+        android:layout_marginHorizontal="26dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:showYouTubeButton="true"
+        app:showVideoDuration="true"
+        app:showVideoCurrentTime="true"
+        app:showSeekBar="true"
+        app:enableLiveVideoUi="false"
+        app:useWebUi="false"
+        app:autoPlay="false"
+        android:layout_marginTop="25dp"
+        app:showFullScreenButton="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/dialog_text_15sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/donation_summ"
+        android:visibility="gone"
+        android:fontFamily="@font/lato_regular"
+        android:layout_marginTop="54dp"
+        />
+
+    <TextView
+        android:id="@+id/donation_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/reg_text_40sp"
+        tools:text="1000"
+        android:visibility="gone"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+    <FrameLayout
+        style="@style/sub_line_frame"
+        android:layout_marginTop="8dp"
+        android:background="@color/light_green"
+        android:paddingHorizontal="16dp"/>
+
+    <TextView
+        style="@style/location_lust_text_13sp"
+        android:textColor="@color/black"
+        android:text="@string/choose_sum"
+        android:layout_marginTop="43dp"
+        android:visibility="gone"
+        android:paddingHorizontal="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:paddingHorizontal="16dp"
+        >
+        <include
+            android:id="@+id/summ_100"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            layout="@layout/item_donation_type"
+            />
+        <include
+            android:id="@+id/summ_200"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            layout="@layout/item_donation_type"
+            android:layout_marginHorizontal="8dp"
+            />
+        <include
+            android:id="@+id/summ_500"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            layout="@layout/item_donation_type"
+            />
+        <include
+            android:id="@+id/summ_1000"
+            android:layout_width="0dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            layout="@layout/item_donation_type"
+            android:layout_marginStart="8dp"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/donation_send_button"
+            style="@style/mater_but_filled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/lato_semibold"
+            android:text="@string/send"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+</LinearLayout>

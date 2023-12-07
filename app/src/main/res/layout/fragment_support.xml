@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_white">
+
+
+    <ImageButton
+        android:id="@+id/back_button"
+        style="@style/back_image_but"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/reg_text_40sp"
+        android:textSize="34sp"
+        android:text="@string/support"
+        android:layout_marginStart="16dp"
+        />
+
+    <FrameLayout
+        style="@style/sub_line_frame"
+        android:background="@color/line_gray"
+        android:layout_marginTop="10.5dp"/>
+
+    <EditText
+        android:id="@+id/support_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:textColorHint="@color/gray"
+        android:hint="@string/message"
+        android:minHeight="116dp"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:gravity="top"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:background="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/support_send_button"
+            style="@style/mater_but_filled"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/lato_semibold"
+            android:textSize="17sp"
+            android:text="@string/send" />
+    </RelativeLayout>
+</LinearLayout>

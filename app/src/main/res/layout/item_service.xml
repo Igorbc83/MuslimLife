@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/light_white">
+
+    <ImageView
+        android:id="@+id/service_item_icon"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        style="@style/reader_icon"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"/>
+
+
+    <TextView
+        android:id="@+id/settings_block_text"
+        style="@style/settings_text_17sp"
+        android:text="@string/sub"
+        android:layout_toEndOf="@+id/service_item_icon"/>
+
+
+    <Switch
+        android:id="@+id/settings_switch_location"
+        style="@style/switch_style"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <FrameLayout
+        style="@style/sub_line_frame"
+        android:layout_below="@id/service_item_icon"
+        android:layout_marginTop="16dp"/>
+
+
+</RelativeLayout>

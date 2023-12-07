@@ -1,0 +1,416 @@
+[
+  {
+    "number": 1,
+    "text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ الٓمٓ",
+    "translation_ru": "Алиф. Лам. Мим.",
+    "translation_id": "Alif laam miim."
+  },
+  {
+    "number": 2,
+    "text": "ذَٰلِكَ ٱلْكِتَٰبُ لَا رَيْبَ فِيهِ هُدًى لِّلْمُتَّقِينَ",
+    "translation_ru": "Это Писание, в котором нет сомнения, является верным руководством для богобоязненных,",
+    "translation_id": "Kitab (Al Quran) ini tidak ada keraguan padanya; petunjuk bagi mereka yang bertakwa,"
+  },
+  {
+    "number": 3,
+    "text": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَٰهُمْ يُنفِقُونَ",
+    "translation_ru": "которые веруют в сокровенное, совершают намаз и расходуют из того, чем Мы их наделили,",
+    "translation_id": "(yaitu) mereka yang beriman kepada yang ghaib, yang mendirikan shalat, dan menafkahkan sebahagian rezeki yang Kami anugerahkan kepada mereka."
+  },
+  {
+    "number": 4,
+    "text": "وَٱلَّذِينَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ وَبِٱلْءَاخِرَةِ هُمْ يُوقِنُونَ",
+    "translation_ru": "которые веруют в ниспосланное тебе и ниспосланное до тебя и убеждены в Последней жизни.",
+    "translation_id": "dan mereka yang beriman kepada Kitab (Al Quran) yang telah diturunkan kepadamu dan Kitab-kitab yang telah diturunkan sebelummu, serta mereka yakin akan adanya (kehidupan) akhirat."
+  },
+  {
+    "number": 5,
+    "text": "أُو۟لَٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+    "translation_ru": "Они следуют верному руководству от их Господа, и они являются преуспевшими.",
+    "translation_id": "Mereka itulah yang tetap mendapat petunjuk dari Tuhan mereka, dan merekalah orang-orang yang beruntung."
+  },
+  {
+    "number": 6,
+    "text": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ سَوَآءٌ عَلَيْهِمْ ءَأَنذَرْتَهُمْ أَمْ لَمْ تُنذِرْهُمْ لَا يُؤْمِنُونَ",
+    "translation_ru": "Воистину, неверующим безразлично, предостерег ты их или не предостерег. Они все равно не уверуют.",
+    "translation_id": "Sesungguhnya orang-orang kafir, sama saja bagi mereka, kamu beri peringatan atau tidak kamu beri peringatan, mereka tidak juga akan beriman."
+  },
+  {
+    "number": 7,
+    "text": "خَتَمَ ٱللَّهُ عَلَىٰ قُلُوبِهِمْ وَعَلَىٰ سَمْعِهِمْ وَعَلَىٰٓ أَبْصَٰرِهِمْ غِشَٰوَةٌ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+    "translation_ru": "Аллах запечатал их сердца и слух, а на глазах у них - покрывало. Им уготованы великие мучения.",
+    "translation_id": "Allah telah mengunci-mati hati dan pendengaran mereka, dan penglihatan mereka ditutup. Dan bagi mereka siksa yang amat berat."
+  },
+  {
+    "number": 8,
+    "text": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ وَبِٱلْيَوْمِ ٱلْءَاخِرِ وَمَا هُم بِمُؤْمِنِينَ",
+    "translation_ru": "Среди людей есть такие, которые говорят: «Мы уверовали в Аллаха и в Последний день». Однако они суть неверующие.",
+    "translation_id": "Di antara manusia ada yang mengatakan: \"Kami beriman kepada Allah dan Hari kemudian,\" pada hal mereka itu sesungguhnya bukan orang-orang yang beriman."
+  },
+  {
+    "number": 9,
+    "text": "يُخَٰدِعُونَ ٱللَّهَ وَٱلَّذِينَ ءَامَنُوا۟ وَمَا يَخْدَعُونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَ",
+    "translation_ru": "Они пытаются обмануть Аллаха и верующих, но обманывают только самих себя и не осознают этого.",
+    "translation_id": "Mereka hendak menipu Allah dan orang-orang yang beriman, padahal mereka hanya menipu dirinya sendiri sedang mereka tidak sadar."
+  },
+  {
+    "number": 10,
+    "text": "فِى قُلُوبِهِم مَّرَضٌ فَزَادَهُمُ ٱللَّهُ مَرَضًا وَلَهُمْ عَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْذِبُونَ",
+    "translation_ru": "Их сердца поражены недугом. Да усилит Аллах их недуг! Им уготованы мучительные страдания за то, что они лгали.",
+    "translation_id": "Dalam hati mereka ada penyakit, lalu ditambah Allah penyakitnya; dan bagi mereka siksa yang pedih, disebabkan mereka berdusta."
+  },
+  {
+    "number": 11,
+    "text": "وَإِذَا قِيلَ لَهُمْ لَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ قَالُوٓا۟ إِنَّمَا نَحْنُ مُصْلِحُونَ",
+    "translation_ru": "Когда им говорят: «Не распространяйте нечестия на земле!». - они отвечают: «Только мы и устанавливаем порядок».",
+    "translation_id": "Dan bila dikatakan kepada mereka: \"Janganlah kamu membuat kerusakan di muka bumi\". Mereka menjawab: \"Sesungguhnya kami orang-orang yang mengadakan perbaikan\"."
+  },
+  {
+    "number": 12,
+    "text": "أَلَآ إِنَّهُمْ هُمُ ٱلْمُفْسِدُونَ وَلَٰكِن لَّا يَشْعُرُونَ",
+    "translation_ru": "Воистину, именно они распространяют нечестие, но они не осознают этого.",
+    "translation_id": "Ingatlah, sesungguhnya mereka itulah orang-orang yang membuat kerusakan, tetapi mereka tidak sadar."
+  },
+  {
+    "number": 13,
+    "text": "وَإِذَا قِيلَ لَهُمْ ءَامِنُوا۟ كَمَآ ءَامَنَ ٱلنَّاسُ قَالُوٓا۟ أَنُؤْمِنُ كَمَآ ءَامَنَ ٱلسُّفَهَآءُ أَلَآ إِنَّهُمْ هُمُ ٱلسُّفَهَآءُ وَلَٰكِن لَّا يَعْلَمُونَ",
+    "translation_ru": "Когда им говорят: «Уверуйте так, как уверовали люди», - они отвечают: «Неужели мы уверуем так, как уверовали глупцы?». Воистину, именно они являются глупцами, но они не знают этого.",
+    "translation_id": "Apabila dikatakan kepada mereka: \"Berimanlah kamu sebagaimana orang-orang lain telah beriman\". Mereka menjawab: \"Akan berimankah kami sebagaimana orang-orang yang bodoh itu telah beriman?\" Ingatlah, sesungguhnya merekalah orang-orang yang bodoh; tetapi mereka tidak tahu."
+  },
+  {
+    "number": 14,
+    "text": "وَإِذَا لَقُوا۟ ٱلَّذِينَ ءَامَنُوا۟ قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَوْا۟ إِلَىٰ شَيَٰطِينِهِمْ قَالُوٓا۟ إِنَّا مَعَكُمْ إِنَّمَا نَحْنُ مُسْتَهْزِءُونَ",
+    "translation_ru": "Когда они встречают верующих, то говорят: «Мы уверовали». Когда же они остаются наедине со своими дьяволами, они говорят: «Воистину, мы - с вами. Мы лишь издеваемся».",
+    "translation_id": "Dan bila mereka berjumpa dengan orang-orang yang beriman, mereka mengatakan: \"Kami telah beriman\". Dan bila mereka kembali kepada syaitan-syaitan mereka, mereka mengatakan: \"Sesungguhnya kami sependirian dengan kamu, kami hanyalah berolok-olok\"."
+  },
+  {
+    "number": 15,
+    "text": "ٱللَّهُ يَسْتَهْزِئُ بِهِمْ وَيَمُدُّهُمْ فِى طُغْيَٰنِهِمْ يَعْمَهُونَ",
+    "translation_ru": "Аллах поиздевается над ними и увеличит их беззаконие, в котором они скитаются вслепую.",
+    "translation_id": "Allah akan (membalas) olok-olokan mereka dan membiarkan mereka terombang-ambing dalam kesesatan mereka."
+  },
+  {
+    "number": 16,
+    "text": "أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلضَّلَٰلَةَ بِٱلْهُدَىٰ فَمَا رَبِحَت تِّجَٰرَتُهُمْ وَمَا كَانُوا۟ مُهْتَدِينَ",
+    "translation_ru": "Они - те, которые купили заблуждение за верное руководство. Но сделка не принесла им прибыли, и они не последовали прямым путем.",
+    "translation_id": "Mereka itulah orang yang membeli kesesatan dengan petunjuk, maka tidaklah beruntung perniagaan mereka dan tidaklah mereka mendapat petunjuk."
+  },
+  {
+    "number": 17,
+    "text": "مَثَلُهُمْ كَمَثَلِ ٱلَّذِى ٱسْتَوْقَدَ نَارًا فَلَمَّآ أَضَآءَتْ مَا حَوْلَهُۥ ذَهَبَ ٱللَّهُ بِنُورِهِمْ وَتَرَكَهُمْ فِى ظُلُمَٰتٍ لَّا يُبْصِرُونَ",
+    "translation_ru": "Они подобны тому, кто разжег огонь. Когда же огонь озарил все вокруг него, Аллах лишил их света и оставил их в темноте, где они ничего не видят.",
+    "translation_id": "Perumpamaan mereka adalah seperti orang yang menyalakan api, maka setelah api itu menerangi sekelilingnya Allah hilangkan cahaya (yang menyinari) mereka, dan membiarkan mereka dalam kegelapan, tidak dapat melihat."
+  },
+  {
+    "number": 18,
+    "text": "صُمٌّۢ بُكْمٌ عُمْىٌ فَهُمْ لَا يَرْجِعُونَ",
+    "translation_ru": "Глухие, немые, слепые! Они не вернутся на прямой путь.",
+    "translation_id": "Mereka tuli, bisu dan buta, maka tidaklah mereka akan kembali (ke jalan yang benar),"
+  },
+  {
+    "number": 19,
+    "text": "أَوْ كَصَيِّبٍ مِّنَ ٱلسَّمَآءِ فِيهِ ظُلُمَٰتٌ وَرَعْدٌ وَبَرْقٌ يَجْعَلُونَ أَصَٰبِعَهُمْ فِىٓ ءَاذَانِهِم مِّنَ ٱلصَّوَٰعِقِ حَذَرَ ٱلْمَوْتِ وَٱللَّهُ مُحِيطٌۢ بِٱلْكَٰفِرِينَ",
+    "translation_ru": "Или же они подобны тем, кто оказался под ливнем с неба. Он несет мрак, гром и молнию. Они же в смертельном страхе затыкают уши пальцами от грохота молний. Воистину, Аллах объемлет неверующих.",
+    "translation_id": "atau seperti (orang-orang yang ditimpa) hujan lebat dari langit disertai gelap gulita, guruh dan kilat; mereka menyumbat telinganya dengan anak jarinya, karena (mendengar suara) petir, sebab takut akan mati. Dan Allah meliputi orang-orang yang kafir."
+  },
+  {
+    "number": 20,
+    "text": "يَكَادُ ٱلْبَرْقُ يَخْطَفُ أَبْصَٰرَهُمْ كُلَّمَآ أَضَآءَ لَهُم مَّشَوْا۟ فِيهِ وَإِذَآ أَظْلَمَ عَلَيْهِمْ قَامُوا۟ وَلَوْ شَآءَ ٱللَّهُ لَذَهَبَ بِسَمْعِهِمْ وَأَبْصَٰرِهِمْ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+    "translation_ru": "Молния готова отнять у них зрение. Когда она вспыхивает, они отправляются в путь, когда же опускается мрак, они останавливаются. Если бы Аллах пожелал, Он лишил бы их слуха и зрения. Воистину, Аллах способен на всякую вещь.",
+    "translation_id": "Hampir-hampir kilat itu menyambar penglihatan mereka. Setiap kali kilat itu menyinari mereka, mereka berjalan di bawah sinar itu, dan bila gelap menimpa mereka, mereka berhenti. Jikalau Allah menghendaki, niscaya Dia melenyapkan pendengaran dan penglihatan mereka. Sesungguhnya Allah berkuasa atas segala sesuatu."
+  },
+  {
+    "number": 21,
+    "text": "يَٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+    "translation_ru": "О люди! Поклоняйтесь вашему Господу, Который сотворил вас и тех, кто был до вас, - быть может, вы устрашитесь.",
+    "translation_id": "Hai manusia, sembahlah Tuhanmu yang telah menciptakanmu dan orang-orang yang sebelummu, agar kamu bertakwa,"
+  },
+  {
+    "number": 22,
+    "text": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا وَٱلسَّمَآءَ بِنَآءً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
+    "translation_ru": "Он сделал для вас землю ложем, а небо - кровлей, низвел с неба воду и взрастил ею плоды для вашего пропитания. Посему никого не равняйте с Аллахом сознательно.",
+    "translation_id": "Dialah yang menjadikan bumi sebagai hamparan bagimu dan langit sebagai atap, dan Dia menurunkan air (hujan) dari langit, lalu Dia menghasilkan dengan hujan itu segala buah-buahan sebagai rezeki untukmu; karena itu janganlah kamu mengadakan sekutu-sekutu bagi Allah, padahal kamu mengetahui."
+  },
+  {
+    "number": 23,
+    "text": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَٰدِقِينَ",
+    "translation_ru": "Если же вы сомневаетесь в том, что Мы ниспослали Нашему рабу, то сочините одну подобную суру и призовите своих свидетелей, помимо Аллаха, если вы говорите правду.",
+    "translation_id": "Dan jika kamu (tetap) dalam keraguan tentang Al Quran yang Kami wahyukan kepada hamba Kami (Muhammad), buatlah satu surat (saja) yang semisal Al Quran itu dan ajaklah penolong-penolongmu selain Allah, jika kamu orang-orang yang benar."
+  },
+  {
+    "number": 24,
+    "text": "فَإِن لَّمْ تَفْعَلُوا۟ وَلَن تَفْعَلُوا۟ فَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِى وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ أُعِدَّتْ لِلْكَٰفِرِينَ",
+    "translation_ru": "Если же вы этого не сделаете - а ведь вы никогда этого не сделаете, - то побойтесь Огня, растопкой которого являются люди и камни. Он уготован для неверующих.",
+    "translation_id": "Maka jika kamu tidak dapat membuat(nya) -- dan pasti kamu tidak akan dapat membuat(nya), peliharalah dirimu dari neraka yang bahan bakarnya manusia dan batu, yang disediakan bagi orang-orang kafir."
+  },
+  {
+    "number": 25,
+    "text": "وَبَشِّرِ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أَنَّ لَهُمْ جَنَّٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَٰرُ كُلَّمَا رُزِقُوا۟ مِنْهَا مِن ثَمَرَةٍ رِّزْقًا قَالُوا۟ هَٰذَا ٱلَّذِى رُزِقْنَا مِن قَبْلُ وَأُتُوا۟ بِهِۦ مُتَشَٰبِهًا وَلَهُمْ فِيهَآ أَزْوَٰجٌ مُّطَهَّرَةٌ وَهُمْ فِيهَا خَٰلِدُونَ",
+    "translation_ru": "Обрадуй тех, которые уверовали и совершали праведные деяния, тем, что им уготованы Райские сады, в которых текут реки. Всякий раз, когда им будут подавать плоды для пропитания, они будут говорить: «Это уже было даровано нам прежде». Но им будут давать нечто похожее. У них там будут очищенные супруги, и они пребудут там вечно.",
+    "translation_id": "Dan sampaikanlah berita gembira kepada mereka yang beriman dan berbuat baik, bahwa bagi mereka disediakan surga-surga yang mengalir sungai-sungai di dalamnya. Setiap mereka diberi rezeki buah-buahan dalam surga-surga itu, mereka mengatakan: \"Inilah yang pernah diberikan kepada kami dahulu\". Mereka diberi buah-buahan yang serupa dan untuk mereka di dalamnya ada isteri-isteri yang suci dan mereka kekal di dalamnya."
+  },
+  {
+    "number": 26,
+    "text": "إِنَّ ٱللَّهَ لَا يَسْتَحْىِۦٓ أَن يَضْرِبَ مَثَلًا مَّا بَعُوضَةً فَمَا فَوْقَهَا فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ فَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ وَأَمَّا ٱلَّذِينَ كَفَرُوا۟ فَيَقُولُونَ مَاذَآ أَرَادَ ٱللَّهُ بِهَٰذَا مَثَلًا يُضِلُّ بِهِۦ كَثِيرًا وَيَهْدِى بِهِۦ كَثِيرًا وَمَا يُضِلُّ بِهِۦٓ إِلَّا ٱلْفَٰسِقِينَ",
+    "translation_ru": "Воистину, Аллах не смущается приводить притчи о комаре или том, что больше него. Те, которые уверовали, знают, что это - истина от их Господа. Те же, которые не уверовали, говорят: «Чего хотел Аллах, когда приводил эту притчу?». Посредством нее Он многих вводит в заблуждение, а многих наставляет на прямой путь. Однако вводит Он в заблуждение посредством нее только нечестивцев,",
+    "translation_id": "Sesungguhnya Allah tiada segan membuat perumpamaan berupa nyamuk atau yang lebih rendah dari itu. Adapun orang-orang yang beriman, maka mereka yakin bahwa perumpamaan itu benar dari Tuhan mereka, tetapi mereka yang kafir mengatakan: \"Apakah maksud Allah menjadikan ini untuk perumpamaan?\". Dengan perumpamaan itu banyak orang yang disesatkan Allah, dan dengan perumpamaan itu (pula) banyak orang yang diberi-Nya petunjuk. Dan tidak ada yang disesatkan Allah kecuali orang-orang yang fasik,"
+  },
+  {
+    "number": 27,
+    "text": "ٱلَّذِينَ يَنقُضُونَ عَهْدَ ٱللَّهِ مِنۢ بَعْدِ مِيثَٰقِهِۦ وَيَقْطَعُونَ مَآ أَمَرَ ٱللَّهُ بِهِۦٓ أَن يُوصَلَ وَيُفْسِدُونَ فِى ٱلْأَرْضِ أُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ",
+    "translation_ru": "которые нарушают завет с Аллахом после того, как они заключили его, разрывают то, что Аллах велел поддерживать, и распространяют нечестие на земле. Именно они окажутся в убытке.",
+    "translation_id": "(yaitu) orang-orang yang melanggar perjanjian Allah sesudah perjanjian itu teguh, dan memutuskan apa yang diperintahkan Allah (kepada mereka) untuk menghubungkannya dan membuat kerusakan di muka bumi. Mereka itulah orang-orang yang rugi."
+  },
+  {
+    "number": 28,
+    "text": "كَيْفَ تَكْفُرُونَ بِٱللَّهِ وَكُنتُمْ أَمْوَٰتًا فَأَحْيَٰكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ثُمَّ إِلَيْهِ تُرْجَعُونَ",
+    "translation_ru": "Как вы можете не веровать в Аллаха, тогда как вы были мертвы, и Он оживил вас? Потом Он умертвит вас, потом оживит, а потом вы будете возвращены к Нему.",
+    "translation_id": "Mengapa kamu kafir kepada Allah, padahal kamu tadinya mati, lalu Allah menghidupkan kamu, kemudian kamu dimatikan dan dihidupkan-Nya kembali, kemudian kepada-Nya-lah kamu dikembalikan?"
+  },
+  {
+    "number": 29,
+    "text": "هُوَ ٱلَّذِى خَلَقَ لَكُم مَّا فِى ٱلْأَرْضِ جَمِيعًا ثُمَّ ٱسْتَوَىٰٓ إِلَى ٱلسَّمَآءِ فَسَوَّىٰهُنَّ سَبْعَ سَمَٰوَٰتٍ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+    "translation_ru": "Он - Тот, Кто сотворил для вас все, что на земле, а затем обратился к небу и сделал его семью небесами. Ему известно о всякой вещи.",
+    "translation_id": "Dialah Allah, yang menjadikan segala yang ada di bumi untuk kamu dan Dia berkehendak (menciptakan) langit, lalu dijadikan-Nya tujuh langit. Dan Dia Maha Mengetahui segala sesuatu."
+  },
+  {
+    "number": 30,
+    "text": "وَإِذْ قَالَ رَبُّكَ لِلْمَلَٰٓئِكَةِ إِنِّى جَاعِلٌ فِى ٱلْأَرْضِ خَلِيفَةً قَالُوٓا۟ أَتَجْعَلُ فِيهَا مَن يُفْسِدُ فِيهَا وَيَسْفِكُ ٱلدِّمَآءَ وَنَحْنُ نُسَبِّحُ بِحَمْدِكَ وَنُقَدِّسُ لَكَ قَالَ إِنِّىٓ أَعْلَمُ مَا لَا تَعْلَمُونَ",
+    "translation_ru": "Вот твой Господь сказал ангелам: «Я установлю на земле наместника». Они сказали: «Неужели Ты поселишь там того, кто будет распространять нечестие и проливать кровь, тогда как мы прославляем Тебя хвалой и освящаем Тебя?». Он сказал: «Воистину, Я знаю то, чего вы не знаете».",
+    "translation_id": "Ingatlah ketika Tuhanmu berfirman kepada para Malaikat: \"Sesungguhnya Aku hendak menjadikan seorang khalifah di muka bumi\". Mereka berkata: \"Mengapa Engkau hendak menjadikan (khalifah) di bumi itu orang yang akan membuat kerusakan padanya dan menumpahkan darah, padahal kami senantiasa bertasbih dengan memuji Engkau dan mensucikan Engkau?\" Tuhan berfirman: \"Sesungguhnya Aku mengetahui apa yang tidak kamu ketahui\"."
+  },
+  {
+    "number": 31,
+    "text": "وَعَلَّمَ ءَادَمَ ٱلْأَسْمَآءَ كُلَّهَا ثُمَّ عَرَضَهُمْ عَلَى ٱلْمَلَٰٓئِكَةِ فَقَالَ أَنۢبِـُٔونِى بِأَسْمَآءِ هَٰٓؤُلَآءِ إِن كُنتُمْ صَٰدِقِينَ",
+    "translation_ru": "Он научил Адама всевозможным именам, а затем показал их (творения, нареченные именами) ангелам и сказал: «Назовите мне их имена, если вы говорите правду».",
+    "translation_id": "Dan Dia mengajarkan kepada Adam nama-nama (benda-benda) seluruhnya, kemudian mengemukakannya kepada para Malaikat lalu berfirman: \"Sebutkanlah kepada-Ku nama benda-benda itu jika kamu mamang benar orang-orang yang benar!\""
+  },
+  {
+    "number": 32,
+    "text": "قَالُوا۟ سُبْحَٰنَكَ لَا عِلْمَ لَنَآ إِلَّا مَا عَلَّمْتَنَآ إِنَّكَ أَنتَ ٱلْعَلِيمُ ٱلْحَكِيمُ",
+    "translation_ru": "Они ответили: «Пречист Ты! Мы знаем только то, чему Ты научил нас. Воистину, Ты - Знающий, Мудрый».",
+    "translation_id": "Mereka menjawab: \"Maha Suci Engkau, tidak ada yang kami ketahui selain dari apa yang telah Engkau ajarkan kepada kami; sesungguhnya Engkaulah Yang Maha Mengetahui lagi Maha Bijaksana\"."
+  },
+  {
+    "number": 33,
+    "text": "قَالَ يَٰٓـَٔادَمُ أَنۢبِئْهُم بِأَسْمَآئِهِمْ فَلَمَّآ أَنۢبَأَهُم بِأَسْمَآئِهِمْ قَالَ أَلَمْ أَقُل لَّكُمْ إِنِّىٓ أَعْلَمُ غَيْبَ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَأَعْلَمُ مَا تُبْدُونَ وَمَا كُنتُمْ تَكْتُمُونَ",
+    "translation_ru": "Он сказал: «О Адам! Поведай им об их именах». Когда Адам поведал им об их именах, Он сказал: «Разве Я не говорил вам, что знаю сокровенное на небесах и земле, и знаю, что вы совершаете открыто и что утаиваете?».",
+    "translation_id": "Allah berfirman: \"Hai Adam, beritahukanlah kepada mereka nama-nama benda ini\". Maka setelah diberitahukannya kepada mereka nama-nama benda itu, Allah berfirman: \"Bukankah sudah Ku-katakan kepadamu, bahwa sesungguhnya Aku mengetahui rahasia langit dan bumi dan mengetahui apa yang kamu lahirkan dan apa yang kamu sembunyikan?\""
+  },
+  {
+    "number": 34,
+    "text": "وَإِذْ قُلْنَا لِلْمَلَٰٓئِكَةِ ٱسْجُدُوا۟ لِءَادَمَ فَسَجَدُوٓا۟ إِلَّآ إِبْلِيسَ أَبَىٰ وَٱسْتَكْبَرَ وَكَانَ مِنَ ٱلْكَٰفِرِينَ",
+    "translation_ru": "Вот Мы сказали ангелам: «Падите ниц перед Адамом». Они пали ниц, и только Иблис отказался, возгордился и стал одним из неверующих.",
+    "translation_id": "Dan (ingatlah) ketika Kami berfirman kepada para malaikat: \"Sujudlah kamu kepada Adam,\" maka sujudlah mereka kecuali Iblis; ia enggan dan takabur dan adalah ia termasuk golongan orang-orang yang kafir."
+  },
+  {
+    "number": 35,
+    "text": "وَقُلْنَا يَٰٓـَٔادَمُ ٱسْكُنْ أَنتَ وَزَوْجُكَ ٱلْجَنَّةَ وَكُلَا مِنْهَا رَغَدًا حَيْثُ شِئْتُمَا وَلَا تَقْرَبَا هَٰذِهِ ٱلشَّجَرَةَ فَتَكُونَا مِنَ ٱلظَّٰلِمِينَ",
+    "translation_ru": "Мы сказали: «О Адам! Поселись в Раю вместе со своей супругой. Ешьте там вволю, где пожелаете, но не приближайтесь к этому дереву, а не то окажетесь одними из беззаконников».",
+    "translation_id": "Dan Kami berfirman: \"Hai Adam, diamilah oleh kamu dan isterimu surga ini, dan makanlah makanan-makanannya yang banyak lagi baik dimana saja yang kamu sukai, dan janganlah kamu dekati pohon ini, yang menyebabkan kamu termasuk orang-orang yang zalim."
+  },
+  {
+    "number": 36,
+    "text": "فَأَزَلَّهُمَا ٱلشَّيْطَٰنُ عَنْهَا فَأَخْرَجَهُمَا مِمَّا كَانَا فِيهِ وَقُلْنَا ٱهْبِطُوا۟ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ وَلَكُمْ فِى ٱلْأَرْضِ مُسْتَقَرٌّ وَمَتَٰعٌ إِلَىٰ حِينٍ",
+    "translation_ru": "Дьявол же побудил их споткнуться о него и вывел их оттуда, где они находились. И тогда Мы сказали: «Низвергнитесь и будьте врагами друг другу! Земля будет для вас обителью и предметом пользования до определенного срока».",
+    "translation_id": "Lalu keduanya digelincirkan oleh syaitan dari surga itu dan dikeluarkan dari keadaan semula dan Kami berfirman: \"Turunlah kamu! sebagian kamu menjadi musuh bagi yang lain, dan bagi kamu ada tempat kediaman di bumi, dan kesenangan hidup sampai waktu yang ditentukan\"."
+  },
+  {
+    "number": 37,
+    "text": "فَتَلَقَّىٰٓ ءَادَمُ مِن رَّبِّهِۦ كَلِمَٰتٍ فَتَابَ عَلَيْهِ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+    "translation_ru": "Адам принял слова от своего Господа, и Он принял его покаяние. Воистину, Он - Принимающий покаяние, Милосердный.",
+    "translation_id": "Kemudian Adam menerima beberapa kalimat dari Tuhannya, maka Allah menerima taubatnya. Sesungguhnya Allah Maha Penerima taubat lagi Maha Penyayang."
+  },
+  {
+    "number": 38,
+    "text": "قُلْنَا ٱهْبِطُوا۟ مِنْهَا جَمِيعًا فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَن تَبِعَ هُدَاىَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+    "translation_ru": "Мы сказали: «Низвергнитесь отсюда все!». Если к вам явится руководство от Меня, то те, которые последуют за Моим руководством, не познают страха и не будут опечалены.",
+    "translation_id": "Kami berfirman: \"Turunlah kamu semuanya dari surga itu! Kemudian jika datang petunjuk-Ku kepadamu, maka barang siapa yang mengikuti petunjuk-Ku, niscaya tidak ada kekhawatiran atas mereka, dan tidak (pula) mereka bersedih hati\"."
+  },
+  {
+    "number": 39,
+    "text": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَٰتِنَآ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ هُمْ فِيهَا خَٰلِدُونَ",
+    "translation_ru": "А те, которые не уверуют и сочтут ложью Наши знамения, будут обитателями Огня. Они пребудут там вечно.",
+    "translation_id": "Adapun orang-orang yang kafir dan mendustakan ayat-ayat Kami, mereka itu penghuni neraka; mereka kekal di dalamnya."
+  },
+  {
+    "number": 40,
+    "text": "يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَوْفُوا۟ بِعَهْدِىٓ أُوفِ بِعَهْدِكُمْ وَإِيَّٰىَ فَٱرْهَبُونِ",
+    "translation_ru": "О сыны Исраила (Израиля)! Помните милость, которую Я оказал вам. Будьте верны завету со Мной, и Я буду верен завету с вами. Меня одного страшитесь.",
+    "translation_id": "Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu, dan penuhilah janjimu kepada-Ku, niscaya Aku penuhi janji-Ku kepadamu; dan hanya kepada-Ku-lah kamu harus takut (tunduk)."
+  },
+  {
+    "number": 41,
+    "text": "وَءَامِنُوا۟ بِمَآ أَنزَلْتُ مُصَدِّقًا لِّمَا مَعَكُمْ وَلَا تَكُونُوٓا۟ أَوَّلَ كَافِرٍۭ بِهِۦ وَلَا تَشْتَرُوا۟ بِـَٔايَٰتِى ثَمَنًا قَلِيلًا وَإِيَّٰىَ فَٱتَّقُونِ",
+    "translation_ru": "Уверуйте в то, что Я ниспослал в подтверждение того, что есть у вас, и не становитесь первыми, кто отказался уверовать в это. Не продавайте Мои знамения за ничтожную цену и Меня одного бойтесь.",
+    "translation_id": "Dan berimanlah kamu kepada apa yang telah Aku turunkan (Al Quran) yang membenarkan apa yang ada padamu (Taurat), dan janganlah kamu menjadi orang yang pertama kafir kepadanya, dan janganlah kamu menukarkan ayat-ayat-Ku dengan harga yang rendah, dan hanya kepada Akulah kamu harus bertakwa."
+  },
+  {
+    "number": 42,
+    "text": "وَلَا تَلْبِسُوا۟ ٱلْحَقَّ بِٱلْبَٰطِلِ وَتَكْتُمُوا۟ ٱلْحَقَّ وَأَنتُمْ تَعْلَمُونَ",
+    "translation_ru": "Не облекайте истину в ложь и не скрывайте истину, тогда как вы знаете ее.",
+    "translation_id": "Dan janganlah kamu campur adukkan yang hak dengan yang bathil dan janganlah kamu sembunyikan yang hak itu, sedang kamu mengetahui."
+  },
+  {
+    "number": 43,
+    "text": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ",
+    "translation_ru": "Совершайте намаз, выплачивайте закят и кланяйтесь вместе с кланяющимися.",
+    "translation_id": "Dan dirikanlah shalat, tunaikanlah zakat dan ruku'lah beserta orang-orang yang ruku'."
+  },
+  {
+    "number": 44,
+    "text": "أَتَأْمُرُونَ ٱلنَّاسَ بِٱلْبِرِّ وَتَنسَوْنَ أَنفُسَكُمْ وَأَنتُمْ تَتْلُونَ ٱلْكِتَٰبَ أَفَلَا تَعْقِلُونَ",
+    "translation_ru": "Неужели вы станете призывать людей к добродетели, предав забвению самих себя, ведь вы же читаете Писание? Неужели вы не образумитесь?",
+    "translation_id": "Mengapa kamu suruh orang lain (mengerjakan) kebaktian, sedang kamu melupakan diri (kewajiban)mu sendiri, padahal kamu membaca Al Kitab (Taurat)? Maka tidaklah kamu berpikir?"
+  },
+  {
+    "number": 45,
+    "text": "وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَٰشِعِينَ",
+    "translation_ru": "Обратитесь за помощью к терпению и намазу. Воистину, намаз является тяжким бременем для всех, кроме смиренных,",
+    "translation_id": "Jadikanlah sabar dan shalat sebagai penolongmu. Dan sesungguhnya yang demikian itu sungguh berat, kecuali bagi orang-orang yang khusyu',"
+  },
+  {
+    "number": 46,
+    "text": "ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَٰقُوا۟ رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَٰجِعُونَ",
+    "translation_ru": "которые убеждены в том, что они встретятся со своим Господом и что они возвратятся к Нему.",
+    "translation_id": "(yaitu) orang-orang yang meyakini, bahwa mereka akan menemui Tuhannya, dan bahwa mereka akan kembali kepada-Nya."
+  },
+  {
+    "number": 47,
+    "text": "يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَنِّى فَضَّلْتُكُمْ عَلَى ٱلْعَٰلَمِينَ",
+    "translation_ru": "О сыны Исраила (Израиля)! Помните о милости, которую Я оказал вам, а также о том, что Я возвысил вас над мирами.",
+    "translation_id": "Hai Bani Israil, ingatlah akan nikmat-Ku yang telah Aku anugerahkan kepadamu dan (ingatlah pula) bahwasanya Aku telah melebihkan kamu atas segala umat."
+  },
+  {
+    "number": 48,
+    "text": "وَٱتَّقُوا۟ يَوْمًا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍ شَيْـًٔا وَلَا يُقْبَلُ مِنْهَا شَفَٰعَةٌ وَلَا يُؤْخَذُ مِنْهَا عَدْلٌ وَلَا هُمْ يُنصَرُونَ",
+    "translation_ru": "Страшитесь того дня, когда ни один человек не принесет пользы другому и когда не будет принято заступничество, когда нельзя будет откупиться и когда им не будет оказана поддержка.",
+    "translation_id": "Dan jagalah dirimu dari (azab) hari (kiamat, yang pada hari itu) seseorang tidak dapat membela orang lain, walau sedikitpun; dan (begitu pula) tidak diterima syafa'at dan tebusan dari padanya, dan tidaklah mereka akan ditolong."
+  },
+  {
+    "number": 49,
+    "text": "وَإِذْ نَجَّيْنَٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ يُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+    "translation_ru": "Вот Мы спасли вас от рода Фараона. Они подвергали вас ужасным мучениям, убивали ваших сыновей и оставляли в живых ваших женщин. Это было для вас великим испытанием (или великой милостью) от вашего Господа.",
+    "translation_id": "Dan (ingatlah) ketika Kami selamatkan kamu dari (Fir'aun) dan pengikut-pengikutnya; mereka menimpakan kepadamu siksaan yang seberat-beratnya, mereka menyembelih anak-anakmu yang laki-laki dan membiarkan hidup anak-anakmu yang perempuan. Dan pada yang demikian itu terdapat cobaan-cobaan yang besar dari Tuhanmu."
+  },
+  {
+    "number": 50,
+    "text": "وَإِذْ فَرَقْنَا بِكُمُ ٱلْبَحْرَ فَأَنجَيْنَٰكُمْ وَأَغْرَقْنَآ ءَالَ فِرْعَوْنَ وَأَنتُمْ تَنظُرُونَ",
+    "translation_ru": "Вот Мы разверзли для вас море, спасли вас и потопили род Фараона, тогда как вы наблюдали за этим.",
+    "translation_id": "Dan (ingatlah), ketika Kami belah laut untukmu, lalu Kami selamatkan kamu dan Kami tenggelamkan (Fir'aun) dan pengikut-pengikutnya sedang kamu sendiri menyaksikan."
+  },
+  {
+    "number": 51,
+    "text": "وَإِذْ وَٰعَدْنَا مُوسَىٰٓ أَرْبَعِينَ لَيْلَةً ثُمَّ ٱتَّخَذْتُمُ ٱلْعِجْلَ مِنۢ بَعْدِهِۦ وَأَنتُمْ ظَٰلِمُونَ",
+    "translation_ru": "Вот Мы определили Мусе (Моисею) сорок дней, а после его ухода вы стали поклоняться тельцу, будучи беззаконниками.",
+    "translation_id": "Dan (ingatlah), ketika Kami berjanji kepada Musa (memberikan Taurat, sesudah) empat puluh malam, lalu kamu menjadikan anak lembu (sembahan) sepeninggalnya dan kamu adalah orang-orang yang zalim."
+  },
+  {
+    "number": 52,
+    "text": "ثُمَّ عَفَوْنَا عَنكُم مِّنۢ بَعْدِ ذَٰلِكَ لَعَلَّكُمْ تَشْكُرُونَ",
+    "translation_ru": "После этого Мы простили вас, - быть может, вы будете благодарны.",
+    "translation_id": "Kemudian sesudah itu Kami maafkan kesalahanmu, agar kamu bersyukur."
+  },
+  {
+    "number": 53,
+    "text": "وَإِذْ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ وَٱلْفُرْقَانَ لَعَلَّكُمْ تَهْتَدُونَ",
+    "translation_ru": "Вот Мы даровали Мусе (Моисею) Писание и различение, - быть может, вы последуете прямым путем.",
+    "translation_id": "Dan (ingatlah), ketika Kami berikan kepada Musa Al Kitab (Taurat) dan keterangan yang membedakan antara yang benar dan yang salah, agar kamu mendapat petunjuk."
+  },
+  {
+    "number": 54,
+    "text": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦ يَٰقَوْمِ إِنَّكُمْ ظَلَمْتُمْ أَنفُسَكُم بِٱتِّخَاذِكُمُ ٱلْعِجْلَ فَتُوبُوٓا۟ إِلَىٰ بَارِئِكُمْ فَٱقْتُلُوٓا۟ أَنفُسَكُمْ ذَٰلِكُمْ خَيْرٌ لَّكُمْ عِندَ بَارِئِكُمْ فَتَابَ عَلَيْكُمْ إِنَّهُۥ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+    "translation_ru": "Вот сказал Муса (Моисей) своему народу: «О мой народ! Вы были несправедливы к себе, когда стали поклоняться тельцу. Покайтесь перед своим Создателем и убейте сами себя (пусть невинные убьют беззаконников). Так будет лучше для вас перед вашим Создателем». Затем Он принял ваши покаяния. Воистину, Он - Принимающий покаяния, Милосердный.",
+    "translation_id": "Dan (ingatlah), ketika Musa berkata kepada kaumnya: \"Hai kaumku, sesungguhnya kamu telah menganiaya dirimu sendiri karena kamu telah menjadikan anak lembu (sembahanmu), maka bertaubatlah kepada Tuhan yang menjadikan kamu dan bunuhlah dirimu. Hal itu adalah lebih baik bagimu pada sisi Tuhan yang menjadikan kamu; maka Allah akan menerima taubatmu. Sesungguhnya Dialah Yang Maha Penerima taubat lagi Maha Penyayang\"."
+  },
+  {
+    "number": 55,
+    "text": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نُّؤْمِنَ لَكَ حَتَّىٰ نَرَى ٱللَّهَ جَهْرَةً فَأَخَذَتْكُمُ ٱلصَّٰعِقَةُ وَأَنتُمْ تَنظُرُونَ",
+    "translation_ru": "Вот вы сказали: «О Муса (Моисей)! Мы не поверим тебе, пока не увидим Аллаха открыто». Вас поразила молния (или постигла гибель), тогда как вы наблюдали за этим.",
+    "translation_id": "Dan (ingatlah), ketika kamu berkata: \"Hai Musa, kami tidak akan beriman kepadamu sebelum kami melihat Allah dengan terang, karena itu kamu disambar halilintar, sedang kamu menyaksikannya\"."
+  },
+  {
+    "number": 56,
+    "text": "ثُمَّ بَعَثْنَٰكُم مِّنۢ بَعْدِ مَوْتِكُمْ لَعَلَّكُمْ تَشْكُرُونَ",
+    "translation_ru": "Затем Мы воскресили вас после смерти, - быть может, вы будете благодарны.",
+    "translation_id": "Setelah itu Kami bangkitkan kamu sesudah kamu mati, supaya kamu bersyukur."
+  },
+  {
+    "number": 57,
+    "text": "وَظَلَّلْنَا عَلَيْكُمُ ٱلْغَمَامَ وَأَنزَلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَمَا ظَلَمُونَا وَلَٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+    "translation_ru": "Мы осенили вас облаками и ниспослали манну и перепелов: «Вкушайте блага, которыми Мы наделили вас». Они не были несправедливы по отношению к Нам - они поступали несправедливо лишь по отношению к себе.",
+    "translation_id": "Dan Kami naungi kamu dengan awan, dan Kami turunkan kepadamu \"manna\" dan \"salwa\". Makanlah dari makanan yang baik-baik yang telah Kami berikan kepadamu; dan tidaklah mereka menganiaya Kami; akan tetapi merekalah yang menganiaya diri mereka sendiri."
+  },
+  {
+    "number": 58,
+    "text": "وَإِذْ قُلْنَا ٱدْخُلُوا۟ هَٰذِهِ ٱلْقَرْيَةَ فَكُلُوا۟ مِنْهَا حَيْثُ شِئْتُمْ رَغَدًا وَٱدْخُلُوا۟ ٱلْبَابَ سُجَّدًا وَقُولُوا۟ حِطَّةٌ نَّغْفِرْ لَكُمْ خَطَٰيَٰكُمْ وَسَنَزِيدُ ٱلْمُحْسِنِينَ",
+    "translation_ru": "Вот Мы сказали: «Войдите в этот город и ешьте вволю, где пожелаете. Войдите во врата, поклонившись, и скажите: «Прости нас!». Мы простим ваши прегрешения и приумножим награду творящим добро».",
+    "translation_id": "Dan (ingatlah), ketika Kami berfirman: \"Masuklah kamu ke negeri ini (Baitul Maqdis), dan makanlah dari hasil buminya, yang banyak lagi enak dimana yang kamu sukai, dan masukilah pintu gerbangnya sambil bersujud, dan katakanlah: \"Bebaskanlah kami dari dosa\", niscaya Kami ampuni kesalahan-kesalahanmu, dan kelak Kami akan menambah (pemberian Kami) kepada orang-orang yang berbuat baik\"."
+  },
+  {
+    "number": 59,
+    "text": "فَبَدَّلَ ٱلَّذِينَ ظَلَمُوا۟ قَوْلًا غَيْرَ ٱلَّذِى قِيلَ لَهُمْ فَأَنزَلْنَا عَلَى ٱلَّذِينَ ظَلَمُوا۟ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَفْسُقُونَ",
+    "translation_ru": "Беззаконники заменили сказанное им слово другим, и Мы ниспослали на беззаконников наказание с неба за то, что они поступали нечестиво.",
+    "translation_id": "Lalu orang-orang yang zalim mengganti perintah dengan (mengerjakan) yang tidak diperintahkan kepada mereka. Sebab itu Kami timpakan atas orang-orang yang zalim itu dari langit, karena mereka berbuat fasik."
+  },
+  {
+    "number": 60,
+    "text": "وَإِذِ ٱسْتَسْقَىٰ مُوسَىٰ لِقَوْمِهِۦ فَقُلْنَا ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ فَٱنفَجَرَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ كُلُوا۟ وَٱشْرَبُوا۟ مِن رِّزْقِ ٱللَّهِ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+    "translation_ru": "Вот Муса (Моисей) попросил питья для своего народа, и Мы сказали: «Ударь своим посохом по камню». Из него забили двенадцать ключей, и все люди узнали, где им надлежит пить. Ешьте и пейте из того, чем наделил Аллах, и не творите на земле зла, распространяя нечестие!",
+    "translation_id": "Dan (ingatlah) ketika Musa memohon air untuk kaumnya, lalu Kami berfirman: \"Pukullah batu itu dengan tongkatmu\". Lalu memancarlah daripadanya dua belas mata air. Sungguh tiap-tiap suku telah mengetahui tempat minumnya (masing-masing). Makan dan minumlah rezeki (yang diberikan) Allah, dan janganlah kamu berkeliaran di muka bumi dengan berbuat kerusakan."
+  },
+  {
+    "number": 61,
+    "text": "وَإِذْ قُلْتُمْ يَٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍ وَٰحِدٍ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ٱهْبِطُوا۟ مِصْرًا فَإِنَّ لَكُم مَّا سَأَلْتُمْ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّۦنَ بِغَيْرِ ٱلْحَقِّ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+    "translation_ru": "Вот вы сказали: «О Муса (Моисей)! Мы не сможем вынести однообразную пищу. Помолись за нас своему Господу, чтобы Он взрастил для нас из того, что произрастает на земле, овощи, огурцы, чеснок, чечевицу и лук». Он сказал: «Неужели вы просите заменить лучшее тем, что хуже? Спуститесь в любой город, и там вы получите все, о чем попросили». Их постигли унижение и бедность. Они навлекли на себя гнев Аллаха тем, что не уверовали в знамения Аллаха и несправедливо убивали пророков. Это произошло потому, что они были ослушниками и преступали границы дозволенного.",
+    "translation_id": "Dan (ingatlah), ketika kamu berkata: \"Hai Musa, kami tidak bisa sabar (tahan) dengan satu macam makanan saja. Sebab itu mohonkanlah untuk kami kepada Tuhanmu, agar Dia mengeluarkan bagi kami dari apa yang ditumbuhkan bumi, yaitu sayur-mayurnya, ketimunnya, bawang putihnya, kacang adasnya, dan bawang merahnya\". Musa berkata: \"Maukah kamu mengambil yang rendah sebagai pengganti yang lebih baik? Pergilah kamu ke suatu kota, pasti kamu memperoleh apa yang kamu minta\". Lalu ditimpahkanlah kepada mereka nista dan kehinaan, serta mereka mendapat kemurkaan dari Allah. Hal itu (terjadi) karena mereka selalu mengingkari ayat-ayat Allah dan membunuh para Nabi yang memang tidak dibenarkan. Demikian itu (terjadi) karena mereka selalu berbuat durhaka dan melampaui batas."
+  },
+  {
+    "number": 62,
+    "text": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلنَّصَٰرَىٰ وَٱلصَّٰبِـِٔينَ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَعَمِلَ صَٰلِحًا فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+    "translation_ru": "Воистину, верующим, а также иудеям, христианам и сабиям, которые уверовали в Аллаха и в Последний день и поступали праведно, уготована награда у их Господа. Они не познают страха и не будут опечалены.",
+    "translation_id": "Sesungguhnya orang-orang mukmin, orang-orang Yahudi, orang-orang Nasrani dan orang-orang Shabiin, siapa saja diantara mereka yang benar-benar beriman kepada Allah, hari kemudian dan beramal saleh, mereka akan menerima pahala dari Tuhan mereka, tidak ada kekhawatiran kepada mereka, dan tidak (pula) mereka bersedih hati."
+  },
+  {
+    "number": 63,
+    "text": "وَإِذْ أَخَذْنَا مِيثَٰقَكُمْ وَرَفَعْنَا فَوْقَكُمُ ٱلطُّورَ خُذُوا۟ مَآ ءَاتَيْنَٰكُم بِقُوَّةٍ وَٱذْكُرُوا۟ مَا فِيهِ لَعَلَّكُمْ تَتَّقُونَ",
+    "translation_ru": "Вот Мы взяли с вас обещание и воздвигли над вами гору: «Крепко придерживайтесь того, что Мы даровали вам, и поминайте то, что содержится там, - быть может, вы устрашитесь».",
+    "translation_id": "Dan (ingatlah), ketika Kami mengambil janji dari kamu dan Kami angkatkan gunung (Thursina) di atasmu (seraya Kami berfirman): \"Peganglah teguh-teguh apa yang Kami berikan kepadamu dan ingatlah selalu apa yang ada didalamnya, agar kamu bertakwa\"."
+  },
+  {
+    "number": 64,
+    "text": "ثُمَّ تَوَلَّيْتُم مِّنۢ بَعْدِ ذَٰلِكَ فَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ لَكُنتُم مِّنَ ٱلْخَٰسِرِينَ",
+    "translation_ru": "После этого вы отвернулись, и если бы не милость и милосердие Аллаха к вам, вы непременно оказались бы в числе потерпевших убыток.",
+    "translation_id": "Kemudian kamu berpaling setelah (adanya perjanjian) itu, maka kalau tidak ada karunia Allah dan rahmat-Nya atasmu, niscaya kamu tergolong orang yang rugi."
+  },
+  {
+    "number": 65,
+    "text": "وَلَقَدْ عَلِمْتُمُ ٱلَّذِينَ ٱعْتَدَوْا۟ مِنكُمْ فِى ٱلسَّبْتِ فَقُلْنَا لَهُمْ كُونُوا۟ قِرَدَةً خَٰسِـِٔينَ",
+    "translation_ru": "Вы знали тех из вас, которые нарушили субботу. Мы сказали им: «Будьте обезьянами презренными!».",
+    "translation_id": "Dan sesungguhnya telah kamu ketahui orang-orang yang melanggar diantaramu pada hari Sabtu, lalu Kami berfirman kepada mereka: \"Jadilah kamu kera yang hina\"."
+  },
+  {
+    "number": 66,
+    "text": "فَجَعَلْنَٰهَا نَكَٰلًا لِّمَا بَيْنَ يَدَيْهَا وَمَا خَلْفَهَا وَمَوْعِظَةً لِّلْمُتَّقِينَ",
+    "translation_ru": "Мы сделали это примерным наказанием для них самих и для будущих поколений, а также увещеванием для богобоязненных.",
+    "translation_id": "Maka Kami jadikan yang demikian itu peringatan bagi orang-orang dimasa itu, dan bagi mereka yang datang kemudian, serta menjadi pelajaran bagi orang-orang yang bertakwa."
+  },
+  {
+    "number": 67,
+    "text": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِۦٓ إِنَّ ٱللَّهَ يَأْمُرُكُمْ أَن تَذْبَحُوا۟ بَقَرَةً قَالُوٓا۟ أَتَتَّخِذُنَا هُزُوًا قَالَ أَعُوذُ بِٱللَّهِ أَنْ أَكُونَ مِنَ ٱلْجَٰهِلِينَ",
+    "translation_ru": "Вот Муса (Моисей) сказал своему народу: «Аллах приказывает вам зарезать корову». Они сказали: «Неужели ты насмехаешься над нами?». Он сказал: «Упаси меня Аллах оказаться одним из невежд».",
+    "translation_id": "Dan (ingatlah), ketika Musa berkata kepada kaumnya: \"Sesungguhnya Allah menyuruh kamu menyembelih seekor sapi betina\". Mereka berkata: \"Apakah kamu hendak menjadikan kami buah ejekan?\" Musa menjawab: \"Aku berlindung kepada Allah agar tidak menjadi salah seorang dari orang-orang yang jahil\"."
+  },
+  {
+    "number": 68,
+    "text": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا هِىَ قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ لَّا فَارِضٌ وَلَا بِكْرٌ عَوَانٌۢ بَيْنَ ذَٰلِكَ فَٱفْعَلُوا۟ مَا تُؤْمَرُونَ",
+    "translation_ru": "Они сказали: «Помолись за нас своему Господу, чтобы Он разъяснил нам, какая она». Он сказал: «Он говорит, что она не старая и не телка, средняя по возрасту между ними. Выполните же то, что вам велено!».",
+    "translation_id": "Mereka menjawab: \"Mohonkanlah kepada Tuhanmu untuk kami, agar Dia menerangkan kepada kami; sapi betina apakah itu\". Musa menjawab: \"Sesungguhnya Allah berfirman bahwa sapi betina itu adalah sapi betina yang tidak tua dan tidak muda; pertengahan antara itu; maka kerjakanlah apa yang diperintahkan kepadamu\"."
+  },
+  {
+    "number": 69,
+    "text": "قَالُوا۟ ٱدْعُ لَنَا رَبَّكَ يُبَيِّن لَّنَا مَا لَوْنُهَا قَالَ إِنَّهُۥ يَقُولُ إِنَّهَا بَقَرَةٌ صَفْرَآءُ فَاقِعٌ لَّوْنُهَا تَسُرُّ ٱلنَّٰظِرِينَ",
+    "translation_ru": "Они сказали: «Помолись за нас своему Господу, чтобы Он разъяснил нам, какой она масти». Он сказал: «Он говорит, что эта корова светло-желтого цвета. Она радует смотрящих на нее».",
+    "translation_id": "Mereka berkata: \"Mohonkanlah kepada Tuhanmu untuk kami agar Dia menerangkan kepada kami apa warnanya\". Musa menjawab: \"Sesungguhnya Allah berfirman bahwa sapi betina itu adalah sapi betina yang kuning, yang kuning tua warnanya, lagi menyenangkan orang-orang yang memandangnya\"."
+  }
+]
